@@ -1,0 +1,16 @@
+<layout id="MainLayout">
+    <text-area 
+    	id="powerText" 
+    	x="center" y="start"
+    	width="fill"
+    	height="20%" 
+    	text="@Strings.defaultPowerText" 
+    	color="Graphics.COLOR_WHITE" 
+    	background=0xFFFFFF
+    	justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label
+    	x="center" y="center"
+    	text="testing"
+    	color="Graphics.COLOR_WHITE"
+    	justification="Graphics.TEXT_JUSTIFY_CENTER" />
+</layout>

@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/home/nathaniel/eclipse-workspace/SPNFO/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="3" lineNum="35" pc="268435456" symbol="getResponseValues"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="3" lineNum="36" pc="268435460" symbol="getResponseValues"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="4" lineNum="39" pc="268435470" symbol="getRaceMetadata"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="4" lineNum="40" pc="268435474" symbol="getRaceMetadata"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="5" lineNum="43" pc="268435484" symbol="setRaceMetadata"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="5" lineNum="44" pc="268435488" symbol="setRaceMetadata"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="6" lineNum="47" pc="268435499" symbol="loadUserMetadata"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="6" lineNum="48" pc="268435503" symbol="loadUserMetadata"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="7" lineNum="53" pc="268435546" symbol="timeTimerCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="7" lineNum="54" pc="268435550" symbol="timeTimerCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="8" lineNum="57" pc="268435570" symbol="startRace"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="8" lineNum="58" pc="268435574" symbol="startRace"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="8" lineNum="59" pc="268435608" symbol="startRace"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="8" lineNum="61" pc="268435649" symbol="startRace"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="8" lineNum="62" pc="268435683" symbol="startRace"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="9" lineNum="65" pc="268435725" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="9" lineNum="66" pc="268435729" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="9" lineNum="67" pc="268435749" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="9" lineNum="69" pc="268435769" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="9" lineNum="71" pc="268435780" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="9" lineNum="72" pc="268435805" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="9" lineNum="73" pc="268435844" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="9" lineNum="74" pc="268435883" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="9" lineNum="75" pc="268435922" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="9" lineNum="76" pc="268435961" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="9" lineNum="77" pc="268436000" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="9" lineNum="78" pc="268436039" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="9" lineNum="81" pc="268436081" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="9" lineNum="84" pc="268436106" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="10" lineNum="87" pc="268436123" symbol="makeRequest"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="10" lineNum="89" pc="268436127" symbol="makeRequest"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="10" lineNum="91" pc="268436144" symbol="makeRequest"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="10" lineNum="92" pc="268436170" symbol="makeRequest"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="10" lineNum="93" pc="268436196" symbol="makeRequest"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="10" lineNum="95" pc="268436231" symbol="makeRequest"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="10" lineNum="96" pc="268436288" symbol="makeRequest"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="10" lineNum="103" pc="268436471" symbol="makeRequest"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="10" lineNum="105" pc="268436521" symbol="makeRequest"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="11" lineNum="110" pc="268436544" symbol="startPostTimer"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="11" lineNum="111" pc="268436548" symbol="startPostTimer"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="11" lineNum="112" pc="268436561" symbol="startPostTimer"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="11" lineNum="113" pc="268436605" symbol="startPostTimer"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="12" lineNum="116" pc="268436647" symbol="stopPostTimer"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="12" lineNum="117" pc="268436651" symbol="stopPostTimer"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="13" lineNum="120" pc="268436670" symbol="initialize"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="13" lineNum="121" pc="268436674" symbol="initialize"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="13" lineNum="123" pc="268436692" symbol="initialize"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="13" lineNum="124" pc="268436726" symbol="initialize"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="13" lineNum="126" pc="268436760" symbol="initialize"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="13" lineNum="127" pc="268436783" symbol="initialize"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="14" lineNum="134" pc="268436829" symbol="onStart"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="15" lineNum="138" pc="268436834" symbol="onStop"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="16" lineNum="142" pc="268436839" symbol="getInitialView"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="16" lineNum="143" pc="268436843" symbol="getInitialView"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="16" lineNum="144" pc="268436866" symbol="getInitialView"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="16" lineNum="146" pc="268436936" symbol="getInitialView"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="16" lineNum="28" pc="268456896" symbol="&lt;init&gt;"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="16" lineNum="33" pc="268456910" symbol="&lt;init&gt;"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="16" lineNum="10" pc="268456467" symbol="&lt;init&gt;"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomDelegate.mc" id="18" lineNum="5" pc="268437004" symbol="pushTopScreen"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomDelegate.mc" id="18" lineNum="6" pc="268437008" symbol="pushTopScreen"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomDelegate.mc" id="19" lineNum="10" pc="268437037" symbol="onSwipe"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomDelegate.mc" id="19" lineNum="11" pc="268437041" symbol="onSwipe"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomDelegate.mc" id="19" lineNum="12" pc="268437068" symbol="onSwipe"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomDelegate.mc" id="19" lineNum="15" pc="268437083" symbol="onSwipe"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="21" lineNum="16" pc="268437090" symbol="Initialize"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="21" lineNum="17" pc="268437094" symbol="Initialize"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="24" pc="268437113" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="25" pc="268437117" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="29" pc="268437154" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="32" pc="268437188" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="34" pc="268437233" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="35" pc="268437287" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="36" pc="268437341" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="37" pc="268437395" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="38" pc="268437449" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="39" pc="268437503" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="40" pc="268437557" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="41" pc="268437611" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="42" pc="268437665" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="43" pc="268437719" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="44" pc="268437773" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="45" pc="268437827" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="46" pc="268437881" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="47" pc="268437935" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="48" pc="268437989" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="50" pc="268438043" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="51" pc="268438088" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="52" pc="268438133" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="54" pc="268438178" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="55" pc="268438236" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="56" pc="268438294" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="57" pc="268438352" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="58" pc="268438410" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="22" lineNum="59" pc="268438468" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="23" lineNum="63" pc="268438527" symbol="onShow"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="65" pc="268438532" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="66" pc="268438536" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="68" pc="268438556" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="69" pc="268438573" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="71" pc="268438601" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="72" pc="268438620" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="74" pc="268438660" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="77" pc="268438697" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="78" pc="268438746" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="80" pc="268438811" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="83" pc="268438865" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="84" pc="268438886" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="87" pc="268438946" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="88" pc="268438967" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="91" pc="268439041" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="93" pc="268439048" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="94" pc="268439069" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="95" pc="268439107" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="96" pc="268439168" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="97" pc="268439172" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="101" pc="268439191" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="102" pc="268439229" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="103" pc="268439297" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="105" pc="268439374" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="106" pc="268439382" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="107" pc="268439413" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="108" pc="268439514" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="110" pc="268439568" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="112" pc="268439625" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="113" pc="268439660" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="114" pc="268439695" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="116" pc="268439733" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="118" pc="268439790" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="119" pc="268439830" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="120" pc="268439870" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="126" pc="268439927" symbol="onHide"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="7" pc="268456669" symbol="&lt;init&gt;"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="12" pc="268456683" symbol="&lt;init&gt;"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="27" lineNum="22" pc="268439935" symbol="refreshCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="27" lineNum="23" pc="268439939" symbol="refreshCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="27" lineNum="24" pc="268439950" symbol="refreshCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="27" lineNum="26" pc="268439977" symbol="refreshCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="27" lineNum="29" pc="268439986" symbol="refreshCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="28" lineNum="32" pc="268440003" symbol="onRefresh"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="28" lineNum="33" pc="268440007" symbol="onRefresh"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="28" lineNum="34" pc="268440038" symbol="onRefresh"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="29" lineNum="37" pc="268440082" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="29" lineNum="39" pc="268440086" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="29" lineNum="40" pc="268440097" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="29" lineNum="43" pc="268440118" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="29" lineNum="44" pc="268440155" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="29" lineNum="45" pc="268440178" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="29" lineNum="48" pc="268440203" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="30" lineNum="53" pc="268440282" symbol="onStatus"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="30" lineNum="54" pc="268440286" symbol="onStatus"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="30" lineNum="55" pc="268440323" symbol="onStatus"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="31" lineNum="58" pc="268440367" symbol="initialize"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="31" lineNum="59" pc="268440371" symbol="initialize"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="32" lineNum="62" pc="268440390" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="32" lineNum="63" pc="268440394" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="32" lineNum="65" pc="268440431" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="32" lineNum="66" pc="268440465" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="32" lineNum="68" pc="268440506" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="32" lineNum="69" pc="268440540" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="32" lineNum="71" pc="268440581" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="32" lineNum="73" pc="268440604" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="33" lineNum="78" pc="268440617" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="33" lineNum="80" pc="268440621" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="33" lineNum="81" pc="268440634" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="33" lineNum="83" pc="268440686" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="33" lineNum="87" pc="268440753" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="34" lineNum="90" pc="268440774" symbol="onHide"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="34" lineNum="91" pc="268440778" symbol="onHide"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="34" lineNum="92" pc="268440796" symbol="onHide"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="34" lineNum="10" pc="268456521" symbol="&lt;init&gt;"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="36" lineNum="16" pc="268440815" symbol="initialize"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="36" lineNum="17" pc="268440819" symbol="initialize"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="37" lineNum="24" pc="268440838" symbol="secondsToTimeString"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="37" lineNum="25" pc="268440842" symbol="secondsToTimeString"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="37" lineNum="26" pc="268440852" symbol="secondsToTimeString"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="37" lineNum="27" pc="268440862" symbol="secondsToTimeString"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="37" lineNum="28" pc="268440872" symbol="secondsToTimeString"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="37" lineNum="29" pc="268440882" symbol="secondsToTimeString"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="37" lineNum="31" pc="268440892" symbol="secondsToTimeString"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="37" lineNum="32" pc="268440936" symbol="secondsToTimeString"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="37" lineNum="33" pc="268440980" symbol="secondsToTimeString"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="37" lineNum="35" pc="268441024" symbol="secondsToTimeString"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="38" lineNum="39" pc="268441046" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="38" lineNum="41" pc="268441050" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="38" lineNum="43" pc="268441087" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="38" lineNum="49" pc="268441119" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="38" lineNum="50" pc="268441164" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="38" lineNum="51" pc="268441209" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="38" lineNum="52" pc="268441254" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="38" lineNum="53" pc="268441299" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="38" lineNum="54" pc="268441344" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="38" lineNum="55" pc="268441389" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="38" lineNum="56" pc="268441434" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="38" lineNum="58" pc="268441479" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="38" lineNum="59" pc="268441537" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="38" lineNum="60" pc="268441595" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="38" lineNum="61" pc="268441653" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="38" lineNum="62" pc="268441711" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="38" lineNum="63" pc="268441769" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="39" lineNum="70" pc="268441828" symbol="onShow"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="40" lineNum="74" pc="268441833" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="40" lineNum="77" pc="268441837" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="40" lineNum="78" pc="268441854" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="40" lineNum="80" pc="268441880" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="40" lineNum="81" pc="268441899" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="40" lineNum="83" pc="268441939" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="40" lineNum="86" pc="268441976" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="40" lineNum="87" pc="268441995" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="40" lineNum="90" pc="268442103" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="40" lineNum="92" pc="268442167" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="40" lineNum="93" pc="268442180" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="40" lineNum="95" pc="268442232" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="40" lineNum="98" pc="268442286" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="40" lineNum="99" pc="268442299" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="40" lineNum="101" pc="268442362" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="40" lineNum="104" pc="268442416" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="40" lineNum="105" pc="268442429" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="40" lineNum="107" pc="268442481" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="40" lineNum="110" pc="268442535" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="40" lineNum="111" pc="268442548" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="40" lineNum="113" pc="268442600" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="40" lineNum="116" pc="268442654" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="40" lineNum="117" pc="268442667" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="40" lineNum="119" pc="268442724" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="40" lineNum="122" pc="268442778" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="41" lineNum="129" pc="268442799" symbol="onHide"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="41" lineNum="12" pc="268456822" symbol="&lt;init&gt;"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="41" lineNum="13" pc="268456836" symbol="&lt;init&gt;"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="43" lineNum="25" pc="268442804" symbol="countdown"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="43" lineNum="26" pc="268442808" symbol="countdown"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="43" lineNum="27" pc="268442832" symbol="countdown"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="43" lineNum="28" pc="268442856" symbol="countdown"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="43" lineNum="29" pc="268442880" symbol="countdown"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="43" lineNum="30" pc="268442897" symbol="countdown"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="43" lineNum="31" pc="268442926" symbol="countdown"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="43" lineNum="33" pc="268442943" symbol="countdown"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="43" lineNum="35" pc="268442959" symbol="countdown"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="43" lineNum="37" pc="268442978" symbol="countdown"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="43" lineNum="38" pc="268442995" symbol="countdown"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="43" lineNum="39" pc="268443020" symbol="countdown"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="43" lineNum="41" pc="268443095" symbol="countdown"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="43" lineNum="42" pc="268443110" symbol="countdown"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="43" lineNum="43" pc="268443162" symbol="countdown"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="44" lineNum="48" pc="268443198" symbol="startRace"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="44" lineNum="49" pc="268443202" symbol="startRace"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="44" lineNum="50" pc="268443236" symbol="startRace"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="45" lineNum="53" pc="268443278" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="45" lineNum="55" pc="268443282" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="45" lineNum="56" pc="268443293" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="45" lineNum="64" pc="268443421" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="45" lineNum="66" pc="268443448" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="45" lineNum="68" pc="268443476" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="45" lineNum="69" pc="268443501" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="45" lineNum="72" pc="268443576" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="45" lineNum="73" pc="268443594" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="45" lineNum="74" pc="268443612" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="45" lineNum="76" pc="268443662" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="45" lineNum="85" pc="268443832" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="45" lineNum="86" pc="268443857" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="45" lineNum="88" pc="268443894" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="45" lineNum="89" pc="268443922" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="45" lineNum="91" pc="268443941" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="45" lineNum="93" pc="268443958" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="45" lineNum="94" pc="268443983" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="45" lineNum="96" pc="268444058" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="45" lineNum="97" pc="268444092" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="46" lineNum="103" pc="268444137" symbol="onStatus"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="46" lineNum="104" pc="268444141" symbol="onStatus"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="46" lineNum="105" pc="268444175" symbol="onStatus"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="47" lineNum="108" pc="268444219" symbol="initialize"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="47" lineNum="109" pc="268444223" symbol="initialize"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="48" lineNum="112" pc="268444242" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="48" lineNum="113" pc="268444246" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="48" lineNum="115" pc="268444283" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="48" lineNum="117" pc="268444311" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="48" lineNum="118" pc="268444345" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="48" lineNum="120" pc="268444386" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="49" lineNum="124" pc="268444399" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="49" lineNum="126" pc="268444403" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="50" lineNum="129" pc="268444424" symbol="onHide"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="50" lineNum="131" pc="268444428" symbol="onHide"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="50" lineNum="132" pc="268444441" symbol="onHide"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="50" lineNum="135" pc="268444462" symbol="onHide"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="50" lineNum="136" pc="268444475" symbol="onHide"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="50" lineNum="12" pc="268456575" symbol="&lt;init&gt;"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopDelegate.mc" id="53" lineNum="5" pc="268444500" symbol="pushBottomScreen"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopDelegate.mc" id="53" lineNum="6" pc="268444504" symbol="pushBottomScreen"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopDelegate.mc" id="54" lineNum="9" pc="268444577" symbol="onSwipe"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopDelegate.mc" id="54" lineNum="10" pc="268444581" symbol="onSwipe"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopDelegate.mc" id="54" lineNum="11" pc="268444608" symbol="onSwipe"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopDelegate.mc" id="54" lineNum="14" pc="268444623" symbol="onSwipe"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="56" lineNum="12" pc="268444630" symbol="initialize"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="56" lineNum="13" pc="268444634" symbol="initialize"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="56" lineNum="14" pc="268444654" symbol="initialize"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="56" lineNum="15" pc="268444664" symbol="initialize"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="56" lineNum="16" pc="268444680" symbol="initialize"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="56" lineNum="17" pc="268444696" symbol="initialize"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="57" lineNum="20" pc="268444713" symbol="setText"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="57" lineNum="21" pc="268444717" symbol="setText"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="58" lineNum="24" pc="268444728" symbol="setDefaultBackgroundColor"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="58" lineNum="25" pc="268444732" symbol="setDefaultBackgroundColor"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="59" lineNum="28" pc="268444749" symbol="setBackgroundColor"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="59" lineNum="29" pc="268444753" symbol="setBackgroundColor"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="60" lineNum="32" pc="268444764" symbol="setTextWithUIUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="60" lineNum="33" pc="268444768" symbol="setTextWithUIUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="60" lineNum="34" pc="268444778" symbol="setTextWithUIUpdate"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="37" pc="268444795" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="39" pc="268444799" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="40" pc="268444824" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="42" pc="268444849" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="43" pc="268444885" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="46" pc="268444947" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="47" pc="268444983" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="50" pc="268445045" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="51" pc="268445073" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="52" pc="268445101" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="53" pc="268445133" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="55" pc="268445153" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="57" pc="268445179" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="59" pc="268445208" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="61" pc="268445231" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="65" pc="268445263" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="68" pc="268445292" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="70" pc="268445323" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="71" pc="268445346" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="72" pc="268445368" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="74" pc="268445390" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="75" pc="268445408" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="78" pc="268445421" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="79" pc="268445446" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="81" pc="268445487" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="84" pc="268445523" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="87" pc="268445561" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="89" pc="268445578" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="90" pc="268445609" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="92" pc="268445638" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="93" pc="268445655" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="94" pc="268445683" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="96" pc="268445720" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="98" pc="268445767" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="99" pc="268445789" symbol="draw"/>
+        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="61" lineNum="101" pc="268445822" symbol="draw"/>
+        <entry filename="Rez" id="67" lineNum="31" pc="268445873" symbol="InitializeLayout"/>
+        <entry filename="Rez" id="67" lineNum="32" pc="268445885" symbol="InitializeLayout"/>
+        <entry filename="Rez" id="67" lineNum="34" pc="268445926" symbol="InitializeLayout"/>
+        <entry filename="Rez" id="67" lineNum="35" pc="268446038" symbol="InitializeLayout"/>
+        <entry filename="Rez" id="67" lineNum="36" pc="268446078" symbol="InitializeLayout"/>
+        <entry filename="Rez" id="67" lineNum="37" pc="268446243" symbol="InitializeLayout"/>
+        <entry filename="Rez" id="67" lineNum="38" pc="268446398" symbol="InitializeLayout"/>
+        <entry filename="Rez" id="67" lineNum="40" pc="268446563" symbol="InitializeLayout"/>
+        <entry filename="Rez" id="68" lineNum="49" pc="268446611" symbol="HomeScreenLayout"/>
+        <entry filename="Rez" id="68" lineNum="50" pc="268446623" symbol="HomeScreenLayout"/>
+        <entry filename="Rez" id="68" lineNum="52" pc="268446664" symbol="HomeScreenLayout"/>
+        <entry filename="Rez" id="68" lineNum="53" pc="268446776" symbol="HomeScreenLayout"/>
+        <entry filename="Rez" id="68" lineNum="54" pc="268446816" symbol="HomeScreenLayout"/>
+        <entry filename="Rez" id="68" lineNum="55" pc="268446981" symbol="HomeScreenLayout"/>
+        <entry filename="Rez" id="68" lineNum="56" pc="268447104" symbol="HomeScreenLayout"/>
+        <entry filename="Rez" id="68" lineNum="58" pc="268447269" symbol="HomeScreenLayout"/>
+        <entry filename="Rez" id="69" lineNum="67" pc="268447317" symbol="TopLayout"/>
+        <entry filename="Rez" id="69" lineNum="69" pc="268447329" symbol="TopLayout"/>
+        <entry filename="Rez" id="69" lineNum="70" pc="268447453" symbol="TopLayout"/>
+        <entry filename="Rez" id="69" lineNum="71" pc="268447772" symbol="TopLayout"/>
+        <entry filename="Rez" id="69" lineNum="72" pc="268448003" symbol="TopLayout"/>
+        <entry filename="Rez" id="69" lineNum="73" pc="268448335" symbol="TopLayout"/>
+        <entry filename="Rez" id="69" lineNum="74" pc="268448680" symbol="TopLayout"/>
+        <entry filename="Rez" id="69" lineNum="75" pc="268449025" symbol="TopLayout"/>
+        <entry filename="Rez" id="69" lineNum="76" pc="268449383" symbol="TopLayout"/>
+        <entry filename="Rez" id="69" lineNum="77" pc="268449741" symbol="TopLayout"/>
+        <entry filename="Rez" id="69" lineNum="78" pc="268450112" symbol="TopLayout"/>
+        <entry filename="Rez" id="69" lineNum="79" pc="268450217" symbol="TopLayout"/>
+        <entry filename="Rez" id="69" lineNum="81" pc="268450322" symbol="TopLayout"/>
+        <entry filename="Rez" id="70" lineNum="90" pc="268450440" symbol="BottomLayout"/>
+        <entry filename="Rez" id="70" lineNum="92" pc="268450452" symbol="BottomLayout"/>
+        <entry filename="Rez" id="70" lineNum="93" pc="268450576" symbol="BottomLayout"/>
+        <entry filename="Rez" id="70" lineNum="94" pc="268450713" symbol="BottomLayout"/>
+        <entry filename="Rez" id="70" lineNum="95" pc="268450944" symbol="BottomLayout"/>
+        <entry filename="Rez" id="70" lineNum="96" pc="268451188" symbol="BottomLayout"/>
+        <entry filename="Rez" id="70" lineNum="97" pc="268451445" symbol="BottomLayout"/>
+        <entry filename="Rez" id="70" lineNum="98" pc="268451689" symbol="BottomLayout"/>
+        <entry filename="Rez" id="70" lineNum="99" pc="268451946" symbol="BottomLayout"/>
+        <entry filename="Rez" id="70" lineNum="100" pc="268452216" symbol="BottomLayout"/>
+        <entry filename="Rez" id="70" lineNum="101" pc="268452473" symbol="BottomLayout"/>
+        <entry filename="Rez" id="70" lineNum="102" pc="268452743" symbol="BottomLayout"/>
+        <entry filename="Rez" id="70" lineNum="103" pc="268453026" symbol="BottomLayout"/>
+        <entry filename="Rez" id="70" lineNum="104" pc="268453296" symbol="BottomLayout"/>
+        <entry filename="Rez" id="70" lineNum="105" pc="268453579" symbol="BottomLayout"/>
+        <entry filename="Rez" id="70" lineNum="106" pc="268453875" symbol="BottomLayout"/>
+        <entry filename="Rez" id="70" lineNum="107" pc="268454158" symbol="BottomLayout"/>
+        <entry filename="Rez" id="70" lineNum="108" pc="268454454" symbol="BottomLayout"/>
+        <entry filename="Rez" id="70" lineNum="109" pc="268454763" symbol="BottomLayout"/>
+        <entry filename="Rez" id="70" lineNum="110" pc="268455147" symbol="BottomLayout"/>
+        <entry filename="Rez" id="70" lineNum="111" pc="268455544" symbol="BottomLayout"/>
+        <entry filename="Rez" id="70" lineNum="112" pc="268455941" symbol="BottomLayout"/>
+        <entry filename="Rez" id="70" lineNum="113" pc="268456046" symbol="BottomLayout"/>
+        <entry filename="Rez" id="70" lineNum="115" pc="268456151" symbol="BottomLayout"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry field="true" id="27" symbol="code"/>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="35" method="true" symbol="Initialize"/>
+        <entry field="true" id="99" symbol="defaultBackgroundColor"/>
+        <entry id="8389346" symbol="text"/>
+        <entry id="23" object="true" symbol="TextField"/>
+        <entry id="8389896" method="true" symbol="setBackgroundColor"/>
+        <entry field="true" id="95" symbol="initialTimerText"/>
+        <entry id="12" object="true" symbol="SPNFOBottomDelegate"/>
+        <entry field="true" id="24" symbol="refreshTimer"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="125" symbol="widthPerc"/>
+        <entry id="4" module="true" symbol="globals/Rez/Menus"/>
+        <entry field="true" id="59" symbol="rubik_regular_unit_medium"/>
+        <entry id="100" method="true" symbol="setDefaultBackgroundColor"/>
+        <entry id="30" method="true" symbol="statusCallback"/>
+        <entry id="121" method="true" symbol="stopPostTimer"/>
+        <entry id="120" method="true" symbol="startPostTimer"/>
+        <entry field="true" id="87" symbol="initialTimeText"/>
+        <entry id="41" method="true" symbol="startRace"/>
+        <entry field="true" id="85" symbol="initialPositionText"/>
+        <entry field="true" id="58" symbol="rubik_regular_unit_large"/>
+        <entry id="130" symbol="unitLabelFont"/>
+        <entry field="true" id="73" symbol="initialDTNSText"/>
+        <entry field="true" id="110" symbol="reqPerSec"/>
+        <entry id="129" symbol="hasUnitLabel"/>
+        <entry field="true" id="57" symbol="rubik_medium_unit_large"/>
+        <entry id="36" method="true" symbol="pushTopScreen"/>
+        <entry field="true" id="19" symbol="statusRequestOptions"/>
+        <entry field="true" id="8388938" symbol="month"/>
+        <entry field="true" id="8389310" symbol="position"/>
+        <entry field="true" id="38" symbol="uid"/>
+        <entry field="true" id="109" symbol="postFreq"/>
+        <entry field="true" id="80" symbol="cadenceUnitLabel"/>
+        <entry id="8390424" module="true" symbol="Storage"/>
+        <entry field="true" id="53" symbol="rubik_semibold_large"/>
+        <entry field="true" id="60" symbol="rubik_regular_unit_small"/>
+        <entry field="true" id="86" symbol="instructionsLabel2"/>
+        <entry field="true" id="84" symbol="instructionsLabel1"/>
+        <entry field="true" id="54" symbol="rubik_medium_large"/>
+        <entry id="117" method="true" symbol="timeTimerCallback"/>
+        <entry id="64" method="true" symbol="BottomLayout"/>
+        <entry id="132" symbol="labelHorizontalPadding"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="32" symbol="dispObj"/>
+        <entry field="true" id="83" symbol="initialPowerText"/>
+        <entry id="29" method="true" symbol="onRefresh"/>
+        <entry id="40" method="true" symbol="countdown"/>
+        <entry field="true" id="75" symbol="disconnectedString"/>
+        <entry field="true" id="56" symbol="rubik_medium_small"/>
+        <entry field="true" id="112" symbol="responseValues"/>
+        <entry id="13" object="true" symbol="SPNFOBottomView"/>
+        <entry field="true" id="71" symbol="AppName"/>
+        <entry id="8389339" symbol="second"/>
+        <entry field="true" id="8388963" symbol="altitude"/>
+        <entry field="true" id="91" symbol="hrUnitLabel"/>
+        <entry id="17" object="true" symbol="SPNFOTopView"/>
+        <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8389594" symbol="headers"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8389345" symbol="rezId"/>
+        <entry id="122" symbol="initText"/>
+        <entry field="true" id="88" symbol="initializeTopLabel"/>
+        <entry id="22" object="true" symbol="SPNFOTopDelegate"/>
+        <entry field="true" id="44" symbol="spnfo_logo"/>
+        <entry id="8389338" symbol="minute"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="126" symbol="heightPerc"/>
+        <entry id="21" object="true" symbol="SPNFOEmptyDelegate"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="74" symbol="initializeBottomLabel"/>
+        <entry id="114" method="true" symbol="getRaceMetadata"/>
+        <entry field="true" id="104" symbol="secondsTimer"/>
+        <entry field="true" id="49" symbol="roboto_mono_bold_large"/>
+        <entry id="61" method="true" symbol="InitializeLayout"/>
+        <entry field="true" id="8388959" symbol="cadence"/>
+        <entry field="true" id="98" symbol="curText"/>
+        <entry field="true" id="8391038" symbol="textColor"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry field="true" id="111" symbol="userMetadata"/>
+        <entry id="123" symbol="startWidthPerc"/>
+        <entry id="8391338" symbol="toneProfile"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry field="true" id="70" symbol="initialCadenceText"/>
+        <entry id="43" module="true" symbol="Menus"/>
+        <entry field="true" id="39" symbol="countdownNum"/>
+        <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="51" symbol="roboto_mono_bold_small"/>
+        <entry id="63" method="true" symbol="TopLayout"/>
+        <entry id="8391275" object="true" symbol="ToneProfile"/>
+        <entry field="true" id="77" symbol="initialPointsText"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="102" method="true" symbol="secondsToTimeString"/>
+        <entry field="true" id="93" symbol="DTNSUnitLabel"/>
+        <entry id="31" method="true" symbol="onStatus"/>
+        <entry field="true" id="69" symbol="initialHrText"/>
+        <entry id="119" method="true" symbol="makeRequest"/>
+        <entry field="true" id="79" symbol="speedUnitLabel"/>
+        <entry field="true" id="9" symbol="requestUrl"/>
+        <entry field="true" id="67" symbol="initialPlaceText"/>
+        <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
+        <entry id="8388637" module="true" symbol="Communications"/>
+        <entry field="true" id="55" symbol="rubik_medium_medium"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8389134" method="true" symbol="setText"/>
+        <entry id="113" method="true" symbol="getResponseValues"/>
+        <entry field="true" id="76" symbol="powerUnitLabel"/>
+        <entry field="true" id="90" symbol="initialTagText"/>
+        <entry id="8389844" symbol="responseType"/>
+        <entry id="131" symbol="unitsLabel"/>
+        <entry field="true" id="92" symbol="prevPlaceUnitLabel"/>
+        <entry field="true" id="18" symbol="statusUrl"/>
+        <entry id="8388786" method="true" symbol="method"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="128" symbol="unitsInline"/>
+        <entry field="true" id="34" symbol="raceMetadata"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="68" symbol="initialSpeedText"/>
+        <entry field="true" id="8388720" symbol="hour"/>
+        <entry field="true" id="48" symbol="rubik_regular_tiniest"/>
+        <entry field="true" id="78" symbol="positionUnitLabel"/>
+        <entry field="true" id="106" symbol="initialized"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry field="true" id="14" symbol="deviceUrl"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="52" symbol="roboto_mono_bold_tiny"/>
+        <entry id="133" symbol="labelVerticalPadding"/>
+        <entry field="true" id="47" symbol="LauncherIcon"/>
+        <entry field="true" id="65" symbol="initialLapText"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry field="true" id="33" symbol="defaultStrings"/>
+        <entry id="8388643" module="true" symbol="Sensor"/>
+        <entry field="true" id="66" symbol="lapUnitLabel"/>
+        <entry field="true" id="25" symbol="statusTimer"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="8388958" symbol="speed"/>
+        <entry id="115" method="true" symbol="setRaceMetadata"/>
+        <entry id="62" method="true" symbol="HomeScreenLayout"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="103" method="true" symbol="pushBottomScreen"/>
+        <entry field="true" id="94" symbol="pointsUnitLabel"/>
+        <entry field="true" id="8388960" symbol="heartRate"/>
+        <entry field="true" id="105" symbol="postTimer"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="118" method="true" symbol="onReceiveRaceData"/>
+        <entry id="20" object="true" symbol="SPNFOHomeScreen"/>
+        <entry field="true" id="8388961" symbol="power"/>
+        <entry id="16" object="true" symbol="SPNFOInitializeScreen"/>
+        <entry field="true" id="37" symbol="countdownTimer"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry id="101" method="true" symbol="setTextWithUIUpdate"/>
+        <entry field="true" id="26" symbol="settings"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389347" symbol="color"/>
+        <entry field="true" id="8388939" symbol="day"/>
+        <entry field="true" id="72" symbol="initialElevationText"/>
+        <entry field="true" id="50" symbol="roboto_mono_bold_medium"/>
+        <entry field="true" id="81" symbol="elevationUnitLabel"/>
+        <entry field="true" id="108" symbol="subSeconds"/>
+        <entry field="true" id="8388940" symbol="year"/>
+        <entry field="true" id="45" symbol="chevron_down"/>
+        <entry field="true" id="96" symbol="initializeCodeLabel"/>
+        <entry id="8388646" module="true" object="true" symbol="Timer"/>
+        <entry id="42" module="true" symbol="Layouts"/>
+        <entry id="11" object="true" symbol="SPNFOApp"/>
+        <entry field="true" id="89" symbol="connectedString"/>
+        <entry id="8388636" module="true" symbol="Attention"/>
+        <entry field="true" id="46" symbol="chevron_up"/>
+        <entry id="8388642" module="true" symbol="Position"/>
+        <entry id="127" symbol="omitText"/>
+        <entry field="true" id="97" symbol="options"/>
+        <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
+        <entry field="true" id="10" symbol="requestOptions"/>
+        <entry field="true" id="8389743" symbol="backgroundColor"/>
+        <entry id="116" method="true" symbol="loadUserMetadata"/>
+        <entry id="124" symbol="startHeightPerc"/>
+        <entry field="true" id="15" symbol="deviceRequestOptions"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry field="true" id="82" symbol="initialPrevPlaceText"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry id="28" method="true" symbol="refreshCallback"/>
+        <entry id="8389101" method="true" symbol="onSwipe"/>
+        <entry field="true" id="107" symbol="numSeconds"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435499" name="rmd" stackId="1" startPc="268435484"/>
+        <entry arg="true" endPc="268436123" name="responseCode" stackId="1" startPc="268435725"/>
+        <entry arg="true" endPc="268436123" name="data" stackId="2" startPc="268435725"/>
+        <entry endPc="268436540" name="body" stackId="2" startPc="268436288"/>
+        <entry endPc="268436543" name="positionInfo" stackId="1" startPc="268436127"/>
+        <entry arg="true" endPc="268436834" name="state" stackId="1" startPc="268436829"/>
+        <entry arg="true" endPc="268436839" name="state" stackId="1" startPc="268436834"/>
+        <entry arg="true" endPc="268437087" name="swipeEvent" stackId="1" startPc="268437037"/>
+        <entry arg="true" endPc="268438527" name="dc" stackId="1" startPc="268437113"/>
+        <entry endPc="268439191" name="i" stackId="5" startPc="268439107"/>
+        <entry endPc="268439565" name="timeDiff" stackId="7" startPc="268439413"/>
+        <entry endPc="268439923" name="i" stackId="6" startPc="268439229"/>
+        <entry endPc="268439926" name="myIndex" stackId="4" startPc="268438536"/>
+        <entry endPc="268439926" name="sensorInfo" stackId="2" startPc="268438536"/>
+        <entry endPc="268439926" name="appValues" stackId="3" startPc="268438536"/>
+        <entry arg="true" endPc="268439927" name="dc" stackId="1" startPc="268438532"/>
+        <entry arg="true" endPc="268440003" name="responseCode" stackId="1" startPc="268439935"/>
+        <entry arg="true" endPc="268440003" name="data" stackId="2" startPc="268439935"/>
+        <entry endPc="268440081" name="urlWithParams" stackId="1" startPc="268440007"/>
+        <entry arg="true" endPc="268440282" name="responseCode" stackId="1" startPc="268440082"/>
+        <entry arg="true" endPc="268440282" name="data" stackId="2" startPc="268440082"/>
+        <entry endPc="268440366" name="urlWithParams" stackId="1" startPc="268440286"/>
+        <entry arg="true" endPc="268440617" name="dc" stackId="1" startPc="268440390"/>
+        <entry arg="true" endPc="268440774" name="dc" stackId="1" startPc="268440617"/>
+        <entry endPc="268441045" name="secString" stackId="7" startPc="268440842"/>
+        <entry endPc="268441045" name="minString" stackId="6" startPc="268440842"/>
+        <entry endPc="268441045" name="hour" stackId="2" startPc="268440842"/>
+        <entry endPc="268441045" name="hourString" stackId="5" startPc="268440842"/>
+        <entry endPc="268441045" name="min" stackId="3" startPc="268440842"/>
+        <entry endPc="268441045" name="sec" stackId="4" startPc="268440842"/>
+        <entry arg="true" endPc="268441046" name="s" stackId="1" startPc="268440838"/>
+        <entry arg="true" endPc="268441828" name="dc" stackId="1" startPc="268441046"/>
+        <entry endPc="268442798" name="info" stackId="2" startPc="268441837"/>
+        <entry endPc="268442798" name="appValues" stackId="3" startPc="268441837"/>
+        <entry arg="true" endPc="268442799" name="dc" stackId="1" startPc="268441833"/>
+        <entry endPc="268443194" name="toneProfile" stackId="4" startPc="268443110"/>
+        <entry endPc="268443197" name="centerLabel" stackId="2" startPc="268442808"/>
+        <entry endPc="268443197" name="bottomLabel" stackId="3" startPc="268442808"/>
+        <entry endPc="268443197" name="topLabel" stackId="1" startPc="268442808"/>
+        <entry endPc="268444133" name="now" stackId="5" startPc="268443576"/>
+        <entry endPc="268444133" name="tts" stackId="9" startPc="268443576"/>
+        <entry endPc="268444133" name="startTime" stackId="4" startPc="268443576"/>
+        <entry endPc="268444133" name="startMomentInfo" stackId="8" startPc="268443576"/>
+        <entry endPc="268444133" name="startMoment" stackId="7" startPc="268443576"/>
+        <entry endPc="268444133" name="startMomentOptions" stackId="6" startPc="268443576"/>
+        <entry endPc="268444133" name="raceMetadata" stackId="3" startPc="268443293"/>
+        <entry arg="true" endPc="268444137" name="responseCode" stackId="1" startPc="268443278"/>
+        <entry arg="true" endPc="268444137" name="data" stackId="2" startPc="268443278"/>
+        <entry endPc="268444218" name="urlWithParams" stackId="1" startPc="268444141"/>
+        <entry arg="true" endPc="268444399" name="dc" stackId="1" startPc="268444242"/>
+        <entry arg="true" endPc="268444424" name="dc" stackId="1" startPc="268444399"/>
+        <entry arg="true" endPc="268444627" name="swipeEvent" stackId="1" startPc="268444577"/>
+        <entry arg="true" endPc="268444713" name="options" stackId="1" startPc="268444630"/>
+        <entry arg="true" endPc="268444728" name="text" stackId="1" startPc="268444713"/>
+        <entry arg="true" endPc="268444764" name="color" stackId="1" startPc="268444749"/>
+        <entry arg="true" endPc="268444795" name="text" stackId="1" startPc="268444764"/>
+        <entry endPc="268444947" name="i" stackId="4" startPc="268444885"/>
+        <entry endPc="268445045" name="i" stackId="5" startPc="268444983"/>
+        <entry endPc="268445764" name="startLabelY" stackId="15" startPc="268445655"/>
+        <entry endPc="268445764" name="startLabelX" stackId="14" startPc="268445655"/>
+        <entry endPc="268445866" name="startLabelY" stackId="17" startPc="268445767"/>
+        <entry endPc="268445866" name="startLabelX" stackId="16" startPc="268445767"/>
+        <entry endPc="268445866" name="labelFontDims" stackId="13" startPc="268445578"/>
+        <entry endPc="268445866" name="unitFont" stackId="12" startPc="268445578"/>
+        <entry endPc="268445869" name="textDimensions" stackId="9" startPc="268445179"/>
+        <entry endPc="268445869" name="font" stackId="8" startPc="268445179"/>
+        <entry endPc="268445869" name="startTextY" stackId="11" startPc="268445179"/>
+        <entry endPc="268445869" name="startTextX" stackId="10" startPc="268445179"/>
+        <entry endPc="268445872" name="height" stackId="7" startPc="268444799"/>
+        <entry endPc="268445872" name="startY" stackId="3" startPc="268444799"/>
+        <entry endPc="268445872" name="startX" stackId="2" startPc="268444799"/>
+        <entry endPc="268445872" name="width" stackId="6" startPc="268444799"/>
+        <entry arg="true" endPc="268445873" name="dc" stackId="1" startPc="268444795"/>
+        <entry endPc="268446610" name="rez_cmp_local_text_codeLabel" stackId="5" startPc="268445885"/>
+        <entry endPc="268446610" name="rez_cmp_local_bitmap_spnfo_logo" stackId="3" startPc="268445885"/>
+        <entry endPc="268446610" name="rez_cmp_local_text_bottomLabel" stackId="6" startPc="268445885"/>
+        <entry endPc="268446610" name="local_Rez_Fonts_roboto_mono_bold_large" stackId="2" startPc="268445885"/>
+        <entry endPc="268446610" name="rez_cmp_local_text_topLabel" stackId="4" startPc="268445885"/>
+        <entry arg="true" endPc="268446611" name="dc" stackId="1" startPc="268445873"/>
+        <entry endPc="268447316" name="rez_cmp_local_bitmap_spnfo_logo" stackId="3" startPc="268446623"/>
+        <entry endPc="268447316" name="rez_cmp_local_text_centerLabel" stackId="5" startPc="268446623"/>
+        <entry endPc="268447316" name="rez_cmp_local_text_bottomLabel" stackId="6" startPc="268446623"/>
+        <entry endPc="268447316" name="local_Rez_Fonts_roboto_mono_bold_large" stackId="2" startPc="268446623"/>
+        <entry endPc="268447316" name="rez_cmp_local_text_topLabel" stackId="4" startPc="268446623"/>
+        <entry arg="true" endPc="268447317" name="dc" stackId="1" startPc="268446611"/>
+        <entry endPc="268450439" name="rez_cmp_local_custom_drawable_elevation_box" stackId="10" startPc="268447329"/>
+        <entry endPc="268450439" name="rez_cmp_local_custom_drawable_power_box" stackId="3" startPc="268447329"/>
+        <entry endPc="268450439" name="rez_cmp_local_custom_drawable_hr_box" stackId="6" startPc="268447329"/>
+        <entry endPc="268450439" name="rez_cmp_local_custom_drawable_cadence_box" stackId="7" startPc="268447329"/>
+        <entry endPc="268450439" name="rez_cmp_local_custom_drawable_position_box" stackId="8" startPc="268447329"/>
+        <entry endPc="268450439" name="rez_cmp_local_custom_drawable_time_box" stackId="4" startPc="268447329"/>
+        <entry endPc="268450439" name="rez_cmp_local_bitmap_spnfo_logo" stackId="11" startPc="268447329"/>
+        <entry endPc="268450439" name="rez_cmp_local_bitmap_chevron_down" stackId="12" startPc="268447329"/>
+        <entry endPc="268450439" name="rez_cmp_local_custom_drawable_speed_box" stackId="5" startPc="268447329"/>
+        <entry endPc="268450439" name="rez_cmp_local_custom_drawable_connected_box" stackId="2" startPc="268447329"/>
+        <entry endPc="268450439" name="rez_cmp_local_custom_drawable_lap_box" stackId="9" startPc="268447329"/>
+        <entry arg="true" endPc="268450440" name="dc" stackId="1" startPc="268447317"/>
+        <entry endPc="268456378" name="rez_cmp_local_custom_drawable_pts_box" stackId="19" startPc="268450452"/>
+        <entry endPc="268456378" name="rez_cmp_local_custom_drawable_place2_position_box" stackId="7" startPc="268450452"/>
+        <entry endPc="268456378" name="rez_cmp_local_custom_drawable_place5_position_box" stackId="16" startPc="268450452"/>
+        <entry endPc="268456378" name="rez_cmp_local_custom_drawable_chevron_box" stackId="3" startPc="268450452"/>
+        <entry endPc="268456378" name="rez_cmp_local_custom_drawable_place3_position_box" stackId="10" startPc="268450452"/>
+        <entry endPc="268456378" name="rez_cmp_local_custom_drawable_place4_time_box" stackId="15" startPc="268450452"/>
+        <entry endPc="268456378" name="rez_cmp_local_custom_drawable_prev_sprint_place_box" stackId="20" startPc="268450452"/>
+        <entry endPc="268456378" name="rez_cmp_local_custom_drawable_place1_time_box" stackId="6" startPc="268450452"/>
+        <entry endPc="268456378" name="rez_cmp_local_custom_drawable_place4_tag_box" stackId="14" startPc="268450452"/>
+        <entry endPc="268456378" name="rez_cmp_local_custom_drawable_place2_tag_box" stackId="8" startPc="268450452"/>
+        <entry endPc="268456378" name="rez_cmp_local_custom_drawable_connected_box" stackId="2" startPc="268450452"/>
+        <entry endPc="268456378" name="rez_cmp_local_custom_drawable_dtns_box" stackId="21" startPc="268450452"/>
+        <entry endPc="268456378" name="rez_cmp_local_custom_drawable_place1_tag_box" stackId="5" startPc="268450452"/>
+        <entry endPc="268456378" name="rez_cmp_local_custom_drawable_place5_time_box" stackId="18" startPc="268450452"/>
+        <entry endPc="268456378" name="rez_cmp_local_custom_drawable_place1_position_box" stackId="4" startPc="268450452"/>
+        <entry endPc="268456378" name="rez_cmp_local_custom_drawable_place4_position_box" stackId="13" startPc="268450452"/>
+        <entry endPc="268456378" name="rez_cmp_local_custom_drawable_place3_time_box" stackId="12" startPc="268450452"/>
+        <entry endPc="268456378" name="rez_cmp_local_custom_drawable_place2_time_box" stackId="9" startPc="268450452"/>
+        <entry endPc="268456378" name="rez_cmp_local_bitmap_chevron_up" stackId="23" startPc="268450452"/>
+        <entry endPc="268456378" name="rez_cmp_local_bitmap_spnfo_logo" stackId="22" startPc="268450452"/>
+        <entry endPc="268456378" name="rez_cmp_local_custom_drawable_place5_tag_box" stackId="17" startPc="268450452"/>
+        <entry endPc="268456378" name="rez_cmp_local_custom_drawable_place3_tag_box" stackId="11" startPc="268450452"/>
+        <entry arg="true" endPc="268456379" name="dc" stackId="1" startPc="268450440"/>
+    </localVars>
+    <annotations/>
+    <dataEntryOffsetMappings>
+        <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry offset="254" parentId="globals" symbolId="SPNFOInitializeScreen" type="class"/>
+        <dataEntry offset="389" parentId="globals" symbolId="SPNFOBottomView" type="class"/>
+        <dataEntry offset="500" parentId="globals" symbolId="SPNFOBottomDelegate" type="class"/>
+        <dataEntry offset="563" parentId="globals" symbolId="SPNFOHomeScreen" type="class"/>
+        <dataEntry offset="698" parentId="globals" symbolId="SPNFOEmptyDelegate" type="class"/>
+        <dataEntry offset="745" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry offset="824" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry offset="887" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry offset="918" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry offset="1053" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry offset="1116" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry offset="1147" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry offset="1434" parentId="globals" symbolId="TextField" type="class"/>
+        <dataEntry offset="1553" parentId="globals" symbolId="SPNFOTopView" type="class"/>
+        <dataEntry offset="1664" parentId="globals" symbolId="SPNFOTopDelegate" type="class"/>
+        <dataEntry offset="1727" parentId="globals" symbolId="SPNFOApp" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" name="getResponseValues" parent="SPNFOApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getRaceMetadata" parent="SPNFOApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="setRaceMetadata" parent="SPNFOApp">
+            <param id="rmd"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="loadUserMetadata" parent="SPNFOApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="timeTimerCallback" parent="SPNFOApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="startRace" parent="SPNFOApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onReceiveRaceData" parent="SPNFOApp">
+            <param id="responseCode"/>
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="makeRequest" parent="SPNFOApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="startPostTimer" parent="SPNFOApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="stopPostTimer" parent="SPNFOApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="SPNFOApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStart" parent="SPNFOApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStop" parent="SPNFOApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getInitialView" parent="SPNFOApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="pushTopScreen" parent="SPNFOBottomDelegate">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onSwipe" parent="SPNFOBottomDelegate">
+            <param id="swipeEvent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="Initialize" parent="SPNFOBottomView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onLayout" parent="SPNFOBottomView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="SPNFOBottomView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onUpdate" parent="SPNFOBottomView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="SPNFOBottomView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="refreshCallback" parent="SPNFOInitializeScreen">
+            <param id="responseCode"/>
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onRefresh" parent="SPNFOInitializeScreen">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="statusCallback" parent="SPNFOInitializeScreen">
+            <param id="responseCode"/>
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStatus" parent="SPNFOInitializeScreen">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="SPNFOInitializeScreen">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onLayout" parent="SPNFOInitializeScreen">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onUpdate" parent="SPNFOInitializeScreen">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="SPNFOInitializeScreen">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="SPNFOTopView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="secondsToTimeString" parent="SPNFOTopView">
+            <param id="s"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onLayout" parent="SPNFOTopView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="SPNFOTopView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onUpdate" parent="SPNFOTopView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="SPNFOTopView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="countdown" parent="SPNFOHomeScreen">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="startRace" parent="SPNFOHomeScreen">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="statusCallback" parent="SPNFOHomeScreen">
+            <param id="responseCode"/>
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStatus" parent="SPNFOHomeScreen">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="SPNFOHomeScreen">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onLayout" parent="SPNFOHomeScreen">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onUpdate" parent="SPNFOHomeScreen">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="SPNFOHomeScreen">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="pushBottomScreen" parent="SPNFOTopDelegate">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onSwipe" parent="SPNFOTopDelegate">
+            <param id="swipeEvent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="TextField">
+            <param id="options"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="setText" parent="TextField">
+            <param id="text"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="setDefaultBackgroundColor" parent="TextField">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="setBackgroundColor" parent="TextField">
+            <param id="color"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="setTextWithUIUpdate" parent="TextField">
+            <param id="text"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="draw" parent="TextField">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="InitializeLayout" parent="Layouts">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="HomeScreenLayout" parent="Layouts">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="TopLayout" parent="Layouts">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="BottomLayout" parent="Layouts">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

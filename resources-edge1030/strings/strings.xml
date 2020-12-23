@@ -1,0 +1,52 @@
+<strings>
+	<string id="AppName">SPNFO</string>
+	
+	<!-- Status Strings -->
+	<string id="connectedString">Connected</string>
+	<string id="disconnectedString">Disconnected</string>
+	
+	<!-- Initial text for top boxes -->
+	<string id="initialPowerText">___</string>
+	<string id="initialTimerText">00.00.00</string>
+	<string id="initialSpeedText">--.-</string>
+	<string id="initialHrText">--</string>
+	<string id="initialCadenceText">---</string>
+	<string id="initialPositionText">--/--</string>
+	<string id="initialLapText">--/--</string>
+	<string id="initialElevationText">------</string>
+	<string id="initialPointsText">--</string>
+	<string id="initialPrevPlaceText">--</string>
+	<string id="initialDTNSText">---</string>
+	
+	<!-- Initial text for top boxes -->
+	<string id="initialPointsText">--</string>
+	<string id="initialPrevPlaceText">--</string>
+	<string id="initialDTNSText">---</string>
+	
+	<!-- Box Unit Labels -->
+	<string id="powerUnitLabel">w</string>
+	<string id="speedUnitLabel">mph</string>
+	<string id="hrUnitLabel">HR</string>
+	<string id="cadenceUnitLabel">Cad</string>
+	<string id="positionUnitLabel">pos</string>
+	<string id="lapUnitLabel">lap</string>
+	<string id="elevationUnitLabel">elev (m)</string>
+	<string id="pointsUnitLabel">pts</string>
+	<string id="prevPlaceUnitLabel">prev sprnt</string>
+	<string id="DTNSUnitLabel">next sprint (m)</string>
+	
+	<!-- Leaderboard default labels -->
+	<string id="initialPlaceText">--</string>
+	<string id="initialTagText">--------</string>
+	<string id="initialTimeText">--.--</string>
+	
+	<!-- Initialize Screen labels -->
+	<string id="initializeTopLabel">Download the SPNFO app\nfrom the iOS App Store</string>
+	<string id="initializeCodeLabel">------</string>
+	<string id="initializeBottomLabel">Create a free account and\nenter this code under\nProfile -> Add Device</string>
+	
+	<!-- Home Screen labels -->
+	<string id="instructionsLabel1">Create or join a race\n on the SPNFO App.\nMake sure your GPS is\n on when the race starts.</string>
+	<string id="instructionsLabel2">You will be automatically\nredirected when your\nrace starts.</string>
+	
+</strings>
