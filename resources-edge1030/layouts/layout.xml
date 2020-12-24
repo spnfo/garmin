@@ -58,6 +58,18 @@
 		text="@Strings.instructionsLabel2"
 	/>
 </layout>
+<layout id="RaceCompletedLayout">
+	<bitmap id="spnfo_logo" x="center" y="30" filename="../drawables/spnfo-purple-light-tiny.png" />
+	<label 
+		id="centerLabel"
+		x="center"
+		y="center"
+		font="Gfx.FONT_SMALL"
+		color="Gfx.COLOR_WHITE"
+		text="@Strings.raceCompletedLabel"
+		justification="Gfx.TEXT_JUSTIFY_CENTER"
+	/>
+</layout>
 <layout id="TopLayout">
 	<drawable id="connected_box" class="TextField">
 		<param name="heightPerc">0.02</param>

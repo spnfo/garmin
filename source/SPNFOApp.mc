@@ -7,6 +7,8 @@ using Toybox.WatchUi as Ui;
 
 var requestUrl = "https://intake.spnfo.com/intake";
 //var requestUrl = "http://localhost:8000/intake";
+var raceCompletedUrl = "https://intake.spnfo.com/finished";
+
 var requestOptions = {
 	:method => Communications.HTTP_REQUEST_METHOD_POST,
 	:headers => {
@@ -54,6 +56,8 @@ class SPNFOApp extends Application.AppBase {
 		numSeconds++;
 	}
 	
+	function fakePositionCallback(info) {}
+	
 	function startRace() {
         self.secondsTimer = new Timer.Timer();
         secondsTimer.start(method(:timeTimerCallback), 1000, true);
@@ -67,7 +71,7 @@ class SPNFOApp extends Application.AppBase {
 		System.println(data);
 	
 		if (responseCode == 200) {
-				
+			
 			responseValues.put("connected", true);
 			responseValues.put("inSprintZone", data.get("inSprintZone"));
 			responseValues.put("distToNextSprint", data.get("distToNextSprint"));
@@ -76,6 +80,10 @@ class SPNFOApp extends Application.AppBase {
 			responseValues.put("lastSprintPlace", data.get("last_sprint_place"));
 			responseValues.put("place", data.get("place"));
 			responseValues.put("uid", data.get("uid"));
+			
+			if (raceMetadata != null && (data.get("checkpoint") > raceMetadata.get("laps") * raceMetadata.get("numChkpts"))) {
+				raceCompleted();
+			}
 			
 		} else {
 			responseValues.put("connected", false);
@@ -87,11 +95,14 @@ class SPNFOApp extends Application.AppBase {
 	function makeRequest() {
 		
 		var positionInfo = Position.getInfo();
-				
-		System.println(userMetadata);
-		System.println(raceMetadata);
+
 		System.println(positionInfo.position.toDegrees());
-				
+		System.println(positionInfo.accuracy);
+		
+		if (positionInfo has :accuracy) {
+			responseValues.put("accuracy", positionInfo.accuracy);
+		}
+		
 		if (userMetadata.get("uid") != null && positionInfo has :position && positionInfo.position != null) {
 			var body = {
 				"user" => userMetadata.get("uid"),
@@ -109,8 +120,28 @@ class SPNFOApp extends Application.AppBase {
 	
 	function startPostTimer() {
 		numSeconds = 0;
+		Position.enableLocationEvents(Position.LOCATION_CONTINUOUS, method(:fakePositionCallback));
 		postTimer.start(method(:makeRequest), postFreq, true);
 		secondsTimer.start(method(:timeTimerCallback), 1000, true);
+	}
+	
+	function raceCompletedCallback(responseCode, data) {
+		Ui.switchToView(new SPNFORaceCompleted(), new SPNFOEmptyDelegate(), Ui.SWIPE_RIGHT);
+	}
+	
+	function raceCompleted() {
+		Position.enableLocationEvents(Position.LOCATION_DISABLE, method(:fakePositionCallback));
+		postTimer.stop();
+		secondsTimer.stop();
+		
+		raceMetadata = null;
+		
+		Communications.makeWebRequest(
+			raceCompletedUrl, 
+			{"uid" => userMetadata.get("uid")}, 
+			requestOptions, 
+			method(:raceCompletedCallback)
+		);
 	}
 
 	function stopPostTimer() {

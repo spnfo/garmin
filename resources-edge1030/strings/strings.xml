@@ -49,4 +49,7 @@
 	<string id="instructionsLabel1">Create or join a race\n on the SPNFO App.\nMake sure your GPS is\n on when the race starts.</string>
 	<string id="instructionsLabel2">You will be automatically\nredirected when your\nrace starts.</string>
 	
+	<!-- Race Completed Labels -->
+	<string id="raceCompletedLabel">Your race is completed.\nYour activity will\nbe saved.</string>
+	
 </strings>

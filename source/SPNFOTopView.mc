@@ -77,8 +77,10 @@ class SPNFOTopView extends Ui.View {
         var info = Sensor.getInfo();
         var appValues = Application.getApp().getResponseValues();
                
-        if (appValues.get("connected")) {
+        if (appValues.get("connected") && appValues.hasKey("accuracy") && appValues.get("accuracy") > 2) {
         	dispObj.get("connectedBox").setBackgroundColor(0x32A852);
+        } else if (appValues.get("connected") && appValues.hasKey("accuracy") && appValues.get("accuracy") <= 2) {
+        	dispObj.get("connectedBox").setBackgroundColor(0xFFD726);
         } else {
         	dispObj.get("connectedBox").setBackgroundColor(0xFF0000);
         }
