@@ -14,6 +14,8 @@ class SPNFORaceCompletedDelegate extends Ui.InputDelegate {
 		System.println(keyEvent.getKey());
 		if (keyEvent.getKey() == Ui.KEY_DOWN || keyEvent.getKey() == Ui.KEY_UP) {
 			view.swapButtons();
+		} else if (keyEvent.getKey() == Ui.KEY_ENTER) {
+			
 		}
 	}
 
