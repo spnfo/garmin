@@ -1,423 +1,392 @@
 <layouts>
-<layout id="InitializeLayout">
-	<bitmap id="spnfo_logo" x="center" y="30" filename="../drawables/spnfo-purple-light-tiny.png" />
-	<label 
-		id="topLabel" 
-		x="center" 
-		y="100" 
-		justification="Gfx.TEXT_JUSTIFY_CENTER"
-		font="Gfx.FONT_SMALL" 
-		text="@Strings.initializeTopLabel" 
-		color="Gfx.COLOR_WHITE" 
-	/>
-	<label
-		id="codeLabel"
-		x="center"
-		y="180"
-		justification="Gfx.TEXT_JUSTIFY_CENTER"
-		font="@Fonts.roboto_mono_bold_large"
-		text="@Strings.initializeCodeLabel"
-		color="Gfx.COLOR_WHITE"
-	/>
-	<label
-		id="bottomLabel"
-		x="center"
-		y="280"
-		justification="Gfx.TEXT_JUSTIFY_CENTER"
-		font="Gfx.FONT_SMALL"
-		text="@Strings.initializeBottomLabel"
-		color="Gfx.COLOR_WHITE"
-	/>
-</layout>
-<layout id="HomeScreenLayout">
-	<bitmap id="spnfo_logo" x="center" y="30" filename="../drawables/spnfo-purple-light-tiny.png" />
-	<label 
-		id="topLabel"
-		x="center"
-		y="100"
-		font="Gfx.FONT_SMALL"
-		color="Gfx.COLOR_WHITE"
-		justification="Gfx.TEXT_JUSTIFY_CENTER"
-		text="@Strings.instructionsLabel1"
-	/>
-	<label 
-		id="centerLabel"
-		x="center"
-		y="center"
-		font="@Fonts.roboto_mono_bold_large"
-		color="Gfx.COLOR_WHITE"
-		justification="Gfx.TEXT_JUSTIFY_CENTER"
-	/>
-	<label 
-		id="bottomLabel"
-		x="center"
-		y="250"
-		font="Gfx.FONT_SMALL"
-		color="Gfx.COLOR_WHITE"
-		justification="Gfx.TEXT_JUSTIFY_CENTER"
-		text="@Strings.instructionsLabel2"
-	/>
-</layout>
-<layout id="RaceCompletedLayout">
-	<bitmap id="spnfo_logo" x="center" y="30" filename="../drawables/spnfo-purple-light-tiny.png" />
-	<label 
-		id="centerLabel"
-		x="center"
-		y="center"
-		font="Gfx.FONT_SMALL"
-		color="Gfx.COLOR_WHITE"
-		text="@Strings.raceCompletedLabel"
-		justification="Gfx.TEXT_JUSTIFY_CENTER"
-	/>
-</layout>
-<layout id="TopLayout">
-	<drawable id="connected_box" class="TextField">
-		<param name="heightPerc">0.02</param>
-		<param name="widthPerc">1.0</param>
-		<param name="startHeightPerc">[]</param>
-		<param name="startWidthPerc">[]</param>
-		<param name="backgroundColor">0xFF0000</param>
-		<param name="omitText">[]</param>
-	</drawable>
-	<drawable id="power_box" class="TextField">
-		<param name="heightPerc">0.15</param>
-		<param name="widthPerc">1.0</param>
-		<param name="startHeightPerc">[0.02]</param>
-		<param name="startWidthPerc">[]</param>
-		<param name="backgroundColor">0xFED3EF</param>
-		<param name="font">Rez.Fonts.roboto_mono_bold_large</param>
-		<param name="unitLabelFont">Rez.Fonts.rubik_regular_unit_large</param>
-		<param name="initText">@Strings.initialPowerText</param>
-		<param name="hasUnitLabel">true</param>
-		<param name="unitsLabel">@Strings.powerUnitLabel</param>
-		<param name="unitsInline">true</param>
-		<param name="labelVerticalPadding">8</param>
-		<param name="labelHorizontalPadding">5</param>
-	</drawable>
-	<drawable id="time_box" class="TextField">
-		<param name="heightPerc">0.12</param>
-		<param name="widthPerc">1.0</param>
-		<param name="startHeightPerc">[0.02, 0.15]</param>
-		<param name="startWidthPerc">[]</param>
-		<param name="backgroundColor">0xECC0FD</param>
-		<param name="font">Rez.Fonts.roboto_mono_bold_medium</param>
-		<param name="initText">@Strings.initialTimerText</param>
-		<param name="hasUnitLabel">false</param>
-		<param name="unitsInline">true</param>
-	</drawable>
-	<drawable id="speed_box" class="TextField">
-		<param name="heightPerc">0.2</param>
-		<param name="widthPerc">0.5</param>
-		<param name="startHeightPerc">[0.02, 0.15,0.12]</param>
-		<param name="startWidthPerc">[]</param>
-		<param name="backgroundColor">0xCCC0FD</param>
-		<param name="font">Rez.Fonts.roboto_mono_bold_medium</param>
-		<param name="unitLabelFont">Rez.Fonts.rubik_regular_unit_medium</param>
-		<param name="initText">@Strings.initialSpeedText</param>
-		<param name="hasUnitLabel">true</param>
-		<param name="unitsLabel">@Strings.speedUnitLabel</param>
-		<param name="unitsInline">false</param>
-		<param name="labelVerticalPadding">4</param>
-	</drawable>
-	<drawable id="hr_box" class="TextField">
-		<param name="heightPerc">0.2</param>
-		<param name="widthPerc">0.5</param>
-		<param name="startHeightPerc">[0.02, 0.15,0.12]</param>
-		<param name="startWidthPerc">[0.5]</param>
-		<param name="backgroundColor">0xCCC0FD</param>
-		<param name="font">Rez.Fonts.roboto_mono_bold_medium</param>
-		<param name="unitLabelFont">Rez.Fonts.rubik_regular_unit_medium</param>
-		<param name="initText">@Strings.initialHrText</param>
-		<param name="hasUnitLabel">true</param>
-		<param name="unitsLabel">@Strings.hrUnitLabel</param>
-		<param name="unitsInline">false</param>
-		<param name="labelVerticalPadding">4</param>
-	</drawable>
-	<drawable id="cadence_box" class="TextField">
-		<param name="heightPerc">0.20</param>
-		<param name="widthPerc">0.5</param>
-		<param name="startHeightPerc">[0.02, 0.15,0.12, 0.2]</param>
-		<param name="startWidthPerc">[]</param>
-		<param name="backgroundColor">0xCCC0FD</param>
-		<param name="font">Rez.Fonts.roboto_mono_bold_medium</param>
-		<param name="unitLabelFont">Rez.Fonts.rubik_regular_unit_medium</param>
-		<param name="initText">@Strings.initialCadenceText</param>
-		<param name="hasUnitLabel">true</param>
-		<param name="unitsLabel">@Strings.cadenceUnitLabel</param>
-		<param name="unitsInline">false</param>
-		<param name="labelVerticalPadding">4</param>
-	</drawable>
-	<drawable id="position_box" class="TextField">
-		<param name="heightPerc">0.20</param>
-		<param name="widthPerc">0.5</param>
-		<param name="startHeightPerc">[0.02, 0.15,0.12, 0.2]</param>
-		<param name="startWidthPerc">[0.5]</param>
-		<param name="backgroundColor">0xCCC0FD</param>
-		<param name="font">Rez.Fonts.roboto_mono_bold_small</param>
-		<param name="unitLabelFont">Rez.Fonts.rubik_regular_unit_medium</param>
-		<param name="initText">@Strings.initialPositionText</param>
-		<param name="hasUnitLabel">true</param>
-		<param name="unitsLabel">@Strings.positionUnitLabel</param>
-		<param name="unitsInline">false</param>
-		<param name="labelVerticalPadding">4</param>
-	</drawable>
-	<drawable id="lap_box" class="TextField">
-		<param name="heightPerc">0.20</param>
-		<param name="widthPerc">0.5</param>
-		<param name="startHeightPerc">[0.02, 0.15,0.12, 0.2, 0.2]</param>
-		<param name="startWidthPerc">[]</param>
-		<param name="backgroundColor">0xDADBFF</param>
-		<param name="font">Rez.Fonts.roboto_mono_bold_small</param>
-		<param name="unitLabelFont">Rez.Fonts.rubik_regular_unit_medium</param>
-		<param name="initText">@Strings.initialLapText</param>
-		<param name="hasUnitLabel">true</param>
-		<param name="unitsLabel">@Strings.lapUnitLabel</param>
-		<param name="unitsInline">false</param>
-		<param name="labelVerticalPadding">4</param>
-	</drawable>
-	<drawable id="elevation_box" class="TextField">
-		<param name="heightPerc">0.20</param>
-		<param name="widthPerc">0.5</param>
-		<param name="startHeightPerc">[0.02, 0.15,0.12, 0.2, 0.2]</param>
-		<param name="startWidthPerc">[0.5]</param>
-		<param name="backgroundColor">0xDADBFF</param>
-		<param name="font">Rez.Fonts.roboto_mono_bold_tiny</param>
-		<param name="unitLabelFont">Rez.Fonts.rubik_regular_unit_medium</param>
-		<param name="initText">@Strings.initialElevationText</param>
-		<param name="hasUnitLabel">true</param>
-		<param name="unitsLabel">@Strings.elevationUnitLabel</param>
-		<param name="unitsInline">false</param>
-		<param name="labelVerticalPadding">6</param>
-	</drawable>
-	<bitmap id="spnfo_logo" x="5" y="385" filename="../drawables/spnfo-purple-light-tiny.png" />
-	<bitmap id="chevron_down" x="127" y="379" filename="../drawables/chevron-down-30.png" />
-</layout>
+	<layout id="InitializeLayout">
+		<bitmap id="spnfo_logo" x="center" y="30"
+			filename="../drawables/spnfo-purple-light-tiny.png" />
+		<label id="topLabel" x="center" y="100"
+			justification="Gfx.TEXT_JUSTIFY_CENTER" font="Gfx.FONT_SMALL"
+			text="@Strings.initializeTopLabel" color="Gfx.COLOR_WHITE" />
+		<label id="codeLabel" x="center" y="180"
+			justification="Gfx.TEXT_JUSTIFY_CENTER"
+			font="@Fonts.roboto_mono_bold_large"
+			text="@Strings.initializeCodeLabel" color="Gfx.COLOR_WHITE" />
+		<label id="bottomLabel" x="center" y="280"
+			justification="Gfx.TEXT_JUSTIFY_CENTER" font="Gfx.FONT_SMALL"
+			text="@Strings.initializeBottomLabel" color="Gfx.COLOR_WHITE" />
+	</layout>
+	<layout id="HomeScreenLayout">
+		<bitmap id="spnfo_logo" x="center" y="30"
+			filename="../drawables/spnfo-purple-light-tiny.png" />
+		<label id="topLabel" x="center" y="100" font="Gfx.FONT_SMALL"
+			color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER"
+			text="@Strings.instructionsLabel1" />
+		<label id="centerLabel" x="center" y="center"
+			font="@Fonts.roboto_mono_bold_large" color="Gfx.COLOR_WHITE"
+			justification="Gfx.TEXT_JUSTIFY_CENTER" />
+		<label id="bottomLabel" x="center" y="250" font="Gfx.FONT_SMALL"
+			color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER"
+			text="@Strings.instructionsLabel2" />
+	</layout>
+	<layout id="RaceCompletedLayout">
+		<bitmap id="spnfo_logo" x="center" y="30"
+			filename="../drawables/spnfo-purple-light-tiny.png" />
+		<label id="centerLabel" x="center" y="center"
+			font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE"
+			text="@Strings.raceCompletedLabel"
+			justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	</layout>
+	<layout id="TopLayout">
+		<drawable id="connected_box" class="TextField">
+			<param name="heightPerc">0.02</param>
+			<param name="widthPerc">1.0</param>
+			<param name="startHeightPerc">[]</param>
+			<param name="startWidthPerc">[]</param>
+			<param name="backgroundColor">0xFF0000</param>
+			<param name="omitText">[]</param>
+		</drawable>
+		<drawable id="power_box" class="TextField">
+			<param name="heightPerc">0.15</param>
+			<param name="widthPerc">1.0</param>
+			<param name="startHeightPerc">[0.02]</param>
+			<param name="startWidthPerc">[]</param>
+			<param name="backgroundColor">0xFED3EF</param>
+			<param name="font">Rez.Fonts.roboto_mono_bold_large</param>
+			<param name="unitLabelFont">Rez.Fonts.rubik_regular_unit_large</param>
+			<param name="initText">@Strings.initialPowerText</param>
+			<param name="hasUnitLabel">true</param>
+			<param name="unitsLabel">@Strings.powerUnitLabel</param>
+			<param name="unitsInline">true</param>
+			<param name="labelVerticalPadding">8</param>
+			<param name="labelHorizontalPadding">5</param>
+		</drawable>
+		<drawable id="time_box" class="TextField">
+			<param name="heightPerc">0.12</param>
+			<param name="widthPerc">1.0</param>
+			<param name="startHeightPerc">[0.02, 0.15]</param>
+			<param name="startWidthPerc">[]</param>
+			<param name="backgroundColor">0xECC0FD</param>
+			<param name="font">Rez.Fonts.roboto_mono_bold_medium</param>
+			<param name="initText">@Strings.initialTimerText</param>
+			<param name="hasUnitLabel">false</param>
+			<param name="unitsInline">true</param>
+		</drawable>
+		<drawable id="speed_box" class="TextField">
+			<param name="heightPerc">0.2</param>
+			<param name="widthPerc">0.5</param>
+			<param name="startHeightPerc">[0.02, 0.15,0.12]</param>
+			<param name="startWidthPerc">[]</param>
+			<param name="backgroundColor">0xCCC0FD</param>
+			<param name="font">Rez.Fonts.roboto_mono_bold_medium</param>
+			<param name="unitLabelFont">Rez.Fonts.rubik_regular_unit_medium</param>
+			<param name="initText">@Strings.initialSpeedText</param>
+			<param name="hasUnitLabel">true</param>
+			<param name="unitsLabel">@Strings.speedUnitLabel</param>
+			<param name="unitsInline">false</param>
+			<param name="labelVerticalPadding">4</param>
+		</drawable>
+		<drawable id="hr_box" class="TextField">
+			<param name="heightPerc">0.2</param>
+			<param name="widthPerc">0.5</param>
+			<param name="startHeightPerc">[0.02, 0.15,0.12]</param>
+			<param name="startWidthPerc">[0.5]</param>
+			<param name="backgroundColor">0xCCC0FD</param>
+			<param name="font">Rez.Fonts.roboto_mono_bold_medium</param>
+			<param name="unitLabelFont">Rez.Fonts.rubik_regular_unit_medium</param>
+			<param name="initText">@Strings.initialHrText</param>
+			<param name="hasUnitLabel">true</param>
+			<param name="unitsLabel">@Strings.hrUnitLabel</param>
+			<param name="unitsInline">false</param>
+			<param name="labelVerticalPadding">4</param>
+		</drawable>
+		<drawable id="cadence_box" class="TextField">
+			<param name="heightPerc">0.20</param>
+			<param name="widthPerc">0.5</param>
+			<param name="startHeightPerc">[0.02, 0.15,0.12, 0.2]</param>
+			<param name="startWidthPerc">[]</param>
+			<param name="backgroundColor">0xCCC0FD</param>
+			<param name="font">Rez.Fonts.roboto_mono_bold_medium</param>
+			<param name="unitLabelFont">Rez.Fonts.rubik_regular_unit_medium</param>
+			<param name="initText">@Strings.initialCadenceText</param>
+			<param name="hasUnitLabel">true</param>
+			<param name="unitsLabel">@Strings.cadenceUnitLabel</param>
+			<param name="unitsInline">false</param>
+			<param name="labelVerticalPadding">4</param>
+		</drawable>
+		<drawable id="position_box" class="TextField">
+			<param name="heightPerc">0.20</param>
+			<param name="widthPerc">0.5</param>
+			<param name="startHeightPerc">[0.02, 0.15,0.12, 0.2]</param>
+			<param name="startWidthPerc">[0.5]</param>
+			<param name="backgroundColor">0xCCC0FD</param>
+			<param name="font">Rez.Fonts.roboto_mono_bold_small</param>
+			<param name="unitLabelFont">Rez.Fonts.rubik_regular_unit_medium</param>
+			<param name="initText">@Strings.initialPositionText</param>
+			<param name="hasUnitLabel">true</param>
+			<param name="unitsLabel">@Strings.positionUnitLabel</param>
+			<param name="unitsInline">false</param>
+			<param name="labelVerticalPadding">4</param>
+		</drawable>
+		<drawable id="lap_box" class="TextField">
+			<param name="heightPerc">0.20</param>
+			<param name="widthPerc">0.5</param>
+			<param name="startHeightPerc">[0.02, 0.15,0.12, 0.2, 0.2]</param>
+			<param name="startWidthPerc">[]</param>
+			<param name="backgroundColor">0xDADBFF</param>
+			<param name="font">Rez.Fonts.roboto_mono_bold_small</param>
+			<param name="unitLabelFont">Rez.Fonts.rubik_regular_unit_medium</param>
+			<param name="initText">@Strings.initialLapText</param>
+			<param name="hasUnitLabel">true</param>
+			<param name="unitsLabel">@Strings.lapUnitLabel</param>
+			<param name="unitsInline">false</param>
+			<param name="labelVerticalPadding">4</param>
+		</drawable>
+		<drawable id="elevation_box" class="TextField">
+			<param name="heightPerc">0.20</param>
+			<param name="widthPerc">0.5</param>
+			<param name="startHeightPerc">[0.02, 0.15,0.12, 0.2, 0.2]</param>
+			<param name="startWidthPerc">[0.5]</param>
+			<param name="backgroundColor">0xDADBFF</param>
+			<param name="font">Rez.Fonts.roboto_mono_bold_tiny</param>
+			<param name="unitLabelFont">Rez.Fonts.rubik_regular_unit_medium</param>
+			<param name="initText">@Strings.initialElevationText</param>
+			<param name="hasUnitLabel">true</param>
+			<param name="unitsLabel">@Strings.elevationUnitLabel</param>
+			<param name="unitsInline">false</param>
+			<param name="labelVerticalPadding">6</param>
+		</drawable>
+		<bitmap id="spnfo_logo" x="5" y="385"
+			filename="../drawables/spnfo-purple-light-tiny.png" />
+		<bitmap id="chevron_down" x="127" y="379"
+			filename="../drawables/chevron-down-30.png" />
+	</layout>
 
-<layout id="BottomLayout">
-	<drawable id="connected_box" class="TextField">
-		<param name="heightPerc">0.02</param>
-		<param name="widthPerc">1.0</param>
-		<param name="startHeightPerc">[]</param>
-		<param name="startWidthPerc">[]</param>
-		<param name="backgroundColor">0xFF0000</param>
-		<param name="omitText">[]</param>
-	</drawable>
-	<drawable id="chevron_box" class="TextField">
-		<param name="heightPerc">0.11</param>
-		<param name="widthPerc">1.0</param>
-		<param name="startHeightPerc">[0.02]</param>
-		<param name="startWidthPerc">[]</param>
-		<param name="backgroundColor">0x000000</param>
-		<param name="omitText">[]</param>
-	</drawable>
-	<drawable id="place1_position_box" class="TextField">
-		<param name="heightPerc">0.07</param>
-		<param name="widthPerc">0.2</param>
-		<param name="startHeightPerc">[0.02, 0.11]</param>
-		<param name="startWidthPerc">[]</param>
-		<param name="backgroundColor">0xFED3EF</param>
-		<param name="hasUnitLabel">false</param>
-		<param name="unitsInline">true</param>
-		<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
-		<param name="initText">@Strings.initialPlaceText</param>
-	</drawable>
-	<drawable id="place1_tag_box" class="TextField">
-		<param name="heightPerc">0.07</param>
-		<param name="widthPerc">0.5</param>
-		<param name="startHeightPerc">[0.02, 0.11]</param>
-		<param name="startWidthPerc">[0.2]</param>
-		<param name="backgroundColor">0xFED3EF</param>
-		<param name="hasUnitLabel">false</param>
-		<param name="unitsInline">true</param>
-		<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
-		<param name="initText">@Strings.initialTagText</param>
-	</drawable>
-	<drawable id="place1_time_box" class="TextField">
-		<param name="heightPerc">0.07</param>
-		<param name="widthPerc">0.3</param>
-		<param name="startHeightPerc">[0.02, 0.11]</param>
-		<param name="startWidthPerc">[0.2, 0.5]</param>
-		<param name="backgroundColor">0xFED3EF</param>
-		<param name="hasUnitLabel">false</param>
-		<param name="unitsInline">true</param>
-		<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
-		<param name="initText">@Strings.initialTimeText</param>
-	</drawable>
-	<drawable id="place2_position_box" class="TextField">
-		<param name="heightPerc">0.07</param>
-		<param name="widthPerc">0.2</param>
-		<param name="startHeightPerc">[0.02, 0.11, 0.07]</param>
-		<param name="startWidthPerc">[]</param>
-		<param name="backgroundColor">0xECC0FD</param>
-		<param name="hasUnitLabel">false</param>
-		<param name="unitsInline">true</param>
-		<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
-		<param name="initText">@Strings.initialPlaceText</param>
-	</drawable>
-	<drawable id="place2_tag_box" class="TextField">
-		<param name="heightPerc">0.07</param>
-		<param name="widthPerc">0.5</param>
-		<param name="startHeightPerc">[0.02, 0.11, 0.07]</param>
-		<param name="startWidthPerc">[0.2]</param>
-		<param name="backgroundColor">0xECC0FD</param>
-		<param name="hasUnitLabel">false</param>
-		<param name="unitsInline">true</param>
-		<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
-		<param name="initText">@Strings.initialTagText</param>
-	</drawable>
-	<drawable id="place2_time_box" class="TextField">
-		<param name="heightPerc">0.07</param>
-		<param name="widthPerc">0.3</param>
-		<param name="startHeightPerc">[0.02, 0.11, 0.07]</param>
-		<param name="startWidthPerc">[0.2, 0.5]</param>
-		<param name="backgroundColor">0xECC0FD</param>
-		<param name="hasUnitLabel">false</param>
-		<param name="unitsInline">true</param>
-		<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
-		<param name="initText">@Strings.initialTimeText</param>
-	</drawable>
-	<drawable id="place3_position_box" class="TextField">
-		<param name="heightPerc">0.07</param>
-		<param name="widthPerc">0.2</param>
-		<param name="startHeightPerc">[0.02, 0.11, 0.07, 0.07]</param>
-		<param name="startWidthPerc">[]</param>
-		<param name="backgroundColor">0xFED3EF</param>
-		<param name="hasUnitLabel">false</param>
-		<param name="unitsInline">true</param>
-		<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
-		<param name="initText">@Strings.initialPlaceText</param>
-	</drawable>
-	<drawable id="place3_tag_box" class="TextField">
-		<param name="heightPerc">0.07</param>
-		<param name="widthPerc">0.5</param>
-		<param name="startHeightPerc">[0.02, 0.11, 0.07, 0.07]</param>
-		<param name="startWidthPerc">[0.2]</param>
-		<param name="backgroundColor">0xFED3EF</param>
-		<param name="hasUnitLabel">false</param>
-		<param name="unitsInline">true</param>
-		<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
-		<param name="initText">@Strings.initialTagText</param>
-	</drawable>
-	<drawable id="place3_time_box" class="TextField">
-		<param name="heightPerc">0.07</param>
-		<param name="widthPerc">0.3</param>
-		<param name="startHeightPerc">[0.02, 0.11, 0.07, 0.07]</param>
-		<param name="startWidthPerc">[0.2, 0.5]</param>
-		<param name="backgroundColor">0xFED3EF</param>
-		<param name="hasUnitLabel">false</param>
-		<param name="unitsInline">true</param>
-		<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
-		<param name="initText">@Strings.initialTimeText</param>
-	</drawable>
-	<drawable id="place4_position_box" class="TextField">
-		<param name="heightPerc">0.07</param>
-		<param name="widthPerc">0.2</param>
-		<param name="startHeightPerc">[0.02, 0.11, 0.07, 0.07, 0.07]</param>
-		<param name="startWidthPerc">[]</param>
-		<param name="backgroundColor">0xECC0FD</param>
-		<param name="hasUnitLabel">false</param>
-		<param name="unitsInline">true</param>
-		<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
-		<param name="initText">@Strings.initialPlaceText</param>
-	</drawable>
-	<drawable id="place4_tag_box" class="TextField">
-		<param name="heightPerc">0.07</param>
-		<param name="widthPerc">0.5</param>
-		<param name="startHeightPerc">[0.02, 0.11, 0.07, 0.07, 0.07]</param>
-		<param name="startWidthPerc">[0.2]</param>
-		<param name="backgroundColor">0xECC0FD</param>
-		<param name="hasUnitLabel">false</param>
-		<param name="unitsInline">true</param>
-		<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
-		<param name="initText">@Strings.initialTagText</param>
-	</drawable>
-	<drawable id="place4_time_box" class="TextField">
-		<param name="heightPerc">0.07</param>
-		<param name="widthPerc">0.3</param>
-		<param name="startHeightPerc">[0.02, 0.11, 0.07, 0.07, 0.07]</param>
-		<param name="startWidthPerc">[0.2, 0.5]</param>
-		<param name="backgroundColor">0xECC0FD</param>
-		<param name="hasUnitLabel">false</param>
-		<param name="unitsInline">true</param>
-		<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
-		<param name="initText">@Strings.initialTimeText</param>
-	</drawable>
-	<drawable id="place5_position_box" class="TextField">
-		<param name="heightPerc">0.07</param>
-		<param name="widthPerc">0.2</param>
-		<param name="startHeightPerc">[0.02, 0.11, 0.07, 0.07, 0.07, 0.07]</param>
-		<param name="startWidthPerc">[]</param>
-		<param name="backgroundColor">0xFED3EF</param>
-		<param name="hasUnitLabel">false</param>
-		<param name="unitsInline">true</param>
-		<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
-		<param name="initText">@Strings.initialPlaceText</param>
-	</drawable>
-	<drawable id="place5_tag_box" class="TextField">
-		<param name="heightPerc">0.07</param>
-		<param name="widthPerc">0.5</param>
-		<param name="startHeightPerc">[0.02, 0.11, 0.07, 0.07, 0.07, 0.07]</param>
-		<param name="startWidthPerc">[0.2]</param>
-		<param name="backgroundColor">0xFED3EF</param>
-		<param name="hasUnitLabel">false</param>
-		<param name="unitsInline">true</param>
-		<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
-		<param name="initText">@Strings.initialTagText</param>
-	</drawable>
-	<drawable id="place5_time_box" class="TextField">
-		<param name="heightPerc">0.07</param>
-		<param name="widthPerc">0.3</param>
-		<param name="startHeightPerc">[0.02, 0.11, 0.07, 0.07, 0.07, 0.07]</param>
-		<param name="startWidthPerc">[0.2, 0.5]</param>
-		<param name="backgroundColor">0xFED3EF</param>
-		<param name="hasUnitLabel">false</param>
-		<param name="unitsInline">true</param>
-		<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
-		<param name="initText">@Strings.initialTimeText</param>
-	</drawable>
-	<drawable id="pts_box" class="TextField">
-		<param name="heightPerc">0.20</param>
-		<param name="widthPerc">0.5</param>
-		<param name="startHeightPerc">[0.02, 0.11, 0.07, 0.07, 0.07, 0.07, 0.07]</param>
-		<param name="startWidthPerc">[]</param>
-		<param name="backgroundColor">0xCCC0FD</param>
-		<param name="font">Rez.Fonts.roboto_mono_bold_small</param>
-		<param name="unitLabelFont">Rez.Fonts.rubik_regular_unit_medium</param>
-		<param name="initText">@Strings.initialPointsText</param>
-		<param name="hasUnitLabel">true</param>
-		<param name="unitsLabel">@Strings.pointsUnitLabel</param>
-		<param name="unitsInline">false</param>
-		<param name="labelVerticalPadding">4</param>
-	</drawable>
-	<drawable id="prev_sprint_place_box" class="TextField">
-		<param name="heightPerc">0.20</param>
-		<param name="widthPerc">0.5</param>
-		<param name="startHeightPerc">[0.02, 0.11, 0.07, 0.07, 0.07, 0.07, 0.07]</param>
-		<param name="startWidthPerc">[0.5]</param>
-		<param name="backgroundColor">0xCCC0FD</param>
-		<param name="font">Rez.Fonts.roboto_mono_bold_small</param>
-		<param name="unitLabelFont">Rez.Fonts.rubik_regular_unit_medium</param>
-		<param name="initText">@Strings.initialPrevPlaceText</param>
-		<param name="hasUnitLabel">true</param>
-		<param name="unitsLabel">@Strings.prevPlaceUnitLabel</param>
-		<param name="unitsInline">false</param>
-		<param name="labelVerticalPadding">4</param>
-	</drawable>
-	<drawable id="dtns_box" class="TextField">
-		<param name="heightPerc">0.20</param>
-		<param name="widthPerc">1.0</param>
-		<param name="startHeightPerc">[0.02, 0.11, 0.07, 0.07, 0.07, 0.07, 0.07, 0.2]</param>
-		<param name="startWidthPerc">[]</param>
-		<param name="backgroundColor">0xCCC0FD</param>
-		<param name="font">Rez.Fonts.roboto_mono_bold_small</param>
-		<param name="unitLabelFont">Rez.Fonts.rubik_regular_unit_medium</param>
-		<param name="initText">@Strings.initialDTNSText</param>
-		<param name="hasUnitLabel">true</param>
-		<param name="unitsLabel">@Strings.DTNSUnitLabel</param>
-		<param name="unitsInline">false</param>
-		<param name="labelVerticalPadding">4</param>
-	</drawable>
-	<bitmap id="spnfo_logo" x="5" y="385" filename="../drawables/spnfo-purple-light-tiny.png" />
-	<bitmap id="chevron_up" x="127" y="15" filename="../drawables/chevron-up-30.png" />
-</layout>
+	<layout id="BottomLayout">
+		<drawable id="connected_box" class="TextField">
+			<param name="heightPerc">0.02</param>
+			<param name="widthPerc">1.0</param>
+			<param name="startHeightPerc">[]</param>
+			<param name="startWidthPerc">[]</param>
+			<param name="backgroundColor">0xFF0000</param>
+			<param name="omitText">[]</param>
+		</drawable>
+		<drawable id="chevron_box" class="TextField">
+			<param name="heightPerc">0.11</param>
+			<param name="widthPerc">1.0</param>
+			<param name="startHeightPerc">[0.02]</param>
+			<param name="startWidthPerc">[]</param>
+			<param name="backgroundColor">0x000000</param>
+			<param name="omitText">[]</param>
+		</drawable>
+		<drawable id="place1_position_box" class="TextField">
+			<param name="heightPerc">0.07</param>
+			<param name="widthPerc">0.2</param>
+			<param name="startHeightPerc">[0.02, 0.11]</param>
+			<param name="startWidthPerc">[]</param>
+			<param name="backgroundColor">0xFED3EF</param>
+			<param name="hasUnitLabel">false</param>
+			<param name="unitsInline">true</param>
+			<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
+			<param name="initText">@Strings.initialPlaceText</param>
+		</drawable>
+		<drawable id="place1_tag_box" class="TextField">
+			<param name="heightPerc">0.07</param>
+			<param name="widthPerc">0.5</param>
+			<param name="startHeightPerc">[0.02, 0.11]</param>
+			<param name="startWidthPerc">[0.2]</param>
+			<param name="backgroundColor">0xFED3EF</param>
+			<param name="hasUnitLabel">false</param>
+			<param name="unitsInline">true</param>
+			<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
+			<param name="initText">@Strings.initialTagText</param>
+		</drawable>
+		<drawable id="place1_time_box" class="TextField">
+			<param name="heightPerc">0.07</param>
+			<param name="widthPerc">0.3</param>
+			<param name="startHeightPerc">[0.02, 0.11]</param>
+			<param name="startWidthPerc">[0.2, 0.5]</param>
+			<param name="backgroundColor">0xFED3EF</param>
+			<param name="hasUnitLabel">false</param>
+			<param name="unitsInline">true</param>
+			<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
+			<param name="initText">@Strings.initialTimeText</param>
+		</drawable>
+		<drawable id="place2_position_box" class="TextField">
+			<param name="heightPerc">0.07</param>
+			<param name="widthPerc">0.2</param>
+			<param name="startHeightPerc">[0.02, 0.11, 0.07]</param>
+			<param name="startWidthPerc">[]</param>
+			<param name="backgroundColor">0xECC0FD</param>
+			<param name="hasUnitLabel">false</param>
+			<param name="unitsInline">true</param>
+			<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
+			<param name="initText">@Strings.initialPlaceText</param>
+		</drawable>
+		<drawable id="place2_tag_box" class="TextField">
+			<param name="heightPerc">0.07</param>
+			<param name="widthPerc">0.5</param>
+			<param name="startHeightPerc">[0.02, 0.11, 0.07]</param>
+			<param name="startWidthPerc">[0.2]</param>
+			<param name="backgroundColor">0xECC0FD</param>
+			<param name="hasUnitLabel">false</param>
+			<param name="unitsInline">true</param>
+			<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
+			<param name="initText">@Strings.initialTagText</param>
+		</drawable>
+		<drawable id="place2_time_box" class="TextField">
+			<param name="heightPerc">0.07</param>
+			<param name="widthPerc">0.3</param>
+			<param name="startHeightPerc">[0.02, 0.11, 0.07]</param>
+			<param name="startWidthPerc">[0.2, 0.5]</param>
+			<param name="backgroundColor">0xECC0FD</param>
+			<param name="hasUnitLabel">false</param>
+			<param name="unitsInline">true</param>
+			<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
+			<param name="initText">@Strings.initialTimeText</param>
+		</drawable>
+		<drawable id="place3_position_box" class="TextField">
+			<param name="heightPerc">0.07</param>
+			<param name="widthPerc">0.2</param>
+			<param name="startHeightPerc">[0.02, 0.11, 0.07, 0.07]</param>
+			<param name="startWidthPerc">[]</param>
+			<param name="backgroundColor">0xFED3EF</param>
+			<param name="hasUnitLabel">false</param>
+			<param name="unitsInline">true</param>
+			<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
+			<param name="initText">@Strings.initialPlaceText</param>
+		</drawable>
+		<drawable id="place3_tag_box" class="TextField">
+			<param name="heightPerc">0.07</param>
+			<param name="widthPerc">0.5</param>
+			<param name="startHeightPerc">[0.02, 0.11, 0.07, 0.07]</param>
+			<param name="startWidthPerc">[0.2]</param>
+			<param name="backgroundColor">0xFED3EF</param>
+			<param name="hasUnitLabel">false</param>
+			<param name="unitsInline">true</param>
+			<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
+			<param name="initText">@Strings.initialTagText</param>
+		</drawable>
+		<drawable id="place3_time_box" class="TextField">
+			<param name="heightPerc">0.07</param>
+			<param name="widthPerc">0.3</param>
+			<param name="startHeightPerc">[0.02, 0.11, 0.07, 0.07]</param>
+			<param name="startWidthPerc">[0.2, 0.5]</param>
+			<param name="backgroundColor">0xFED3EF</param>
+			<param name="hasUnitLabel">false</param>
+			<param name="unitsInline">true</param>
+			<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
+			<param name="initText">@Strings.initialTimeText</param>
+		</drawable>
+		<drawable id="place4_position_box" class="TextField">
+			<param name="heightPerc">0.07</param>
+			<param name="widthPerc">0.2</param>
+			<param name="startHeightPerc">[0.02, 0.11, 0.07, 0.07, 0.07]</param>
+			<param name="startWidthPerc">[]</param>
+			<param name="backgroundColor">0xECC0FD</param>
+			<param name="hasUnitLabel">false</param>
+			<param name="unitsInline">true</param>
+			<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
+			<param name="initText">@Strings.initialPlaceText</param>
+		</drawable>
+		<drawable id="place4_tag_box" class="TextField">
+			<param name="heightPerc">0.07</param>
+			<param name="widthPerc">0.5</param>
+			<param name="startHeightPerc">[0.02, 0.11, 0.07, 0.07, 0.07]</param>
+			<param name="startWidthPerc">[0.2]</param>
+			<param name="backgroundColor">0xECC0FD</param>
+			<param name="hasUnitLabel">false</param>
+			<param name="unitsInline">true</param>
+			<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
+			<param name="initText">@Strings.initialTagText</param>
+		</drawable>
+		<drawable id="place4_time_box" class="TextField">
+			<param name="heightPerc">0.07</param>
+			<param name="widthPerc">0.3</param>
+			<param name="startHeightPerc">[0.02, 0.11, 0.07, 0.07, 0.07]</param>
+			<param name="startWidthPerc">[0.2, 0.5]</param>
+			<param name="backgroundColor">0xECC0FD</param>
+			<param name="hasUnitLabel">false</param>
+			<param name="unitsInline">true</param>
+			<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
+			<param name="initText">@Strings.initialTimeText</param>
+		</drawable>
+		<drawable id="place5_position_box" class="TextField">
+			<param name="heightPerc">0.07</param>
+			<param name="widthPerc">0.2</param>
+			<param name="startHeightPerc">[0.02, 0.11, 0.07, 0.07, 0.07, 0.07]</param>
+			<param name="startWidthPerc">[]</param>
+			<param name="backgroundColor">0xFED3EF</param>
+			<param name="hasUnitLabel">false</param>
+			<param name="unitsInline">true</param>
+			<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
+			<param name="initText">@Strings.initialPlaceText</param>
+		</drawable>
+		<drawable id="place5_tag_box" class="TextField">
+			<param name="heightPerc">0.07</param>
+			<param name="widthPerc">0.5</param>
+			<param name="startHeightPerc">[0.02, 0.11, 0.07, 0.07, 0.07, 0.07]</param>
+			<param name="startWidthPerc">[0.2]</param>
+			<param name="backgroundColor">0xFED3EF</param>
+			<param name="hasUnitLabel">false</param>
+			<param name="unitsInline">true</param>
+			<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
+			<param name="initText">@Strings.initialTagText</param>
+		</drawable>
+		<drawable id="place5_time_box" class="TextField">
+			<param name="heightPerc">0.07</param>
+			<param name="widthPerc">0.3</param>
+			<param name="startHeightPerc">[0.02, 0.11, 0.07, 0.07, 0.07, 0.07]</param>
+			<param name="startWidthPerc">[0.2, 0.5]</param>
+			<param name="backgroundColor">0xFED3EF</param>
+			<param name="hasUnitLabel">false</param>
+			<param name="unitsInline">true</param>
+			<param name="font">Rez.Fonts.rubik_regular_unit_small</param>
+			<param name="initText">@Strings.initialTimeText</param>
+		</drawable>
+		<drawable id="pts_box" class="TextField">
+			<param name="heightPerc">0.20</param>
+			<param name="widthPerc">0.5</param>
+			<param name="startHeightPerc">[0.02, 0.11, 0.07, 0.07, 0.07, 0.07, 0.07]</param>
+			<param name="startWidthPerc">[]</param>
+			<param name="backgroundColor">0xCCC0FD</param>
+			<param name="font">Rez.Fonts.roboto_mono_bold_small</param>
+			<param name="unitLabelFont">Rez.Fonts.rubik_regular_unit_medium</param>
+			<param name="initText">@Strings.initialPointsText</param>
+			<param name="hasUnitLabel">true</param>
+			<param name="unitsLabel">@Strings.pointsUnitLabel</param>
+			<param name="unitsInline">false</param>
+			<param name="labelVerticalPadding">4</param>
+		</drawable>
+		<drawable id="prev_sprint_place_box" class="TextField">
+			<param name="heightPerc">0.20</param>
+			<param name="widthPerc">0.5</param>
+			<param name="startHeightPerc">[0.02, 0.11, 0.07, 0.07, 0.07, 0.07, 0.07]</param>
+			<param name="startWidthPerc">[0.5]</param>
+			<param name="backgroundColor">0xCCC0FD</param>
+			<param name="font">Rez.Fonts.roboto_mono_bold_small</param>
+			<param name="unitLabelFont">Rez.Fonts.rubik_regular_unit_medium</param>
+			<param name="initText">@Strings.initialPrevPlaceText</param>
+			<param name="hasUnitLabel">true</param>
+			<param name="unitsLabel">@Strings.prevPlaceUnitLabel</param>
+			<param name="unitsInline">false</param>
+			<param name="labelVerticalPadding">4</param>
+		</drawable>
+		<drawable id="dtns_box" class="TextField">
+			<param name="heightPerc">0.20</param>
+			<param name="widthPerc">1.0</param>
+			<param name="startHeightPerc">[0.02, 0.11, 0.07, 0.07, 0.07, 0.07, 0.07, 0.2]
+			</param>
+			<param name="startWidthPerc">[]</param>
+			<param name="backgroundColor">0xCCC0FD</param>
+			<param name="font">Rez.Fonts.roboto_mono_bold_small</param>
+			<param name="unitLabelFont">Rez.Fonts.rubik_regular_unit_medium</param>
+			<param name="initText">@Strings.initialDTNSText</param>
+			<param name="hasUnitLabel">true</param>
+			<param name="unitsLabel">@Strings.DTNSUnitLabel</param>
+			<param name="unitsInline">false</param>
+			<param name="labelVerticalPadding">4</param>
+		</drawable>
+		<bitmap id="spnfo_logo" x="5" y="385"
+			filename="../drawables/spnfo-purple-light-tiny.png" />
+		<bitmap id="chevron_up" x="127" y="15"
+			filename="../drawables/chevron-up-30.png" />
+	</layout>
 </layouts>

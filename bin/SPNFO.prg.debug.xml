@@ -1,785 +1,886 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
-    <manifest filename="/home/nathaniel/eclipse-workspace/SPNFO/manifest.xml"/>
+    <manifest filename="/home/nathaniel/workspace/spnfo/garmin/manifest.xml"/>
     <pcToLineNum>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="3" lineNum="37" pc="268435456" symbol="getResponseValues"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="3" lineNum="38" pc="268435460" symbol="getResponseValues"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="4" lineNum="41" pc="268435470" symbol="getRaceMetadata"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="4" lineNum="42" pc="268435474" symbol="getRaceMetadata"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="5" lineNum="45" pc="268435484" symbol="setRaceMetadata"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="5" lineNum="46" pc="268435488" symbol="setRaceMetadata"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="6" lineNum="49" pc="268435499" symbol="loadUserMetadata"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="6" lineNum="50" pc="268435503" symbol="loadUserMetadata"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="7" lineNum="55" pc="268435546" symbol="timeTimerCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="7" lineNum="56" pc="268435550" symbol="timeTimerCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="8" lineNum="59" pc="268435570" symbol="fakePositionCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="9" lineNum="61" pc="268435575" symbol="startRace"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="9" lineNum="62" pc="268435579" symbol="startRace"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="9" lineNum="63" pc="268435613" symbol="startRace"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="9" lineNum="65" pc="268435654" symbol="startRace"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="9" lineNum="66" pc="268435688" symbol="startRace"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="10" lineNum="69" pc="268435730" symbol="onReceiveRaceData"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="10" lineNum="70" pc="268435734" symbol="onReceiveRaceData"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="10" lineNum="71" pc="268435754" symbol="onReceiveRaceData"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="10" lineNum="73" pc="268435774" symbol="onReceiveRaceData"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="10" lineNum="75" pc="268435785" symbol="onReceiveRaceData"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="10" lineNum="76" pc="268435810" symbol="onReceiveRaceData"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="10" lineNum="77" pc="268435849" symbol="onReceiveRaceData"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="10" lineNum="78" pc="268435888" symbol="onReceiveRaceData"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="10" lineNum="79" pc="268435927" symbol="onReceiveRaceData"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="10" lineNum="80" pc="268435966" symbol="onReceiveRaceData"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="10" lineNum="81" pc="268436005" symbol="onReceiveRaceData"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="10" lineNum="82" pc="268436044" symbol="onReceiveRaceData"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="10" lineNum="84" pc="268436083" symbol="onReceiveRaceData"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="10" lineNum="85" pc="268436164" symbol="onReceiveRaceData"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="10" lineNum="89" pc="268436182" symbol="onReceiveRaceData"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="10" lineNum="92" pc="268436207" symbol="onReceiveRaceData"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="11" lineNum="95" pc="268436224" symbol="makeRequest"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="11" lineNum="97" pc="268436228" symbol="makeRequest"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="11" lineNum="99" pc="268436245" symbol="makeRequest"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="11" lineNum="100" pc="268436280" symbol="makeRequest"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="11" lineNum="102" pc="268436306" symbol="makeRequest"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="11" lineNum="103" pc="268436317" symbol="makeRequest"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="11" lineNum="106" pc="268436351" symbol="makeRequest"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="11" lineNum="107" pc="268436408" symbol="makeRequest"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="11" lineNum="114" pc="268436591" symbol="makeRequest"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="11" lineNum="116" pc="268436641" symbol="makeRequest"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="12" lineNum="121" pc="268436664" symbol="startPostTimer"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="12" lineNum="122" pc="268436668" symbol="startPostTimer"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="12" lineNum="123" pc="268436681" symbol="startPostTimer"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="12" lineNum="124" pc="268436725" symbol="startPostTimer"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="12" lineNum="125" pc="268436769" symbol="startPostTimer"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="13" lineNum="128" pc="268436811" symbol="raceCompletedCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="13" lineNum="129" pc="268436815" symbol="raceCompletedCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="14" lineNum="132" pc="268436888" symbol="raceCompleted"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="14" lineNum="133" pc="268436892" symbol="raceCompleted"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="14" lineNum="134" pc="268436936" symbol="raceCompleted"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="14" lineNum="135" pc="268436954" symbol="raceCompleted"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="14" lineNum="137" pc="268436972" symbol="raceCompleted"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="14" lineNum="139" pc="268436981" symbol="raceCompleted"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="15" lineNum="147" pc="268437066" symbol="stopPostTimer"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="15" lineNum="148" pc="268437070" symbol="stopPostTimer"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="16" lineNum="151" pc="268437089" symbol="initialize"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="16" lineNum="152" pc="268437093" symbol="initialize"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="16" lineNum="154" pc="268437111" symbol="initialize"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="16" lineNum="155" pc="268437145" symbol="initialize"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="16" lineNum="157" pc="268437179" symbol="initialize"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="16" lineNum="158" pc="268437202" symbol="initialize"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="17" lineNum="165" pc="268437248" symbol="onStart"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="18" lineNum="169" pc="268437253" symbol="onStop"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="19" lineNum="173" pc="268437258" symbol="getInitialView"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="19" lineNum="174" pc="268437262" symbol="getInitialView"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="19" lineNum="175" pc="268437285" symbol="getInitialView"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="19" lineNum="177" pc="268437355" symbol="getInitialView"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="19" lineNum="30" pc="268457975" symbol="&lt;init&gt;"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="19" lineNum="35" pc="268457989" symbol="&lt;init&gt;"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOApp.mc" id="19" lineNum="12" pc="268457527" symbol="&lt;init&gt;"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomDelegate.mc" id="21" lineNum="5" pc="268437423" symbol="pushTopScreen"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomDelegate.mc" id="21" lineNum="6" pc="268437427" symbol="pushTopScreen"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomDelegate.mc" id="22" lineNum="10" pc="268437456" symbol="onSwipe"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomDelegate.mc" id="22" lineNum="11" pc="268437460" symbol="onSwipe"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomDelegate.mc" id="22" lineNum="12" pc="268437487" symbol="onSwipe"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomDelegate.mc" id="22" lineNum="15" pc="268437502" symbol="onSwipe"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="16" pc="268437509" symbol="Initialize"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="24" lineNum="17" pc="268437513" symbol="Initialize"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="24" pc="268437532" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="25" pc="268437536" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="29" pc="268437573" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="32" pc="268437607" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="34" pc="268437652" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="35" pc="268437706" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="36" pc="268437760" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="37" pc="268437814" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="38" pc="268437868" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="39" pc="268437922" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="40" pc="268437976" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="41" pc="268438030" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="42" pc="268438084" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="43" pc="268438138" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="44" pc="268438192" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="45" pc="268438246" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="46" pc="268438300" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="47" pc="268438354" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="48" pc="268438408" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="50" pc="268438462" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="51" pc="268438507" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="52" pc="268438552" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="54" pc="268438597" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="55" pc="268438655" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="56" pc="268438713" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="57" pc="268438771" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="58" pc="268438829" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="25" lineNum="59" pc="268438887" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="26" lineNum="63" pc="268438946" symbol="onShow"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="65" pc="268438951" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="66" pc="268438955" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="68" pc="268438975" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="69" pc="268438992" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="71" pc="268439020" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="72" pc="268439039" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="74" pc="268439079" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="77" pc="268439116" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="78" pc="268439165" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="80" pc="268439230" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="83" pc="268439284" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="84" pc="268439305" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="87" pc="268439365" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="88" pc="268439386" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="91" pc="268439460" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="93" pc="268439467" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="94" pc="268439488" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="95" pc="268439526" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="96" pc="268439587" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="97" pc="268439591" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="101" pc="268439610" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="102" pc="268439648" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="103" pc="268439716" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="105" pc="268439793" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="106" pc="268439801" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="107" pc="268439832" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="108" pc="268439933" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="110" pc="268439987" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="112" pc="268440044" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="113" pc="268440079" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="114" pc="268440114" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="116" pc="268440152" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="118" pc="268440209" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="119" pc="268440249" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="27" lineNum="120" pc="268440289" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="28" lineNum="126" pc="268440346" symbol="onHide"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="28" lineNum="7" pc="268457729" symbol="&lt;init&gt;"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOBottomView.mc" id="28" lineNum="12" pc="268457743" symbol="&lt;init&gt;"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFORaceCompleted.mc" id="30" lineNum="5" pc="268440354" symbol="initialize"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFORaceCompleted.mc" id="30" lineNum="6" pc="268440358" symbol="initialize"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFORaceCompleted.mc" id="31" lineNum="9" pc="268440377" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFORaceCompleted.mc" id="31" lineNum="10" pc="268440381" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFORaceCompleted.mc" id="32" lineNum="14" pc="268440419" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFORaceCompleted.mc" id="32" lineNum="15" pc="268440423" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFORaceCompleted.mc" id="33" lineNum="18" pc="268440444" symbol="onHide"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="35" lineNum="22" pc="268440449" symbol="refreshCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="35" lineNum="23" pc="268440453" symbol="refreshCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="35" lineNum="24" pc="268440464" symbol="refreshCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="35" lineNum="26" pc="268440491" symbol="refreshCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="35" lineNum="29" pc="268440500" symbol="refreshCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="36" lineNum="32" pc="268440517" symbol="onRefresh"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="36" lineNum="33" pc="268440521" symbol="onRefresh"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="36" lineNum="34" pc="268440552" symbol="onRefresh"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="37" lineNum="37" pc="268440596" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="37" lineNum="39" pc="268440600" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="37" lineNum="40" pc="268440611" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="37" lineNum="43" pc="268440632" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="37" lineNum="44" pc="268440669" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="37" lineNum="45" pc="268440692" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="37" lineNum="48" pc="268440717" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="38" lineNum="53" pc="268440796" symbol="onStatus"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="38" lineNum="54" pc="268440800" symbol="onStatus"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="38" lineNum="55" pc="268440837" symbol="onStatus"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="39" lineNum="58" pc="268440881" symbol="initialize"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="39" lineNum="59" pc="268440885" symbol="initialize"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="40" lineNum="62" pc="268440904" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="40" lineNum="63" pc="268440908" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="40" lineNum="65" pc="268440945" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="40" lineNum="66" pc="268440979" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="40" lineNum="68" pc="268441020" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="40" lineNum="69" pc="268441054" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="40" lineNum="71" pc="268441095" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="40" lineNum="73" pc="268441118" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="41" lineNum="78" pc="268441131" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="41" lineNum="80" pc="268441135" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="41" lineNum="81" pc="268441148" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="41" lineNum="83" pc="268441200" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="41" lineNum="87" pc="268441267" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="42" lineNum="90" pc="268441288" symbol="onHide"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="42" lineNum="91" pc="268441292" symbol="onHide"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="42" lineNum="92" pc="268441310" symbol="onHide"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOInitializeScreen.mc" id="42" lineNum="10" pc="268457581" symbol="&lt;init&gt;"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="44" lineNum="16" pc="268441329" symbol="initialize"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="44" lineNum="17" pc="268441333" symbol="initialize"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="45" lineNum="24" pc="268441352" symbol="secondsToTimeString"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="45" lineNum="25" pc="268441356" symbol="secondsToTimeString"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="45" lineNum="26" pc="268441366" symbol="secondsToTimeString"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="45" lineNum="27" pc="268441376" symbol="secondsToTimeString"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="45" lineNum="28" pc="268441386" symbol="secondsToTimeString"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="45" lineNum="29" pc="268441396" symbol="secondsToTimeString"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="45" lineNum="31" pc="268441406" symbol="secondsToTimeString"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="45" lineNum="32" pc="268441450" symbol="secondsToTimeString"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="45" lineNum="33" pc="268441494" symbol="secondsToTimeString"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="45" lineNum="35" pc="268441538" symbol="secondsToTimeString"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="46" lineNum="39" pc="268441560" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="46" lineNum="41" pc="268441564" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="46" lineNum="43" pc="268441601" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="46" lineNum="49" pc="268441633" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="46" lineNum="50" pc="268441678" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="46" lineNum="51" pc="268441723" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="46" lineNum="52" pc="268441768" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="46" lineNum="53" pc="268441813" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="46" lineNum="54" pc="268441858" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="46" lineNum="55" pc="268441903" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="46" lineNum="56" pc="268441948" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="46" lineNum="58" pc="268441993" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="46" lineNum="59" pc="268442051" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="46" lineNum="60" pc="268442109" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="46" lineNum="61" pc="268442167" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="46" lineNum="62" pc="268442225" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="46" lineNum="63" pc="268442283" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="47" lineNum="70" pc="268442342" symbol="onShow"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="74" pc="268442347" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="77" pc="268442351" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="78" pc="268442368" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="80" pc="268442394" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="81" pc="268442463" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="82" pc="268442503" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="83" pc="268442572" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="85" pc="268442612" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="88" pc="268442649" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="89" pc="268442668" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="92" pc="268442776" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="94" pc="268442840" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="95" pc="268442853" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="97" pc="268442905" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="100" pc="268442959" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="101" pc="268442972" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="103" pc="268443035" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="106" pc="268443089" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="107" pc="268443102" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="109" pc="268443154" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="112" pc="268443208" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="113" pc="268443221" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="115" pc="268443273" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="118" pc="268443327" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="119" pc="268443340" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="121" pc="268443397" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="48" lineNum="124" pc="268443451" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="49" lineNum="131" pc="268443472" symbol="onHide"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="49" lineNum="12" pc="268457901" symbol="&lt;init&gt;"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopView.mc" id="49" lineNum="13" pc="268457915" symbol="&lt;init&gt;"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="51" lineNum="25" pc="268443477" symbol="countdown"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="51" lineNum="26" pc="268443481" symbol="countdown"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="51" lineNum="27" pc="268443505" symbol="countdown"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="51" lineNum="28" pc="268443529" symbol="countdown"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="51" lineNum="29" pc="268443553" symbol="countdown"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="51" lineNum="30" pc="268443570" symbol="countdown"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="51" lineNum="31" pc="268443599" symbol="countdown"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="51" lineNum="33" pc="268443616" symbol="countdown"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="51" lineNum="35" pc="268443632" symbol="countdown"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="51" lineNum="37" pc="268443651" symbol="countdown"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="51" lineNum="38" pc="268443668" symbol="countdown"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="51" lineNum="39" pc="268443693" symbol="countdown"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="51" lineNum="41" pc="268443768" symbol="countdown"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="51" lineNum="42" pc="268443783" symbol="countdown"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="51" lineNum="43" pc="268443835" symbol="countdown"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="52" lineNum="48" pc="268443871" symbol="startRace"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="52" lineNum="49" pc="268443875" symbol="startRace"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="52" lineNum="50" pc="268443909" symbol="startRace"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="53" lineNum="53" pc="268443951" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="53" lineNum="55" pc="268443955" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="53" lineNum="56" pc="268443966" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="53" lineNum="64" pc="268444094" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="53" lineNum="66" pc="268444121" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="53" lineNum="68" pc="268444149" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="53" lineNum="69" pc="268444174" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="53" lineNum="72" pc="268444249" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="53" lineNum="73" pc="268444267" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="53" lineNum="74" pc="268444285" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="53" lineNum="76" pc="268444335" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="53" lineNum="85" pc="268444505" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="53" lineNum="86" pc="268444530" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="53" lineNum="88" pc="268444567" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="53" lineNum="89" pc="268444595" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="53" lineNum="91" pc="268444614" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="53" lineNum="93" pc="268444631" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="53" lineNum="94" pc="268444656" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="53" lineNum="96" pc="268444731" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="53" lineNum="97" pc="268444765" symbol="statusCallback"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="54" lineNum="103" pc="268444810" symbol="onStatus"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="54" lineNum="104" pc="268444814" symbol="onStatus"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="54" lineNum="105" pc="268444848" symbol="onStatus"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="55" lineNum="108" pc="268444892" symbol="initialize"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="55" lineNum="109" pc="268444896" symbol="initialize"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="56" lineNum="112" pc="268444915" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="56" lineNum="113" pc="268444919" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="56" lineNum="115" pc="268444956" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="56" lineNum="117" pc="268444984" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="56" lineNum="118" pc="268445018" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="56" lineNum="120" pc="268445059" symbol="onLayout"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="57" lineNum="124" pc="268445072" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="57" lineNum="126" pc="268445076" symbol="onUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="58" lineNum="129" pc="268445097" symbol="onHide"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="58" lineNum="131" pc="268445101" symbol="onHide"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="58" lineNum="132" pc="268445114" symbol="onHide"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="58" lineNum="135" pc="268445135" symbol="onHide"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="58" lineNum="136" pc="268445148" symbol="onHide"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOHomeScreen.mc" id="58" lineNum="12" pc="268457635" symbol="&lt;init&gt;"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopDelegate.mc" id="61" lineNum="5" pc="268445173" symbol="pushBottomScreen"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopDelegate.mc" id="61" lineNum="6" pc="268445177" symbol="pushBottomScreen"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopDelegate.mc" id="62" lineNum="9" pc="268445250" symbol="onSwipe"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopDelegate.mc" id="62" lineNum="10" pc="268445254" symbol="onSwipe"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopDelegate.mc" id="62" lineNum="11" pc="268445281" symbol="onSwipe"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/SPNFOTopDelegate.mc" id="62" lineNum="14" pc="268445296" symbol="onSwipe"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="64" lineNum="12" pc="268445303" symbol="initialize"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="64" lineNum="13" pc="268445307" symbol="initialize"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="64" lineNum="14" pc="268445327" symbol="initialize"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="64" lineNum="15" pc="268445337" symbol="initialize"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="64" lineNum="16" pc="268445353" symbol="initialize"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="64" lineNum="17" pc="268445369" symbol="initialize"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="65" lineNum="20" pc="268445386" symbol="setText"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="65" lineNum="21" pc="268445390" symbol="setText"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="66" lineNum="24" pc="268445401" symbol="setDefaultBackgroundColor"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="66" lineNum="25" pc="268445405" symbol="setDefaultBackgroundColor"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="67" lineNum="28" pc="268445422" symbol="setBackgroundColor"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="67" lineNum="29" pc="268445426" symbol="setBackgroundColor"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="68" lineNum="32" pc="268445437" symbol="setTextWithUIUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="68" lineNum="33" pc="268445441" symbol="setTextWithUIUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="68" lineNum="34" pc="268445451" symbol="setTextWithUIUpdate"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="37" pc="268445468" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="39" pc="268445472" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="40" pc="268445497" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="42" pc="268445522" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="43" pc="268445558" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="46" pc="268445620" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="47" pc="268445656" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="50" pc="268445718" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="51" pc="268445746" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="52" pc="268445774" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="53" pc="268445806" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="55" pc="268445826" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="57" pc="268445852" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="59" pc="268445881" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="61" pc="268445904" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="65" pc="268445936" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="68" pc="268445965" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="70" pc="268445996" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="71" pc="268446019" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="72" pc="268446041" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="74" pc="268446063" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="75" pc="268446081" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="78" pc="268446094" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="79" pc="268446119" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="81" pc="268446160" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="84" pc="268446196" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="87" pc="268446234" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="89" pc="268446251" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="90" pc="268446282" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="92" pc="268446311" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="93" pc="268446328" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="94" pc="268446356" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="96" pc="268446393" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="98" pc="268446440" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="99" pc="268446462" symbol="draw"/>
-        <entry filename="/home/nathaniel/eclipse-workspace/SPNFO/source/custom-drawables/TextField.mc" id="69" lineNum="101" pc="268446495" symbol="draw"/>
-        <entry filename="Rez" id="75" lineNum="31" pc="268446546" symbol="InitializeLayout"/>
-        <entry filename="Rez" id="75" lineNum="32" pc="268446558" symbol="InitializeLayout"/>
-        <entry filename="Rez" id="75" lineNum="34" pc="268446599" symbol="InitializeLayout"/>
-        <entry filename="Rez" id="75" lineNum="35" pc="268446711" symbol="InitializeLayout"/>
-        <entry filename="Rez" id="75" lineNum="36" pc="268446751" symbol="InitializeLayout"/>
-        <entry filename="Rez" id="75" lineNum="37" pc="268446916" symbol="InitializeLayout"/>
-        <entry filename="Rez" id="75" lineNum="38" pc="268447071" symbol="InitializeLayout"/>
-        <entry filename="Rez" id="75" lineNum="40" pc="268447236" symbol="InitializeLayout"/>
-        <entry filename="Rez" id="76" lineNum="49" pc="268447284" symbol="HomeScreenLayout"/>
-        <entry filename="Rez" id="76" lineNum="50" pc="268447296" symbol="HomeScreenLayout"/>
-        <entry filename="Rez" id="76" lineNum="52" pc="268447337" symbol="HomeScreenLayout"/>
-        <entry filename="Rez" id="76" lineNum="53" pc="268447449" symbol="HomeScreenLayout"/>
-        <entry filename="Rez" id="76" lineNum="54" pc="268447489" symbol="HomeScreenLayout"/>
-        <entry filename="Rez" id="76" lineNum="55" pc="268447654" symbol="HomeScreenLayout"/>
-        <entry filename="Rez" id="76" lineNum="56" pc="268447777" symbol="HomeScreenLayout"/>
-        <entry filename="Rez" id="76" lineNum="58" pc="268447942" symbol="HomeScreenLayout"/>
-        <entry filename="Rez" id="77" lineNum="67" pc="268447990" symbol="RaceCompletedLayout"/>
-        <entry filename="Rez" id="77" lineNum="69" pc="268448002" symbol="RaceCompletedLayout"/>
-        <entry filename="Rez" id="77" lineNum="70" pc="268448114" symbol="RaceCompletedLayout"/>
-        <entry filename="Rez" id="77" lineNum="71" pc="268448154" symbol="RaceCompletedLayout"/>
-        <entry filename="Rez" id="77" lineNum="73" pc="268448349" symbol="RaceCompletedLayout"/>
-        <entry filename="Rez" id="78" lineNum="82" pc="268448377" symbol="TopLayout"/>
-        <entry filename="Rez" id="78" lineNum="84" pc="268448389" symbol="TopLayout"/>
-        <entry filename="Rez" id="78" lineNum="85" pc="268448513" symbol="TopLayout"/>
-        <entry filename="Rez" id="78" lineNum="86" pc="268448832" symbol="TopLayout"/>
-        <entry filename="Rez" id="78" lineNum="87" pc="268449063" symbol="TopLayout"/>
-        <entry filename="Rez" id="78" lineNum="88" pc="268449395" symbol="TopLayout"/>
-        <entry filename="Rez" id="78" lineNum="89" pc="268449740" symbol="TopLayout"/>
-        <entry filename="Rez" id="78" lineNum="90" pc="268450085" symbol="TopLayout"/>
-        <entry filename="Rez" id="78" lineNum="91" pc="268450443" symbol="TopLayout"/>
-        <entry filename="Rez" id="78" lineNum="92" pc="268450801" symbol="TopLayout"/>
-        <entry filename="Rez" id="78" lineNum="93" pc="268451172" symbol="TopLayout"/>
-        <entry filename="Rez" id="78" lineNum="94" pc="268451277" symbol="TopLayout"/>
-        <entry filename="Rez" id="78" lineNum="96" pc="268451382" symbol="TopLayout"/>
-        <entry filename="Rez" id="79" lineNum="105" pc="268451500" symbol="BottomLayout"/>
-        <entry filename="Rez" id="79" lineNum="107" pc="268451512" symbol="BottomLayout"/>
-        <entry filename="Rez" id="79" lineNum="108" pc="268451636" symbol="BottomLayout"/>
-        <entry filename="Rez" id="79" lineNum="109" pc="268451773" symbol="BottomLayout"/>
-        <entry filename="Rez" id="79" lineNum="110" pc="268452004" symbol="BottomLayout"/>
-        <entry filename="Rez" id="79" lineNum="111" pc="268452248" symbol="BottomLayout"/>
-        <entry filename="Rez" id="79" lineNum="112" pc="268452505" symbol="BottomLayout"/>
-        <entry filename="Rez" id="79" lineNum="113" pc="268452749" symbol="BottomLayout"/>
-        <entry filename="Rez" id="79" lineNum="114" pc="268453006" symbol="BottomLayout"/>
-        <entry filename="Rez" id="79" lineNum="115" pc="268453276" symbol="BottomLayout"/>
-        <entry filename="Rez" id="79" lineNum="116" pc="268453533" symbol="BottomLayout"/>
-        <entry filename="Rez" id="79" lineNum="117" pc="268453803" symbol="BottomLayout"/>
-        <entry filename="Rez" id="79" lineNum="118" pc="268454086" symbol="BottomLayout"/>
-        <entry filename="Rez" id="79" lineNum="119" pc="268454356" symbol="BottomLayout"/>
-        <entry filename="Rez" id="79" lineNum="120" pc="268454639" symbol="BottomLayout"/>
-        <entry filename="Rez" id="79" lineNum="121" pc="268454935" symbol="BottomLayout"/>
-        <entry filename="Rez" id="79" lineNum="122" pc="268455218" symbol="BottomLayout"/>
-        <entry filename="Rez" id="79" lineNum="123" pc="268455514" symbol="BottomLayout"/>
-        <entry filename="Rez" id="79" lineNum="124" pc="268455823" symbol="BottomLayout"/>
-        <entry filename="Rez" id="79" lineNum="125" pc="268456207" symbol="BottomLayout"/>
-        <entry filename="Rez" id="79" lineNum="126" pc="268456604" symbol="BottomLayout"/>
-        <entry filename="Rez" id="79" lineNum="127" pc="268457001" symbol="BottomLayout"/>
-        <entry filename="Rez" id="79" lineNum="128" pc="268457106" symbol="BottomLayout"/>
-        <entry filename="Rez" id="79" lineNum="130" pc="268457211" symbol="BottomLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopDelegate.mc" id="3" lineNum="5" pc="268435456" symbol="pushBottomScreen"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopDelegate.mc" id="3" lineNum="6" pc="268435460" symbol="pushBottomScreen"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopDelegate.mc" id="4" lineNum="9" pc="268435533" symbol="onSwipe"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopDelegate.mc" id="4" lineNum="10" pc="268435537" symbol="onSwipe"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopDelegate.mc" id="4" lineNum="11" pc="268435564" symbol="onSwipe"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopDelegate.mc" id="4" lineNum="14" pc="268435579" symbol="onSwipe"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompleted.mc" id="6" lineNum="8" pc="268435586" symbol="initialize"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompleted.mc" id="6" lineNum="9" pc="268435590" symbol="initialize"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompleted.mc" id="7" lineNum="12" pc="268435609" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompleted.mc" id="7" lineNum="13" pc="268435613" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompleted.mc" id="8" lineNum="16" pc="268435651" symbol="swapButtons"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompleted.mc" id="8" lineNum="17" pc="268435655" symbol="swapButtons"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompleted.mc" id="8" lineNum="18" pc="268435679" symbol="swapButtons"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompleted.mc" id="8" lineNum="19" pc="268435703" symbol="swapButtons"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompleted.mc" id="8" lineNum="20" pc="268435727" symbol="swapButtons"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompleted.mc" id="8" lineNum="22" pc="268435751" symbol="swapButtons"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompleted.mc" id="8" lineNum="23" pc="268435762" symbol="swapButtons"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompleted.mc" id="8" lineNum="24" pc="268435779" symbol="swapButtons"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompleted.mc" id="8" lineNum="25" pc="268435796" symbol="swapButtons"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompleted.mc" id="8" lineNum="26" pc="268435820" symbol="swapButtons"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompleted.mc" id="8" lineNum="28" pc="268435847" symbol="swapButtons"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompleted.mc" id="8" lineNum="29" pc="268435864" symbol="swapButtons"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompleted.mc" id="8" lineNum="30" pc="268435881" symbol="swapButtons"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompleted.mc" id="8" lineNum="31" pc="268435905" symbol="swapButtons"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompleted.mc" id="8" lineNum="34" pc="268435929" symbol="swapButtons"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompleted.mc" id="8" lineNum="35" pc="268435946" symbol="swapButtons"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompleted.mc" id="9" lineNum="38" pc="268435963" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompleted.mc" id="9" lineNum="39" pc="268435967" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompleted.mc" id="10" lineNum="42" pc="268435988" symbol="onHide"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="12" lineNum="25" pc="268435993" symbol="countdown"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="12" lineNum="26" pc="268435997" symbol="countdown"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="12" lineNum="27" pc="268436021" symbol="countdown"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="12" lineNum="28" pc="268436045" symbol="countdown"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="12" lineNum="29" pc="268436069" symbol="countdown"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="12" lineNum="30" pc="268436086" symbol="countdown"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="12" lineNum="31" pc="268436115" symbol="countdown"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="12" lineNum="33" pc="268436132" symbol="countdown"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="12" lineNum="35" pc="268436148" symbol="countdown"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="12" lineNum="37" pc="268436167" symbol="countdown"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="12" lineNum="38" pc="268436184" symbol="countdown"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="12" lineNum="39" pc="268436209" symbol="countdown"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="12" lineNum="41" pc="268436284" symbol="countdown"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="12" lineNum="42" pc="268436299" symbol="countdown"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="12" lineNum="43" pc="268436351" symbol="countdown"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="13" lineNum="48" pc="268436387" symbol="startRace"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="13" lineNum="49" pc="268436391" symbol="startRace"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="13" lineNum="50" pc="268436425" symbol="startRace"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="14" lineNum="53" pc="268436467" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="14" lineNum="55" pc="268436471" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="14" lineNum="56" pc="268436482" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="14" lineNum="64" pc="268436610" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="14" lineNum="66" pc="268436637" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="14" lineNum="68" pc="268436665" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="14" lineNum="69" pc="268436690" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="14" lineNum="72" pc="268436765" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="14" lineNum="73" pc="268436783" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="14" lineNum="74" pc="268436801" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="14" lineNum="76" pc="268436851" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="14" lineNum="85" pc="268437021" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="14" lineNum="86" pc="268437046" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="14" lineNum="88" pc="268437083" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="14" lineNum="89" pc="268437111" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="14" lineNum="91" pc="268437130" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="14" lineNum="93" pc="268437147" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="14" lineNum="94" pc="268437172" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="14" lineNum="96" pc="268437247" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="14" lineNum="97" pc="268437281" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="15" lineNum="103" pc="268437326" symbol="onStatus"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="15" lineNum="104" pc="268437330" symbol="onStatus"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="15" lineNum="105" pc="268437364" symbol="onStatus"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="16" lineNum="108" pc="268437408" symbol="initialize"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="16" lineNum="109" pc="268437412" symbol="initialize"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="17" lineNum="112" pc="268437431" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="17" lineNum="113" pc="268437435" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="17" lineNum="115" pc="268437472" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="17" lineNum="117" pc="268437500" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="17" lineNum="118" pc="268437534" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="17" lineNum="120" pc="268437575" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="18" lineNum="124" pc="268437588" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="18" lineNum="126" pc="268437592" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="19" lineNum="129" pc="268437613" symbol="onHide"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="19" lineNum="131" pc="268437617" symbol="onHide"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="19" lineNum="132" pc="268437630" symbol="onHide"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="19" lineNum="135" pc="268437651" symbol="onHide"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="19" lineNum="136" pc="268437664" symbol="onHide"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOHomeScreen.mc" id="19" lineNum="12" pc="268458255" symbol="&lt;init&gt;"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompletedDelegate.mc" id="21" lineNum="9" pc="268437686" symbol="initialize"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompletedDelegate.mc" id="21" lineNum="10" pc="268437690" symbol="initialize"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompletedDelegate.mc" id="22" lineNum="13" pc="268437701" symbol="onKey"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompletedDelegate.mc" id="22" lineNum="14" pc="268437705" symbol="onKey"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompletedDelegate.mc" id="22" lineNum="15" pc="268437734" symbol="onKey"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFORaceCompletedDelegate.mc" id="22" lineNum="16" pc="268437791" symbol="onKey"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="24" lineNum="37" pc="268437813" symbol="getResponseValues"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="24" lineNum="38" pc="268437817" symbol="getResponseValues"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="25" lineNum="41" pc="268437827" symbol="getRaceMetadata"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="25" lineNum="42" pc="268437831" symbol="getRaceMetadata"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="26" lineNum="45" pc="268437841" symbol="setRaceMetadata"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="26" lineNum="46" pc="268437845" symbol="setRaceMetadata"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="27" lineNum="49" pc="268437856" symbol="loadUserMetadata"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="27" lineNum="50" pc="268437860" symbol="loadUserMetadata"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="28" lineNum="55" pc="268437903" symbol="timeTimerCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="28" lineNum="56" pc="268437907" symbol="timeTimerCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="29" lineNum="59" pc="268437927" symbol="fakePositionCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="30" lineNum="61" pc="268437932" symbol="startRace"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="30" lineNum="62" pc="268437936" symbol="startRace"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="30" lineNum="63" pc="268437970" symbol="startRace"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="30" lineNum="65" pc="268438011" symbol="startRace"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="30" lineNum="66" pc="268438045" symbol="startRace"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="31" lineNum="69" pc="268438087" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="31" lineNum="70" pc="268438091" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="31" lineNum="71" pc="268438111" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="31" lineNum="73" pc="268438131" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="31" lineNum="75" pc="268438142" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="31" lineNum="76" pc="268438167" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="31" lineNum="77" pc="268438206" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="31" lineNum="78" pc="268438245" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="31" lineNum="79" pc="268438284" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="31" lineNum="80" pc="268438323" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="31" lineNum="81" pc="268438362" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="31" lineNum="82" pc="268438401" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="31" lineNum="84" pc="268438440" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="31" lineNum="85" pc="268438521" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="31" lineNum="89" pc="268438539" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="31" lineNum="92" pc="268438564" symbol="onReceiveRaceData"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="32" lineNum="95" pc="268438581" symbol="makeRequest"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="32" lineNum="97" pc="268438585" symbol="makeRequest"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="32" lineNum="99" pc="268438602" symbol="makeRequest"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="32" lineNum="100" pc="268438637" symbol="makeRequest"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="32" lineNum="102" pc="268438663" symbol="makeRequest"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="32" lineNum="103" pc="268438674" symbol="makeRequest"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="32" lineNum="106" pc="268438708" symbol="makeRequest"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="32" lineNum="107" pc="268438765" symbol="makeRequest"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="32" lineNum="114" pc="268438948" symbol="makeRequest"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="32" lineNum="116" pc="268438998" symbol="makeRequest"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="33" lineNum="121" pc="268439021" symbol="startPostTimer"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="33" lineNum="122" pc="268439025" symbol="startPostTimer"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="33" lineNum="123" pc="268439038" symbol="startPostTimer"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="33" lineNum="124" pc="268439082" symbol="startPostTimer"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="33" lineNum="125" pc="268439126" symbol="startPostTimer"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="34" lineNum="128" pc="268439168" symbol="raceCompletedCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="34" lineNum="129" pc="268439172" symbol="raceCompletedCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="35" lineNum="132" pc="268439245" symbol="raceCompleted"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="35" lineNum="133" pc="268439249" symbol="raceCompleted"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="35" lineNum="134" pc="268439293" symbol="raceCompleted"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="35" lineNum="135" pc="268439311" symbol="raceCompleted"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="35" lineNum="137" pc="268439329" symbol="raceCompleted"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="35" lineNum="139" pc="268439338" symbol="raceCompleted"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="36" lineNum="147" pc="268439423" symbol="stopPostTimer"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="36" lineNum="148" pc="268439427" symbol="stopPostTimer"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="37" lineNum="151" pc="268439446" symbol="initialize"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="37" lineNum="152" pc="268439450" symbol="initialize"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="37" lineNum="154" pc="268439468" symbol="initialize"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="37" lineNum="155" pc="268439502" symbol="initialize"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="37" lineNum="157" pc="268439536" symbol="initialize"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="37" lineNum="158" pc="268439559" symbol="initialize"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="38" lineNum="165" pc="268439605" symbol="onStart"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="39" lineNum="169" pc="268439610" symbol="onStop"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="40" lineNum="182" pc="268439615" symbol="getInitialView"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="40" lineNum="183" pc="268439619" symbol="getInitialView"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="40" lineNum="184" pc="268439645" symbol="getInitialView"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="40" lineNum="186" pc="268439669" symbol="getInitialView"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="40" lineNum="30" pc="268458756" symbol="&lt;init&gt;"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="40" lineNum="35" pc="268458770" symbol="&lt;init&gt;"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOApp.mc" id="40" lineNum="12" pc="268458343" symbol="&lt;init&gt;"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="42" lineNum="22" pc="268439719" symbol="refreshCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="42" lineNum="23" pc="268439723" symbol="refreshCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="42" lineNum="24" pc="268439734" symbol="refreshCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="42" lineNum="26" pc="268439761" symbol="refreshCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="42" lineNum="29" pc="268439770" symbol="refreshCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="43" lineNum="32" pc="268439787" symbol="onRefresh"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="43" lineNum="33" pc="268439791" symbol="onRefresh"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="43" lineNum="34" pc="268439822" symbol="onRefresh"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="44" lineNum="37" pc="268439866" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="44" lineNum="39" pc="268439870" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="44" lineNum="40" pc="268439881" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="44" lineNum="43" pc="268439902" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="44" lineNum="44" pc="268439939" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="44" lineNum="45" pc="268439962" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="44" lineNum="48" pc="268439987" symbol="statusCallback"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="45" lineNum="53" pc="268440066" symbol="onStatus"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="45" lineNum="54" pc="268440070" symbol="onStatus"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="45" lineNum="55" pc="268440107" symbol="onStatus"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="46" lineNum="58" pc="268440151" symbol="initialize"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="46" lineNum="59" pc="268440155" symbol="initialize"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="47" lineNum="62" pc="268440174" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="47" lineNum="63" pc="268440178" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="47" lineNum="65" pc="268440215" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="47" lineNum="66" pc="268440249" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="47" lineNum="68" pc="268440290" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="47" lineNum="69" pc="268440324" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="47" lineNum="71" pc="268440365" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="47" lineNum="73" pc="268440388" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="48" lineNum="78" pc="268440401" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="48" lineNum="80" pc="268440405" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="48" lineNum="81" pc="268440418" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="48" lineNum="83" pc="268440470" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="48" lineNum="87" pc="268440537" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="49" lineNum="90" pc="268440558" symbol="onHide"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="49" lineNum="91" pc="268440562" symbol="onHide"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="49" lineNum="92" pc="268440580" symbol="onHide"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOInitializeScreen.mc" id="49" lineNum="10" pc="268458397" symbol="&lt;init&gt;"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomDelegate.mc" id="51" lineNum="5" pc="268440599" symbol="pushTopScreen"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomDelegate.mc" id="51" lineNum="6" pc="268440603" symbol="pushTopScreen"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomDelegate.mc" id="52" lineNum="10" pc="268440632" symbol="onSwipe"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomDelegate.mc" id="52" lineNum="11" pc="268440636" symbol="onSwipe"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomDelegate.mc" id="52" lineNum="12" pc="268440663" symbol="onSwipe"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomDelegate.mc" id="52" lineNum="15" pc="268440678" symbol="onSwipe"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="54" lineNum="16" pc="268440685" symbol="initialize"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="54" lineNum="17" pc="268440689" symbol="initialize"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="55" lineNum="24" pc="268440708" symbol="secondsToTimeString"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="55" lineNum="25" pc="268440712" symbol="secondsToTimeString"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="55" lineNum="26" pc="268440722" symbol="secondsToTimeString"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="55" lineNum="27" pc="268440732" symbol="secondsToTimeString"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="55" lineNum="28" pc="268440742" symbol="secondsToTimeString"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="55" lineNum="29" pc="268440752" symbol="secondsToTimeString"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="55" lineNum="31" pc="268440762" symbol="secondsToTimeString"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="55" lineNum="32" pc="268440806" symbol="secondsToTimeString"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="55" lineNum="33" pc="268440850" symbol="secondsToTimeString"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="55" lineNum="35" pc="268440894" symbol="secondsToTimeString"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="56" lineNum="39" pc="268440916" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="56" lineNum="41" pc="268440920" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="56" lineNum="43" pc="268440957" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="56" lineNum="49" pc="268440989" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="56" lineNum="50" pc="268441034" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="56" lineNum="51" pc="268441079" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="56" lineNum="52" pc="268441124" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="56" lineNum="53" pc="268441169" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="56" lineNum="54" pc="268441214" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="56" lineNum="55" pc="268441259" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="56" lineNum="56" pc="268441304" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="56" lineNum="58" pc="268441349" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="56" lineNum="59" pc="268441407" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="56" lineNum="60" pc="268441465" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="56" lineNum="61" pc="268441523" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="56" lineNum="62" pc="268441581" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="56" lineNum="63" pc="268441639" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="57" lineNum="70" pc="268441698" symbol="onShow"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="74" pc="268441703" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="77" pc="268441707" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="78" pc="268441724" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="80" pc="268441750" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="81" pc="268441819" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="82" pc="268441859" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="83" pc="268441928" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="85" pc="268441968" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="88" pc="268442005" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="89" pc="268442024" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="92" pc="268442132" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="94" pc="268442196" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="95" pc="268442209" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="97" pc="268442261" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="100" pc="268442315" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="101" pc="268442328" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="103" pc="268442391" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="106" pc="268442445" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="107" pc="268442458" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="109" pc="268442510" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="112" pc="268442564" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="113" pc="268442577" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="115" pc="268442629" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="118" pc="268442683" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="119" pc="268442696" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="121" pc="268442753" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="58" lineNum="124" pc="268442807" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="59" lineNum="131" pc="268442828" symbol="onHide"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="59" lineNum="12" pc="268458682" symbol="&lt;init&gt;"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOTopView.mc" id="59" lineNum="13" pc="268458696" symbol="&lt;init&gt;"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="62" lineNum="16" pc="268442836" symbol="Initialize"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="62" lineNum="17" pc="268442840" symbol="Initialize"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="24" pc="268442859" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="25" pc="268442863" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="29" pc="268442900" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="32" pc="268442934" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="34" pc="268442979" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="35" pc="268443033" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="36" pc="268443087" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="37" pc="268443141" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="38" pc="268443195" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="39" pc="268443249" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="40" pc="268443303" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="41" pc="268443357" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="42" pc="268443411" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="43" pc="268443465" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="44" pc="268443519" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="45" pc="268443573" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="46" pc="268443627" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="47" pc="268443681" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="48" pc="268443735" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="50" pc="268443789" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="51" pc="268443834" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="52" pc="268443879" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="54" pc="268443924" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="55" pc="268443982" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="56" pc="268444040" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="57" pc="268444098" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="58" pc="268444156" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="63" lineNum="59" pc="268444214" symbol="onLayout"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="64" lineNum="63" pc="268444273" symbol="onShow"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="65" pc="268444278" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="66" pc="268444282" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="68" pc="268444302" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="69" pc="268444319" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="71" pc="268444347" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="72" pc="268444366" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="74" pc="268444406" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="77" pc="268444443" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="78" pc="268444492" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="80" pc="268444557" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="83" pc="268444611" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="84" pc="268444632" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="87" pc="268444692" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="88" pc="268444713" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="91" pc="268444787" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="93" pc="268444794" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="94" pc="268444815" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="95" pc="268444853" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="96" pc="268444914" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="97" pc="268444918" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="101" pc="268444937" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="102" pc="268444975" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="103" pc="268445043" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="105" pc="268445120" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="106" pc="268445128" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="107" pc="268445159" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="108" pc="268445260" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="110" pc="268445314" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="112" pc="268445371" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="113" pc="268445406" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="114" pc="268445441" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="116" pc="268445479" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="118" pc="268445536" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="119" pc="268445576" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="65" lineNum="120" pc="268445616" symbol="onUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="66" lineNum="126" pc="268445673" symbol="onHide"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="66" lineNum="7" pc="268458491" symbol="&lt;init&gt;"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/SPNFOBottomView.mc" id="66" lineNum="12" pc="268458505" symbol="&lt;init&gt;"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="68" lineNum="12" pc="268445681" symbol="initialize"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="68" lineNum="13" pc="268445685" symbol="initialize"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="68" lineNum="14" pc="268445705" symbol="initialize"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="68" lineNum="15" pc="268445715" symbol="initialize"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="68" lineNum="16" pc="268445731" symbol="initialize"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="68" lineNum="17" pc="268445747" symbol="initialize"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="69" lineNum="20" pc="268445764" symbol="setText"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="69" lineNum="21" pc="268445768" symbol="setText"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="70" lineNum="24" pc="268445779" symbol="setDefaultBackgroundColor"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="70" lineNum="25" pc="268445783" symbol="setDefaultBackgroundColor"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="71" lineNum="28" pc="268445800" symbol="setBackgroundColor"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="71" lineNum="29" pc="268445804" symbol="setBackgroundColor"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="72" lineNum="32" pc="268445815" symbol="setTextWithUIUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="72" lineNum="33" pc="268445819" symbol="setTextWithUIUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="72" lineNum="34" pc="268445829" symbol="setTextWithUIUpdate"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="37" pc="268445846" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="39" pc="268445850" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="40" pc="268445875" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="42" pc="268445900" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="43" pc="268445936" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="46" pc="268445998" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="47" pc="268446034" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="50" pc="268446096" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="51" pc="268446124" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="52" pc="268446152" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="53" pc="268446184" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="55" pc="268446204" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="57" pc="268446230" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="59" pc="268446259" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="61" pc="268446282" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="65" pc="268446314" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="68" pc="268446343" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="70" pc="268446374" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="71" pc="268446397" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="72" pc="268446419" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="74" pc="268446441" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="75" pc="268446459" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="78" pc="268446472" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="79" pc="268446497" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="81" pc="268446538" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="84" pc="268446574" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="87" pc="268446612" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="89" pc="268446629" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="90" pc="268446660" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="92" pc="268446689" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="93" pc="268446706" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="94" pc="268446734" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="96" pc="268446771" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="98" pc="268446818" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="99" pc="268446840" symbol="draw"/>
+        <entry filename="/home/nathaniel/workspace/spnfo/garmin/source/custom-drawables/TextField.mc" id="73" lineNum="101" pc="268446873" symbol="draw"/>
+        <entry filename="Rez" id="79" lineNum="31" pc="268446924" symbol="InitializeLayout"/>
+        <entry filename="Rez" id="79" lineNum="32" pc="268446936" symbol="InitializeLayout"/>
+        <entry filename="Rez" id="79" lineNum="34" pc="268446977" symbol="InitializeLayout"/>
+        <entry filename="Rez" id="79" lineNum="35" pc="268447089" symbol="InitializeLayout"/>
+        <entry filename="Rez" id="79" lineNum="36" pc="268447129" symbol="InitializeLayout"/>
+        <entry filename="Rez" id="79" lineNum="37" pc="268447294" symbol="InitializeLayout"/>
+        <entry filename="Rez" id="79" lineNum="38" pc="268447449" symbol="InitializeLayout"/>
+        <entry filename="Rez" id="79" lineNum="40" pc="268447614" symbol="InitializeLayout"/>
+        <entry filename="Rez" id="80" lineNum="49" pc="268447662" symbol="HomeScreenLayout"/>
+        <entry filename="Rez" id="80" lineNum="50" pc="268447674" symbol="HomeScreenLayout"/>
+        <entry filename="Rez" id="80" lineNum="52" pc="268447715" symbol="HomeScreenLayout"/>
+        <entry filename="Rez" id="80" lineNum="53" pc="268447827" symbol="HomeScreenLayout"/>
+        <entry filename="Rez" id="80" lineNum="54" pc="268447867" symbol="HomeScreenLayout"/>
+        <entry filename="Rez" id="80" lineNum="55" pc="268448032" symbol="HomeScreenLayout"/>
+        <entry filename="Rez" id="80" lineNum="56" pc="268448155" symbol="HomeScreenLayout"/>
+        <entry filename="Rez" id="80" lineNum="58" pc="268448320" symbol="HomeScreenLayout"/>
+        <entry filename="Rez" id="81" lineNum="67" pc="268448368" symbol="RaceCompletedLayout"/>
+        <entry filename="Rez" id="81" lineNum="69" pc="268448380" symbol="RaceCompletedLayout"/>
+        <entry filename="Rez" id="81" lineNum="70" pc="268448492" symbol="RaceCompletedLayout"/>
+        <entry filename="Rez" id="81" lineNum="71" pc="268448532" symbol="RaceCompletedLayout"/>
+        <entry filename="Rez" id="81" lineNum="72" pc="268448697" symbol="RaceCompletedLayout"/>
+        <entry filename="Rez" id="81" lineNum="73" pc="268448834" symbol="RaceCompletedLayout"/>
+        <entry filename="Rez" id="81" lineNum="74" pc="268448971" symbol="RaceCompletedLayout"/>
+        <entry filename="Rez" id="81" lineNum="75" pc="268449136" symbol="RaceCompletedLayout"/>
+        <entry filename="Rez" id="81" lineNum="77" pc="268449301" symbol="RaceCompletedLayout"/>
+        <entry filename="Rez" id="82" lineNum="86" pc="268449369" symbol="TopLayout"/>
+        <entry filename="Rez" id="82" lineNum="88" pc="268449381" symbol="TopLayout"/>
+        <entry filename="Rez" id="82" lineNum="89" pc="268449505" symbol="TopLayout"/>
+        <entry filename="Rez" id="82" lineNum="90" pc="268449824" symbol="TopLayout"/>
+        <entry filename="Rez" id="82" lineNum="91" pc="268450055" symbol="TopLayout"/>
+        <entry filename="Rez" id="82" lineNum="92" pc="268450387" symbol="TopLayout"/>
+        <entry filename="Rez" id="82" lineNum="93" pc="268450732" symbol="TopLayout"/>
+        <entry filename="Rez" id="82" lineNum="94" pc="268451077" symbol="TopLayout"/>
+        <entry filename="Rez" id="82" lineNum="95" pc="268451435" symbol="TopLayout"/>
+        <entry filename="Rez" id="82" lineNum="96" pc="268451793" symbol="TopLayout"/>
+        <entry filename="Rez" id="82" lineNum="97" pc="268452164" symbol="TopLayout"/>
+        <entry filename="Rez" id="82" lineNum="99" pc="268452269" symbol="TopLayout"/>
+        <entry filename="Rez" id="83" lineNum="108" pc="268452377" symbol="BottomLayout"/>
+        <entry filename="Rez" id="83" lineNum="110" pc="268452389" symbol="BottomLayout"/>
+        <entry filename="Rez" id="83" lineNum="111" pc="268452513" symbol="BottomLayout"/>
+        <entry filename="Rez" id="83" lineNum="112" pc="268452650" symbol="BottomLayout"/>
+        <entry filename="Rez" id="83" lineNum="113" pc="268452881" symbol="BottomLayout"/>
+        <entry filename="Rez" id="83" lineNum="114" pc="268453125" symbol="BottomLayout"/>
+        <entry filename="Rez" id="83" lineNum="115" pc="268453382" symbol="BottomLayout"/>
+        <entry filename="Rez" id="83" lineNum="116" pc="268453626" symbol="BottomLayout"/>
+        <entry filename="Rez" id="83" lineNum="117" pc="268453883" symbol="BottomLayout"/>
+        <entry filename="Rez" id="83" lineNum="118" pc="268454153" symbol="BottomLayout"/>
+        <entry filename="Rez" id="83" lineNum="119" pc="268454410" symbol="BottomLayout"/>
+        <entry filename="Rez" id="83" lineNum="120" pc="268454680" symbol="BottomLayout"/>
+        <entry filename="Rez" id="83" lineNum="121" pc="268454963" symbol="BottomLayout"/>
+        <entry filename="Rez" id="83" lineNum="122" pc="268455233" symbol="BottomLayout"/>
+        <entry filename="Rez" id="83" lineNum="123" pc="268455516" symbol="BottomLayout"/>
+        <entry filename="Rez" id="83" lineNum="124" pc="268455812" symbol="BottomLayout"/>
+        <entry filename="Rez" id="83" lineNum="125" pc="268456095" symbol="BottomLayout"/>
+        <entry filename="Rez" id="83" lineNum="126" pc="268456391" symbol="BottomLayout"/>
+        <entry filename="Rez" id="83" lineNum="127" pc="268456700" symbol="BottomLayout"/>
+        <entry filename="Rez" id="83" lineNum="128" pc="268457084" symbol="BottomLayout"/>
+        <entry filename="Rez" id="83" lineNum="129" pc="268457481" symbol="BottomLayout"/>
+        <entry filename="Rez" id="83" lineNum="131" pc="268457878" symbol="BottomLayout"/>
+        <entry filename="Rez" id="83" lineNum="133" pc="268457983" symbol="BottomLayout"/>
     </pcToLineNum>
     <symbolTable>
-        <entry field="true" id="29" symbol="code"/>
+        <entry field="true" id="45" symbol="saveSelected"/>
+        <entry field="true" id="30" symbol="code"/>
         <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry id="37" method="true" symbol="Initialize"/>
-        <entry field="true" id="103" symbol="defaultBackgroundColor"/>
+        <entry id="38" method="true" symbol="Initialize"/>
+        <entry field="true" id="108" symbol="defaultBackgroundColor"/>
         <entry id="8389346" symbol="text"/>
-        <entry id="25" object="true" symbol="TextField"/>
+        <entry id="26" object="true" symbol="TextField"/>
         <entry id="8389896" method="true" symbol="setBackgroundColor"/>
-        <entry field="true" id="99" symbol="initialTimerText"/>
-        <entry id="13" object="true" symbol="SPNFOBottomDelegate"/>
-        <entry field="true" id="26" symbol="refreshTimer"/>
+        <entry field="true" id="104" symbol="initialTimerText"/>
+        <entry id="22" object="true" symbol="SPNFOBottomDelegate"/>
+        <entry field="true" id="27" symbol="refreshTimer"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-        <entry id="132" symbol="widthPerc"/>
+        <entry id="138" symbol="widthPerc"/>
         <entry id="4" module="true" symbol="globals/Rez/Menus"/>
-        <entry field="true" id="61" symbol="rubik_regular_unit_medium"/>
-        <entry id="104" method="true" symbol="setDefaultBackgroundColor"/>
-        <entry id="32" method="true" symbol="statusCallback"/>
-        <entry id="128" method="true" symbol="stopPostTimer"/>
-        <entry id="125" method="true" symbol="startPostTimer"/>
-        <entry field="true" id="90" symbol="initialTimeText"/>
-        <entry id="43" method="true" symbol="startRace"/>
-        <entry field="true" id="88" symbol="initialPositionText"/>
-        <entry field="true" id="60" symbol="rubik_regular_unit_large"/>
-        <entry id="137" symbol="unitLabelFont"/>
-        <entry field="true" id="76" symbol="initialDTNSText"/>
-        <entry field="true" id="114" symbol="reqPerSec"/>
-        <entry id="136" symbol="hasUnitLabel"/>
-        <entry field="true" id="59" symbol="rubik_medium_unit_large"/>
-        <entry id="38" method="true" symbol="pushTopScreen"/>
-        <entry field="true" id="21" symbol="statusRequestOptions"/>
+        <entry field="true" id="64" symbol="rubik_regular_unit_medium"/>
+        <entry id="109" method="true" symbol="setDefaultBackgroundColor"/>
+        <entry id="33" method="true" symbol="statusCallback"/>
+        <entry id="134" method="true" symbol="stopPostTimer"/>
+        <entry id="131" method="true" symbol="startPostTimer"/>
+        <entry field="true" id="94" symbol="initialTimeText"/>
+        <entry id="44" method="true" symbol="startRace"/>
+        <entry field="true" id="92" symbol="initialPositionText"/>
+        <entry field="true" id="63" symbol="rubik_regular_unit_large"/>
+        <entry id="143" symbol="unitLabelFont"/>
+        <entry field="true" id="80" symbol="initialDTNSText"/>
+        <entry field="true" id="120" symbol="reqPerSec"/>
+        <entry id="142" symbol="hasUnitLabel"/>
+        <entry field="true" id="62" symbol="rubik_medium_unit_large"/>
+        <entry id="39" method="true" symbol="pushTopScreen"/>
+        <entry field="true" id="12" symbol="statusRequestOptions"/>
         <entry field="true" id="8388938" symbol="month"/>
         <entry field="true" id="8389310" symbol="position"/>
-        <entry field="true" id="40" symbol="uid"/>
-        <entry id="15" object="true" symbol="SPNFORaceCompleted"/>
-        <entry field="true" id="113" symbol="postFreq"/>
-        <entry field="true" id="83" symbol="cadenceUnitLabel"/>
+        <entry field="true" id="41" symbol="uid"/>
+        <entry id="10" object="true" symbol="SPNFORaceCompleted"/>
+        <entry field="true" id="119" symbol="postFreq"/>
+        <entry field="true" id="87" symbol="cadenceUnitLabel"/>
         <entry id="8390424" module="true" symbol="Storage"/>
-        <entry field="true" id="10" symbol="raceCompletedUrl"/>
-        <entry field="true" id="55" symbol="rubik_semibold_large"/>
-        <entry field="true" id="62" symbol="rubik_regular_unit_small"/>
-        <entry field="true" id="89" symbol="instructionsLabel2"/>
-        <entry field="true" id="87" symbol="instructionsLabel1"/>
-        <entry field="true" id="56" symbol="rubik_medium_large"/>
-        <entry id="121" method="true" symbol="timeTimerCallback"/>
-        <entry id="67" method="true" symbol="BottomLayout"/>
-        <entry id="139" symbol="labelHorizontalPadding"/>
+        <entry field="true" id="16" symbol="raceCompletedUrl"/>
+        <entry field="true" id="58" symbol="rubik_semibold_large"/>
+        <entry field="true" id="65" symbol="rubik_regular_unit_small"/>
+        <entry field="true" id="93" symbol="instructionsLabel2"/>
+        <entry field="true" id="91" symbol="instructionsLabel1"/>
+        <entry field="true" id="59" symbol="rubik_medium_large"/>
+        <entry id="127" method="true" symbol="timeTimerCallback"/>
+        <entry id="70" method="true" symbol="BottomLayout"/>
+        <entry id="145" symbol="labelHorizontalPadding"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="34" symbol="dispObj"/>
-        <entry field="true" id="86" symbol="initialPowerText"/>
-        <entry id="31" method="true" symbol="onRefresh"/>
-        <entry id="42" method="true" symbol="countdown"/>
-        <entry field="true" id="78" symbol="disconnectedString"/>
-        <entry field="true" id="58" symbol="rubik_medium_small"/>
-        <entry field="true" id="116" symbol="responseValues"/>
-        <entry id="14" object="true" symbol="SPNFOBottomView"/>
-        <entry field="true" id="74" symbol="AppName"/>
+        <entry field="true" id="35" symbol="dispObj"/>
+        <entry field="true" id="90" symbol="initialPowerText"/>
+        <entry id="32" method="true" symbol="onRefresh"/>
+        <entry id="43" method="true" symbol="countdown"/>
+        <entry field="true" id="82" symbol="disconnectedString"/>
+        <entry id="14" object="true" symbol="SPNFORaceCompletedDelegate"/>
+        <entry field="true" id="61" symbol="rubik_medium_small"/>
+        <entry field="true" id="122" symbol="responseValues"/>
+        <entry id="25" object="true" symbol="SPNFOBottomView"/>
+        <entry field="true" id="78" symbol="AppName"/>
         <entry id="8389339" symbol="second"/>
         <entry field="true" id="8388963" symbol="altitude"/>
-        <entry id="65" method="true" symbol="RaceCompletedLayout"/>
-        <entry field="true" id="95" symbol="hrUnitLabel"/>
-        <entry id="19" object="true" symbol="SPNFOTopView"/>
+        <entry id="46" method="true" symbol="swapButtons"/>
+        <entry id="68" method="true" symbol="RaceCompletedLayout"/>
+        <entry field="true" id="100" symbol="hrUnitLabel"/>
+        <entry id="23" object="true" symbol="SPNFOTopView"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8389594" symbol="headers"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
         <entry id="8389345" symbol="rezId"/>
-        <entry id="129" symbol="initText"/>
-        <entry field="true" id="91" symbol="initializeTopLabel"/>
-        <entry id="122" method="true" symbol="fakePositionCallback"/>
-        <entry id="24" object="true" symbol="SPNFOTopDelegate"/>
-        <entry field="true" id="46" symbol="spnfo_logo"/>
+        <entry id="135" symbol="initText"/>
+        <entry field="true" id="95" symbol="initializeTopLabel"/>
+        <entry id="128" method="true" symbol="fakePositionCallback"/>
+        <entry id="9" object="true" symbol="SPNFOTopDelegate"/>
+        <entry field="true" id="49" symbol="spnfo_logo"/>
         <entry id="8389338" symbol="minute"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
-        <entry id="133" symbol="heightPerc"/>
-        <entry id="23" object="true" symbol="SPNFOEmptyDelegate"/>
+        <entry id="139" symbol="heightPerc"/>
+        <entry id="24" object="true" symbol="SPNFOEmptyDelegate"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="77" symbol="initializeBottomLabel"/>
-        <entry id="118" method="true" symbol="getRaceMetadata"/>
-        <entry field="true" id="108" symbol="secondsTimer"/>
-        <entry field="true" id="51" symbol="roboto_mono_bold_large"/>
-        <entry id="63" method="true" symbol="InitializeLayout"/>
+        <entry field="true" id="81" symbol="initializeBottomLabel"/>
+        <entry id="124" method="true" symbol="getRaceMetadata"/>
+        <entry field="true" id="114" symbol="secondsTimer"/>
+        <entry field="true" id="54" symbol="roboto_mono_bold_large"/>
+        <entry id="66" method="true" symbol="InitializeLayout"/>
         <entry field="true" id="8388959" symbol="cadence"/>
-        <entry field="true" id="102" symbol="curText"/>
+        <entry field="true" id="107" symbol="curText"/>
         <entry field="true" id="8391038" symbol="textColor"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
-        <entry field="true" id="115" symbol="userMetadata"/>
-        <entry id="130" symbol="startWidthPerc"/>
+        <entry field="true" id="121" symbol="userMetadata"/>
+        <entry id="136" symbol="startWidthPerc"/>
         <entry id="8391338" symbol="toneProfile"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
-        <entry field="true" id="73" symbol="initialCadenceText"/>
-        <entry id="45" module="true" symbol="Menus"/>
-        <entry field="true" id="41" symbol="countdownNum"/>
+        <entry field="true" id="77" symbol="initialCadenceText"/>
+        <entry id="48" module="true" symbol="Menus"/>
+        <entry field="true" id="42" symbol="countdownNum"/>
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
-        <entry field="true" id="53" symbol="roboto_mono_bold_small"/>
-        <entry id="66" method="true" symbol="TopLayout"/>
+        <entry field="true" id="56" symbol="roboto_mono_bold_small"/>
+        <entry id="69" method="true" symbol="TopLayout"/>
         <entry id="8391275" object="true" symbol="ToneProfile"/>
-        <entry field="true" id="80" symbol="initialPointsText"/>
+        <entry field="true" id="84" symbol="initialPointsText"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="8389349" symbol="justification"/>
-        <entry id="106" method="true" symbol="secondsToTimeString"/>
-        <entry field="true" id="97" symbol="DTNSUnitLabel"/>
-        <entry id="33" method="true" symbol="onStatus"/>
-        <entry field="true" id="72" symbol="initialHrText"/>
-        <entry id="124" method="true" symbol="makeRequest"/>
-        <entry field="true" id="82" symbol="speedUnitLabel"/>
-        <entry field="true" id="9" symbol="requestUrl"/>
-        <entry field="true" id="70" symbol="initialPlaceText"/>
+        <entry id="112" method="true" symbol="secondsToTimeString"/>
+        <entry field="true" id="102" symbol="DTNSUnitLabel"/>
+        <entry id="34" method="true" symbol="onStatus"/>
+        <entry field="true" id="76" symbol="initialHrText"/>
+        <entry id="130" method="true" symbol="makeRequest"/>
+        <entry field="true" id="86" symbol="speedUnitLabel"/>
+        <entry field="true" id="15" symbol="requestUrl"/>
+        <entry field="true" id="73" symbol="initialPlaceText"/>
         <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
         <entry id="8388637" module="true" symbol="Communications"/>
-        <entry field="true" id="57" symbol="rubik_medium_medium"/>
+        <entry field="true" id="60" symbol="rubik_medium_medium"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
         <entry id="8389134" method="true" symbol="setText"/>
-        <entry id="117" method="true" symbol="getResponseValues"/>
-        <entry field="true" id="79" symbol="powerUnitLabel"/>
-        <entry field="true" id="94" symbol="initialTagText"/>
+        <entry id="123" method="true" symbol="getResponseValues"/>
+        <entry field="true" id="83" symbol="powerUnitLabel"/>
+        <entry field="true" id="98" symbol="initialTagText"/>
         <entry id="8389844" symbol="responseType"/>
-        <entry id="138" symbol="unitsLabel"/>
-        <entry field="true" id="96" symbol="prevPlaceUnitLabel"/>
-        <entry field="true" id="20" symbol="statusUrl"/>
+        <entry id="144" symbol="unitsLabel"/>
+        <entry field="true" id="101" symbol="prevPlaceUnitLabel"/>
+        <entry field="true" id="11" symbol="statusUrl"/>
         <entry id="8388786" method="true" symbol="method"/>
         <entry id="8388644" module="true" symbol="System"/>
-        <entry id="135" symbol="unitsInline"/>
-        <entry field="true" id="36" symbol="raceMetadata"/>
+        <entry id="141" symbol="unitsInline"/>
+        <entry field="true" id="37" symbol="raceMetadata"/>
         <entry id="8388645" module="true" symbol="Time"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry field="true" id="71" symbol="initialSpeedText"/>
-        <entry id="127" method="true" symbol="raceCompleted"/>
+        <entry field="true" id="75" symbol="initialSpeedText"/>
+        <entry field="true" id="74" symbol="saveButtonText"/>
+        <entry id="133" method="true" symbol="raceCompleted"/>
         <entry field="true" id="8388720" symbol="hour"/>
-        <entry field="true" id="50" symbol="rubik_regular_tiniest"/>
-        <entry field="true" id="81" symbol="positionUnitLabel"/>
-        <entry field="true" id="110" symbol="initialized"/>
+        <entry field="true" id="53" symbol="rubik_regular_tiniest"/>
+        <entry field="true" id="85" symbol="positionUnitLabel"/>
+        <entry field="true" id="116" symbol="initialized"/>
+        <entry field="true" id="99" symbol="discardButtonText"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-        <entry field="true" id="16" symbol="deviceUrl"/>
+        <entry field="true" id="19" symbol="deviceUrl"/>
         <entry id="8389068" method="true" symbol="draw"/>
-        <entry field="true" id="54" symbol="roboto_mono_bold_tiny"/>
-        <entry id="140" symbol="labelVerticalPadding"/>
-        <entry field="true" id="49" symbol="LauncherIcon"/>
-        <entry field="true" id="68" symbol="initialLapText"/>
+        <entry field="true" id="57" symbol="roboto_mono_bold_tiny"/>
+        <entry id="146" symbol="labelVerticalPadding"/>
+        <entry field="true" id="52" symbol="LauncherIcon"/>
+        <entry field="true" id="71" symbol="initialLapText"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
-        <entry field="true" id="35" symbol="defaultStrings"/>
+        <entry field="true" id="36" symbol="defaultStrings"/>
         <entry id="8388643" module="true" symbol="Sensor"/>
-        <entry field="true" id="69" symbol="lapUnitLabel"/>
-        <entry field="true" id="27" symbol="statusTimer"/>
+        <entry field="true" id="72" symbol="lapUnitLabel"/>
+        <entry field="true" id="28" symbol="statusTimer"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry field="true" id="8388958" symbol="speed"/>
-        <entry id="119" method="true" symbol="setRaceMetadata"/>
-        <entry id="64" method="true" symbol="HomeScreenLayout"/>
+        <entry id="125" method="true" symbol="setRaceMetadata"/>
+        <entry id="67" method="true" symbol="HomeScreenLayout"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
-        <entry id="107" method="true" symbol="pushBottomScreen"/>
-        <entry field="true" id="98" symbol="pointsUnitLabel"/>
+        <entry id="113" method="true" symbol="pushBottomScreen"/>
+        <entry field="true" id="103" symbol="pointsUnitLabel"/>
         <entry field="true" id="8388960" symbol="heartRate"/>
-        <entry field="true" id="109" symbol="postTimer"/>
+        <entry field="true" id="115" symbol="postTimer"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry id="123" method="true" symbol="onReceiveRaceData"/>
-        <entry id="22" object="true" symbol="SPNFOHomeScreen"/>
+        <entry id="129" method="true" symbol="onReceiveRaceData"/>
+        <entry id="13" object="true" symbol="SPNFOHomeScreen"/>
         <entry field="true" id="8388961" symbol="power"/>
-        <entry id="18" object="true" symbol="SPNFOInitializeScreen"/>
-        <entry field="true" id="39" symbol="countdownTimer"/>
+        <entry id="21" object="true" symbol="SPNFOInitializeScreen"/>
+        <entry field="true" id="111" symbol="view"/>
+        <entry field="true" id="40" symbol="countdownTimer"/>
         <entry id="8388641" module="true" symbol="Math"/>
-        <entry id="126" method="true" symbol="raceCompletedCallback"/>
-        <entry id="105" method="true" symbol="setTextWithUIUpdate"/>
-        <entry field="true" id="28" symbol="settings"/>
+        <entry id="132" method="true" symbol="raceCompletedCallback"/>
+        <entry id="110" method="true" symbol="setTextWithUIUpdate"/>
+        <entry field="true" id="29" symbol="settings"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389347" symbol="color"/>
         <entry field="true" id="8388939" symbol="day"/>
-        <entry field="true" id="75" symbol="initialElevationText"/>
-        <entry field="true" id="52" symbol="roboto_mono_bold_medium"/>
-        <entry field="true" id="84" symbol="elevationUnitLabel"/>
+        <entry field="true" id="79" symbol="initialElevationText"/>
+        <entry id="8389097" method="true" symbol="onKey"/>
+        <entry field="true" id="55" symbol="roboto_mono_bold_medium"/>
+        <entry field="true" id="88" symbol="elevationUnitLabel"/>
         <entry field="true" id="8389311" symbol="accuracy"/>
-        <entry field="true" id="112" symbol="subSeconds"/>
+        <entry field="true" id="118" symbol="subSeconds"/>
         <entry field="true" id="8388940" symbol="year"/>
-        <entry field="true" id="47" symbol="chevron_down"/>
-        <entry field="true" id="100" symbol="initializeCodeLabel"/>
+        <entry field="true" id="50" symbol="chevron_down"/>
+        <entry field="true" id="105" symbol="initializeCodeLabel"/>
         <entry id="8388646" module="true" object="true" symbol="Timer"/>
-        <entry id="44" module="true" symbol="Layouts"/>
-        <entry id="12" object="true" symbol="SPNFOApp"/>
-        <entry field="true" id="93" symbol="connectedString"/>
+        <entry id="47" module="true" symbol="Layouts"/>
+        <entry id="18" object="true" symbol="SPNFOApp"/>
+        <entry field="true" id="97" symbol="connectedString"/>
         <entry id="8388636" module="true" symbol="Attention"/>
-        <entry field="true" id="48" symbol="chevron_up"/>
+        <entry field="true" id="51" symbol="chevron_up"/>
         <entry id="8388642" module="true" symbol="Position"/>
-        <entry id="134" symbol="omitText"/>
-        <entry field="true" id="92" symbol="raceCompletedLabel"/>
-        <entry field="true" id="101" symbol="options"/>
+        <entry id="140" symbol="omitText"/>
+        <entry field="true" id="96" symbol="raceCompletedLabel"/>
+        <entry field="true" id="106" symbol="options"/>
         <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
-        <entry field="true" id="11" symbol="requestOptions"/>
+        <entry field="true" id="17" symbol="requestOptions"/>
         <entry field="true" id="8389743" symbol="backgroundColor"/>
-        <entry id="120" method="true" symbol="loadUserMetadata"/>
-        <entry id="131" symbol="startHeightPerc"/>
-        <entry field="true" id="17" symbol="deviceRequestOptions"/>
+        <entry id="126" method="true" symbol="loadUserMetadata"/>
+        <entry id="137" symbol="startHeightPerc"/>
+        <entry field="true" id="20" symbol="deviceRequestOptions"/>
         <entry id="8389125" method="true" symbol="onHide"/>
-        <entry field="true" id="85" symbol="initialPrevPlaceText"/>
+        <entry field="true" id="89" symbol="initialPrevPlaceText"/>
         <entry id="8388635" module="true" symbol="Application"/>
-        <entry id="30" method="true" symbol="refreshCallback"/>
+        <entry id="31" method="true" symbol="refreshCallback"/>
         <entry id="8389101" method="true" symbol="onSwipe"/>
-        <entry field="true" id="111" symbol="numSeconds"/>
+        <entry field="true" id="117" symbol="numSeconds"/>
     </symbolTable>
     <localVars>
-        <entry arg="true" endPc="268435499" name="rmd" stackId="1" startPc="268435484"/>
-        <entry arg="true" endPc="268435575" name="info" stackId="1" startPc="268435570"/>
-        <entry arg="true" endPc="268436224" name="responseCode" stackId="1" startPc="268435730"/>
-        <entry arg="true" endPc="268436224" name="data" stackId="2" startPc="268435730"/>
-        <entry endPc="268436660" name="body" stackId="2" startPc="268436408"/>
-        <entry endPc="268436663" name="positionInfo" stackId="1" startPc="268436228"/>
-        <entry arg="true" endPc="268436888" name="responseCode" stackId="1" startPc="268436811"/>
-        <entry arg="true" endPc="268436888" name="data" stackId="2" startPc="268436811"/>
-        <entry arg="true" endPc="268437253" name="state" stackId="1" startPc="268437248"/>
-        <entry arg="true" endPc="268437258" name="state" stackId="1" startPc="268437253"/>
-        <entry arg="true" endPc="268437506" name="swipeEvent" stackId="1" startPc="268437456"/>
-        <entry arg="true" endPc="268438946" name="dc" stackId="1" startPc="268437532"/>
-        <entry endPc="268439610" name="i" stackId="5" startPc="268439526"/>
-        <entry endPc="268439984" name="timeDiff" stackId="7" startPc="268439832"/>
-        <entry endPc="268440342" name="i" stackId="6" startPc="268439648"/>
-        <entry endPc="268440345" name="myIndex" stackId="4" startPc="268438955"/>
-        <entry endPc="268440345" name="sensorInfo" stackId="2" startPc="268438955"/>
-        <entry endPc="268440345" name="appValues" stackId="3" startPc="268438955"/>
-        <entry arg="true" endPc="268440346" name="dc" stackId="1" startPc="268438951"/>
-        <entry arg="true" endPc="268440419" name="dc" stackId="1" startPc="268440377"/>
-        <entry arg="true" endPc="268440444" name="dc" stackId="1" startPc="268440419"/>
-        <entry arg="true" endPc="268440517" name="responseCode" stackId="1" startPc="268440449"/>
-        <entry arg="true" endPc="268440517" name="data" stackId="2" startPc="268440449"/>
-        <entry endPc="268440595" name="urlWithParams" stackId="1" startPc="268440521"/>
-        <entry arg="true" endPc="268440796" name="responseCode" stackId="1" startPc="268440596"/>
-        <entry arg="true" endPc="268440796" name="data" stackId="2" startPc="268440596"/>
-        <entry endPc="268440880" name="urlWithParams" stackId="1" startPc="268440800"/>
-        <entry arg="true" endPc="268441131" name="dc" stackId="1" startPc="268440904"/>
-        <entry arg="true" endPc="268441288" name="dc" stackId="1" startPc="268441131"/>
-        <entry endPc="268441559" name="secString" stackId="7" startPc="268441356"/>
-        <entry endPc="268441559" name="minString" stackId="6" startPc="268441356"/>
-        <entry endPc="268441559" name="hour" stackId="2" startPc="268441356"/>
-        <entry endPc="268441559" name="hourString" stackId="5" startPc="268441356"/>
-        <entry endPc="268441559" name="min" stackId="3" startPc="268441356"/>
-        <entry endPc="268441559" name="sec" stackId="4" startPc="268441356"/>
-        <entry arg="true" endPc="268441560" name="s" stackId="1" startPc="268441352"/>
-        <entry arg="true" endPc="268442342" name="dc" stackId="1" startPc="268441560"/>
-        <entry endPc="268443471" name="info" stackId="2" startPc="268442351"/>
-        <entry endPc="268443471" name="appValues" stackId="3" startPc="268442351"/>
-        <entry arg="true" endPc="268443472" name="dc" stackId="1" startPc="268442347"/>
-        <entry endPc="268443867" name="toneProfile" stackId="4" startPc="268443783"/>
-        <entry endPc="268443870" name="centerLabel" stackId="2" startPc="268443481"/>
-        <entry endPc="268443870" name="bottomLabel" stackId="3" startPc="268443481"/>
-        <entry endPc="268443870" name="topLabel" stackId="1" startPc="268443481"/>
-        <entry endPc="268444806" name="now" stackId="5" startPc="268444249"/>
-        <entry endPc="268444806" name="tts" stackId="9" startPc="268444249"/>
-        <entry endPc="268444806" name="startTime" stackId="4" startPc="268444249"/>
-        <entry endPc="268444806" name="startMomentInfo" stackId="8" startPc="268444249"/>
-        <entry endPc="268444806" name="startMoment" stackId="7" startPc="268444249"/>
-        <entry endPc="268444806" name="startMomentOptions" stackId="6" startPc="268444249"/>
-        <entry endPc="268444806" name="raceMetadata" stackId="3" startPc="268443966"/>
-        <entry arg="true" endPc="268444810" name="responseCode" stackId="1" startPc="268443951"/>
-        <entry arg="true" endPc="268444810" name="data" stackId="2" startPc="268443951"/>
-        <entry endPc="268444891" name="urlWithParams" stackId="1" startPc="268444814"/>
-        <entry arg="true" endPc="268445072" name="dc" stackId="1" startPc="268444915"/>
-        <entry arg="true" endPc="268445097" name="dc" stackId="1" startPc="268445072"/>
-        <entry arg="true" endPc="268445300" name="swipeEvent" stackId="1" startPc="268445250"/>
-        <entry arg="true" endPc="268445386" name="options" stackId="1" startPc="268445303"/>
-        <entry arg="true" endPc="268445401" name="text" stackId="1" startPc="268445386"/>
-        <entry arg="true" endPc="268445437" name="color" stackId="1" startPc="268445422"/>
-        <entry arg="true" endPc="268445468" name="text" stackId="1" startPc="268445437"/>
-        <entry endPc="268445620" name="i" stackId="4" startPc="268445558"/>
-        <entry endPc="268445718" name="i" stackId="5" startPc="268445656"/>
-        <entry endPc="268446437" name="startLabelY" stackId="15" startPc="268446328"/>
-        <entry endPc="268446437" name="startLabelX" stackId="14" startPc="268446328"/>
-        <entry endPc="268446539" name="startLabelY" stackId="17" startPc="268446440"/>
-        <entry endPc="268446539" name="startLabelX" stackId="16" startPc="268446440"/>
-        <entry endPc="268446539" name="labelFontDims" stackId="13" startPc="268446251"/>
-        <entry endPc="268446539" name="unitFont" stackId="12" startPc="268446251"/>
-        <entry endPc="268446542" name="textDimensions" stackId="9" startPc="268445852"/>
-        <entry endPc="268446542" name="font" stackId="8" startPc="268445852"/>
-        <entry endPc="268446542" name="startTextY" stackId="11" startPc="268445852"/>
-        <entry endPc="268446542" name="startTextX" stackId="10" startPc="268445852"/>
-        <entry endPc="268446545" name="height" stackId="7" startPc="268445472"/>
-        <entry endPc="268446545" name="startY" stackId="3" startPc="268445472"/>
-        <entry endPc="268446545" name="startX" stackId="2" startPc="268445472"/>
-        <entry endPc="268446545" name="width" stackId="6" startPc="268445472"/>
-        <entry arg="true" endPc="268446546" name="dc" stackId="1" startPc="268445468"/>
-        <entry endPc="268447283" name="rez_cmp_local_text_codeLabel" stackId="5" startPc="268446558"/>
-        <entry endPc="268447283" name="rez_cmp_local_bitmap_spnfo_logo" stackId="3" startPc="268446558"/>
-        <entry endPc="268447283" name="rez_cmp_local_text_bottomLabel" stackId="6" startPc="268446558"/>
-        <entry endPc="268447283" name="local_Rez_Fonts_roboto_mono_bold_large" stackId="2" startPc="268446558"/>
-        <entry endPc="268447283" name="rez_cmp_local_text_topLabel" stackId="4" startPc="268446558"/>
-        <entry arg="true" endPc="268447284" name="dc" stackId="1" startPc="268446546"/>
-        <entry endPc="268447989" name="rez_cmp_local_bitmap_spnfo_logo" stackId="3" startPc="268447296"/>
-        <entry endPc="268447989" name="rez_cmp_local_text_centerLabel" stackId="5" startPc="268447296"/>
-        <entry endPc="268447989" name="rez_cmp_local_text_bottomLabel" stackId="6" startPc="268447296"/>
-        <entry endPc="268447989" name="local_Rez_Fonts_roboto_mono_bold_large" stackId="2" startPc="268447296"/>
-        <entry endPc="268447989" name="rez_cmp_local_text_topLabel" stackId="4" startPc="268447296"/>
-        <entry arg="true" endPc="268447990" name="dc" stackId="1" startPc="268447284"/>
-        <entry endPc="268448376" name="rez_cmp_local_bitmap_spnfo_logo" stackId="2" startPc="268448002"/>
-        <entry endPc="268448376" name="rez_cmp_local_text_centerLabel" stackId="3" startPc="268448002"/>
-        <entry arg="true" endPc="268448377" name="dc" stackId="1" startPc="268447990"/>
-        <entry endPc="268451499" name="rez_cmp_local_custom_drawable_elevation_box" stackId="10" startPc="268448389"/>
-        <entry endPc="268451499" name="rez_cmp_local_custom_drawable_power_box" stackId="3" startPc="268448389"/>
-        <entry endPc="268451499" name="rez_cmp_local_custom_drawable_hr_box" stackId="6" startPc="268448389"/>
-        <entry endPc="268451499" name="rez_cmp_local_custom_drawable_cadence_box" stackId="7" startPc="268448389"/>
-        <entry endPc="268451499" name="rez_cmp_local_custom_drawable_position_box" stackId="8" startPc="268448389"/>
-        <entry endPc="268451499" name="rez_cmp_local_custom_drawable_time_box" stackId="4" startPc="268448389"/>
-        <entry endPc="268451499" name="rez_cmp_local_bitmap_spnfo_logo" stackId="11" startPc="268448389"/>
-        <entry endPc="268451499" name="rez_cmp_local_bitmap_chevron_down" stackId="12" startPc="268448389"/>
-        <entry endPc="268451499" name="rez_cmp_local_custom_drawable_speed_box" stackId="5" startPc="268448389"/>
-        <entry endPc="268451499" name="rez_cmp_local_custom_drawable_connected_box" stackId="2" startPc="268448389"/>
-        <entry endPc="268451499" name="rez_cmp_local_custom_drawable_lap_box" stackId="9" startPc="268448389"/>
-        <entry arg="true" endPc="268451500" name="dc" stackId="1" startPc="268448377"/>
-        <entry endPc="268457438" name="rez_cmp_local_custom_drawable_pts_box" stackId="19" startPc="268451512"/>
-        <entry endPc="268457438" name="rez_cmp_local_custom_drawable_place2_position_box" stackId="7" startPc="268451512"/>
-        <entry endPc="268457438" name="rez_cmp_local_custom_drawable_place5_position_box" stackId="16" startPc="268451512"/>
-        <entry endPc="268457438" name="rez_cmp_local_custom_drawable_chevron_box" stackId="3" startPc="268451512"/>
-        <entry endPc="268457438" name="rez_cmp_local_custom_drawable_place3_position_box" stackId="10" startPc="268451512"/>
-        <entry endPc="268457438" name="rez_cmp_local_custom_drawable_place4_time_box" stackId="15" startPc="268451512"/>
-        <entry endPc="268457438" name="rez_cmp_local_custom_drawable_prev_sprint_place_box" stackId="20" startPc="268451512"/>
-        <entry endPc="268457438" name="rez_cmp_local_custom_drawable_place1_time_box" stackId="6" startPc="268451512"/>
-        <entry endPc="268457438" name="rez_cmp_local_custom_drawable_place4_tag_box" stackId="14" startPc="268451512"/>
-        <entry endPc="268457438" name="rez_cmp_local_custom_drawable_place2_tag_box" stackId="8" startPc="268451512"/>
-        <entry endPc="268457438" name="rez_cmp_local_custom_drawable_connected_box" stackId="2" startPc="268451512"/>
-        <entry endPc="268457438" name="rez_cmp_local_custom_drawable_dtns_box" stackId="21" startPc="268451512"/>
-        <entry endPc="268457438" name="rez_cmp_local_custom_drawable_place1_tag_box" stackId="5" startPc="268451512"/>
-        <entry endPc="268457438" name="rez_cmp_local_custom_drawable_place5_time_box" stackId="18" startPc="268451512"/>
-        <entry endPc="268457438" name="rez_cmp_local_custom_drawable_place1_position_box" stackId="4" startPc="268451512"/>
-        <entry endPc="268457438" name="rez_cmp_local_custom_drawable_place4_position_box" stackId="13" startPc="268451512"/>
-        <entry endPc="268457438" name="rez_cmp_local_custom_drawable_place3_time_box" stackId="12" startPc="268451512"/>
-        <entry endPc="268457438" name="rez_cmp_local_custom_drawable_place2_time_box" stackId="9" startPc="268451512"/>
-        <entry endPc="268457438" name="rez_cmp_local_bitmap_chevron_up" stackId="23" startPc="268451512"/>
-        <entry endPc="268457438" name="rez_cmp_local_bitmap_spnfo_logo" stackId="22" startPc="268451512"/>
-        <entry endPc="268457438" name="rez_cmp_local_custom_drawable_place5_tag_box" stackId="17" startPc="268451512"/>
-        <entry endPc="268457438" name="rez_cmp_local_custom_drawable_place3_tag_box" stackId="11" startPc="268451512"/>
-        <entry arg="true" endPc="268457439" name="dc" stackId="1" startPc="268451500"/>
+        <entry arg="true" endPc="268435583" name="swipeEvent" stackId="1" startPc="268435533"/>
+        <entry arg="true" endPc="268435651" name="dc" stackId="1" startPc="268435609"/>
+        <entry endPc="268435962" name="discardLabel" stackId="4" startPc="268435655"/>
+        <entry endPc="268435962" name="discardButton" stackId="2" startPc="268435655"/>
+        <entry endPc="268435962" name="saveButton" stackId="1" startPc="268435655"/>
+        <entry endPc="268435962" name="saveLabel" stackId="3" startPc="268435655"/>
+        <entry arg="true" endPc="268435988" name="dc" stackId="1" startPc="268435963"/>
+        <entry endPc="268436383" name="toneProfile" stackId="4" startPc="268436299"/>
+        <entry endPc="268436386" name="centerLabel" stackId="2" startPc="268435997"/>
+        <entry endPc="268436386" name="bottomLabel" stackId="3" startPc="268435997"/>
+        <entry endPc="268436386" name="topLabel" stackId="1" startPc="268435997"/>
+        <entry endPc="268437322" name="now" stackId="5" startPc="268436765"/>
+        <entry endPc="268437322" name="tts" stackId="9" startPc="268436765"/>
+        <entry endPc="268437322" name="startTime" stackId="4" startPc="268436765"/>
+        <entry endPc="268437322" name="startMomentInfo" stackId="8" startPc="268436765"/>
+        <entry endPc="268437322" name="startMoment" stackId="7" startPc="268436765"/>
+        <entry endPc="268437322" name="startMomentOptions" stackId="6" startPc="268436765"/>
+        <entry endPc="268437322" name="raceMetadata" stackId="3" startPc="268436482"/>
+        <entry arg="true" endPc="268437326" name="responseCode" stackId="1" startPc="268436467"/>
+        <entry arg="true" endPc="268437326" name="data" stackId="2" startPc="268436467"/>
+        <entry endPc="268437407" name="urlWithParams" stackId="1" startPc="268437330"/>
+        <entry arg="true" endPc="268437588" name="dc" stackId="1" startPc="268437431"/>
+        <entry arg="true" endPc="268437613" name="dc" stackId="1" startPc="268437588"/>
+        <entry arg="true" endPc="268437701" name="view" stackId="1" startPc="268437686"/>
+        <entry arg="true" endPc="268437813" name="keyEvent" stackId="1" startPc="268437701"/>
+        <entry arg="true" endPc="268437856" name="rmd" stackId="1" startPc="268437841"/>
+        <entry arg="true" endPc="268437932" name="info" stackId="1" startPc="268437927"/>
+        <entry arg="true" endPc="268438581" name="responseCode" stackId="1" startPc="268438087"/>
+        <entry arg="true" endPc="268438581" name="data" stackId="2" startPc="268438087"/>
+        <entry endPc="268439017" name="body" stackId="2" startPc="268438765"/>
+        <entry endPc="268439020" name="positionInfo" stackId="1" startPc="268438585"/>
+        <entry arg="true" endPc="268439245" name="responseCode" stackId="1" startPc="268439168"/>
+        <entry arg="true" endPc="268439245" name="data" stackId="2" startPc="268439168"/>
+        <entry arg="true" endPc="268439610" name="state" stackId="1" startPc="268439605"/>
+        <entry arg="true" endPc="268439615" name="state" stackId="1" startPc="268439610"/>
+        <entry endPc="268439718" name="v" stackId="1" startPc="268439619"/>
+        <entry arg="true" endPc="268439787" name="responseCode" stackId="1" startPc="268439719"/>
+        <entry arg="true" endPc="268439787" name="data" stackId="2" startPc="268439719"/>
+        <entry endPc="268439865" name="urlWithParams" stackId="1" startPc="268439791"/>
+        <entry arg="true" endPc="268440066" name="responseCode" stackId="1" startPc="268439866"/>
+        <entry arg="true" endPc="268440066" name="data" stackId="2" startPc="268439866"/>
+        <entry endPc="268440150" name="urlWithParams" stackId="1" startPc="268440070"/>
+        <entry arg="true" endPc="268440401" name="dc" stackId="1" startPc="268440174"/>
+        <entry arg="true" endPc="268440558" name="dc" stackId="1" startPc="268440401"/>
+        <entry arg="true" endPc="268440682" name="swipeEvent" stackId="1" startPc="268440632"/>
+        <entry endPc="268440915" name="secString" stackId="7" startPc="268440712"/>
+        <entry endPc="268440915" name="minString" stackId="6" startPc="268440712"/>
+        <entry endPc="268440915" name="hour" stackId="2" startPc="268440712"/>
+        <entry endPc="268440915" name="hourString" stackId="5" startPc="268440712"/>
+        <entry endPc="268440915" name="min" stackId="3" startPc="268440712"/>
+        <entry endPc="268440915" name="sec" stackId="4" startPc="268440712"/>
+        <entry arg="true" endPc="268440916" name="s" stackId="1" startPc="268440708"/>
+        <entry arg="true" endPc="268441698" name="dc" stackId="1" startPc="268440916"/>
+        <entry endPc="268442827" name="info" stackId="2" startPc="268441707"/>
+        <entry endPc="268442827" name="appValues" stackId="3" startPc="268441707"/>
+        <entry arg="true" endPc="268442828" name="dc" stackId="1" startPc="268441703"/>
+        <entry arg="true" endPc="268444273" name="dc" stackId="1" startPc="268442859"/>
+        <entry endPc="268444937" name="i" stackId="5" startPc="268444853"/>
+        <entry endPc="268445311" name="timeDiff" stackId="7" startPc="268445159"/>
+        <entry endPc="268445669" name="i" stackId="6" startPc="268444975"/>
+        <entry endPc="268445672" name="myIndex" stackId="4" startPc="268444282"/>
+        <entry endPc="268445672" name="sensorInfo" stackId="2" startPc="268444282"/>
+        <entry endPc="268445672" name="appValues" stackId="3" startPc="268444282"/>
+        <entry arg="true" endPc="268445673" name="dc" stackId="1" startPc="268444278"/>
+        <entry arg="true" endPc="268445764" name="options" stackId="1" startPc="268445681"/>
+        <entry arg="true" endPc="268445779" name="text" stackId="1" startPc="268445764"/>
+        <entry arg="true" endPc="268445815" name="color" stackId="1" startPc="268445800"/>
+        <entry arg="true" endPc="268445846" name="text" stackId="1" startPc="268445815"/>
+        <entry endPc="268445998" name="i" stackId="4" startPc="268445936"/>
+        <entry endPc="268446096" name="i" stackId="5" startPc="268446034"/>
+        <entry endPc="268446815" name="startLabelY" stackId="15" startPc="268446706"/>
+        <entry endPc="268446815" name="startLabelX" stackId="14" startPc="268446706"/>
+        <entry endPc="268446917" name="startLabelY" stackId="17" startPc="268446818"/>
+        <entry endPc="268446917" name="startLabelX" stackId="16" startPc="268446818"/>
+        <entry endPc="268446917" name="labelFontDims" stackId="13" startPc="268446629"/>
+        <entry endPc="268446917" name="unitFont" stackId="12" startPc="268446629"/>
+        <entry endPc="268446920" name="textDimensions" stackId="9" startPc="268446230"/>
+        <entry endPc="268446920" name="font" stackId="8" startPc="268446230"/>
+        <entry endPc="268446920" name="startTextY" stackId="11" startPc="268446230"/>
+        <entry endPc="268446920" name="startTextX" stackId="10" startPc="268446230"/>
+        <entry endPc="268446923" name="height" stackId="7" startPc="268445850"/>
+        <entry endPc="268446923" name="startY" stackId="3" startPc="268445850"/>
+        <entry endPc="268446923" name="startX" stackId="2" startPc="268445850"/>
+        <entry endPc="268446923" name="width" stackId="6" startPc="268445850"/>
+        <entry arg="true" endPc="268446924" name="dc" stackId="1" startPc="268445846"/>
+        <entry endPc="268447661" name="rez_cmp_local_text_codeLabel" stackId="5" startPc="268446936"/>
+        <entry endPc="268447661" name="rez_cmp_local_bitmap_spnfo_logo" stackId="3" startPc="268446936"/>
+        <entry endPc="268447661" name="rez_cmp_local_text_bottomLabel" stackId="6" startPc="268446936"/>
+        <entry endPc="268447661" name="local_Rez_Fonts_roboto_mono_bold_large" stackId="2" startPc="268446936"/>
+        <entry endPc="268447661" name="rez_cmp_local_text_topLabel" stackId="4" startPc="268446936"/>
+        <entry arg="true" endPc="268447662" name="dc" stackId="1" startPc="268446924"/>
+        <entry endPc="268448367" name="rez_cmp_local_bitmap_spnfo_logo" stackId="3" startPc="268447674"/>
+        <entry endPc="268448367" name="rez_cmp_local_text_centerLabel" stackId="5" startPc="268447674"/>
+        <entry endPc="268448367" name="rez_cmp_local_text_bottomLabel" stackId="6" startPc="268447674"/>
+        <entry endPc="268448367" name="local_Rez_Fonts_roboto_mono_bold_large" stackId="2" startPc="268447674"/>
+        <entry endPc="268448367" name="rez_cmp_local_text_topLabel" stackId="4" startPc="268447674"/>
+        <entry arg="true" endPc="268448368" name="dc" stackId="1" startPc="268447662"/>
+        <entry endPc="268449368" name="rez_cmp_local_text_saveLabel" stackId="6" startPc="268448380"/>
+        <entry endPc="268449368" name="rez_cmp_local_text_discardLabel" stackId="7" startPc="268448380"/>
+        <entry endPc="268449368" name="rez_cmp_local_custom_drawable_save_button" stackId="4" startPc="268448380"/>
+        <entry endPc="268449368" name="rez_cmp_local_bitmap_spnfo_logo" stackId="2" startPc="268448380"/>
+        <entry endPc="268449368" name="rez_cmp_local_text_centerLabel" stackId="3" startPc="268448380"/>
+        <entry endPc="268449368" name="rez_cmp_local_custom_drawable_discard_button" stackId="5" startPc="268448380"/>
+        <entry arg="true" endPc="268449369" name="dc" stackId="1" startPc="268448368"/>
+        <entry endPc="268452376" name="rez_cmp_local_custom_drawable_elevation_box" stackId="10" startPc="268449381"/>
+        <entry endPc="268452376" name="rez_cmp_local_custom_drawable_power_box" stackId="3" startPc="268449381"/>
+        <entry endPc="268452376" name="rez_cmp_local_custom_drawable_hr_box" stackId="6" startPc="268449381"/>
+        <entry endPc="268452376" name="rez_cmp_local_custom_drawable_cadence_box" stackId="7" startPc="268449381"/>
+        <entry endPc="268452376" name="rez_cmp_local_custom_drawable_position_box" stackId="8" startPc="268449381"/>
+        <entry endPc="268452376" name="rez_cmp_local_custom_drawable_time_box" stackId="4" startPc="268449381"/>
+        <entry endPc="268452376" name="rez_cmp_local_bitmap_chevron_down" stackId="11" startPc="268449381"/>
+        <entry endPc="268452376" name="rez_cmp_local_custom_drawable_speed_box" stackId="5" startPc="268449381"/>
+        <entry endPc="268452376" name="rez_cmp_local_custom_drawable_connected_box" stackId="2" startPc="268449381"/>
+        <entry endPc="268452376" name="rez_cmp_local_custom_drawable_lap_box" stackId="9" startPc="268449381"/>
+        <entry arg="true" endPc="268452377" name="dc" stackId="1" startPc="268449369"/>
+        <entry endPc="268458200" name="rez_cmp_local_custom_drawable_pts_box" stackId="19" startPc="268452389"/>
+        <entry endPc="268458200" name="rez_cmp_local_custom_drawable_place2_position_box" stackId="7" startPc="268452389"/>
+        <entry endPc="268458200" name="rez_cmp_local_custom_drawable_place5_position_box" stackId="16" startPc="268452389"/>
+        <entry endPc="268458200" name="rez_cmp_local_custom_drawable_chevron_box" stackId="3" startPc="268452389"/>
+        <entry endPc="268458200" name="rez_cmp_local_custom_drawable_place3_position_box" stackId="10" startPc="268452389"/>
+        <entry endPc="268458200" name="rez_cmp_local_custom_drawable_place4_time_box" stackId="15" startPc="268452389"/>
+        <entry endPc="268458200" name="rez_cmp_local_custom_drawable_prev_sprint_place_box" stackId="20" startPc="268452389"/>
+        <entry endPc="268458200" name="rez_cmp_local_custom_drawable_place1_time_box" stackId="6" startPc="268452389"/>
+        <entry endPc="268458200" name="rez_cmp_local_custom_drawable_place4_tag_box" stackId="14" startPc="268452389"/>
+        <entry endPc="268458200" name="rez_cmp_local_custom_drawable_place2_tag_box" stackId="8" startPc="268452389"/>
+        <entry endPc="268458200" name="rez_cmp_local_custom_drawable_connected_box" stackId="2" startPc="268452389"/>
+        <entry endPc="268458200" name="rez_cmp_local_custom_drawable_dtns_box" stackId="21" startPc="268452389"/>
+        <entry endPc="268458200" name="rez_cmp_local_custom_drawable_place1_tag_box" stackId="5" startPc="268452389"/>
+        <entry endPc="268458200" name="rez_cmp_local_custom_drawable_place5_time_box" stackId="18" startPc="268452389"/>
+        <entry endPc="268458200" name="rez_cmp_local_custom_drawable_place1_position_box" stackId="4" startPc="268452389"/>
+        <entry endPc="268458200" name="rez_cmp_local_custom_drawable_place4_position_box" stackId="13" startPc="268452389"/>
+        <entry endPc="268458200" name="rez_cmp_local_custom_drawable_place3_time_box" stackId="12" startPc="268452389"/>
+        <entry endPc="268458200" name="rez_cmp_local_custom_drawable_place2_time_box" stackId="9" startPc="268452389"/>
+        <entry endPc="268458200" name="rez_cmp_local_bitmap_chevron_up" stackId="22" startPc="268452389"/>
+        <entry endPc="268458200" name="rez_cmp_local_custom_drawable_place5_tag_box" stackId="17" startPc="268452389"/>
+        <entry endPc="268458200" name="rez_cmp_local_custom_drawable_place3_tag_box" stackId="11" startPc="268452389"/>
+        <entry arg="true" endPc="268458201" name="dc" stackId="1" startPc="268452377"/>
     </localVars>
     <annotations/>
     <dataEntryOffsetMappings>
         <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
-        <dataEntry offset="270" parentId="globals" symbolId="SPNFOInitializeScreen" type="class"/>
-        <dataEntry offset="405" parentId="globals" symbolId="SPNFOBottomView" type="class"/>
-        <dataEntry offset="516" parentId="globals" symbolId="SPNFOBottomDelegate" type="class"/>
-        <dataEntry offset="579" parentId="globals" symbolId="SPNFOHomeScreen" type="class"/>
-        <dataEntry offset="714" parentId="globals" symbolId="SPNFOEmptyDelegate" type="class"/>
-        <dataEntry offset="761" parentId="globals" symbolId="SPNFORaceCompleted" type="class"/>
-        <dataEntry offset="832" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry offset="911" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry offset="974" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry offset="1005" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry offset="1140" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry offset="1211" parentId="Rez" symbolId="JsonData" type="module"/>
-        <dataEntry offset="1242" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry offset="1537" parentId="globals" symbolId="TextField" type="class"/>
-        <dataEntry offset="1656" parentId="globals" symbolId="SPNFOTopView" type="class"/>
-        <dataEntry offset="1767" parentId="globals" symbolId="SPNFOTopDelegate" type="class"/>
-        <dataEntry offset="1830" parentId="globals" symbolId="SPNFOApp" type="class"/>
+        <dataEntry offset="278" parentId="globals" symbolId="SPNFOInitializeScreen" type="class"/>
+        <dataEntry offset="413" parentId="globals" symbolId="SPNFOBottomView" type="class"/>
+        <dataEntry offset="524" parentId="globals" symbolId="SPNFOBottomDelegate" type="class"/>
+        <dataEntry offset="587" parentId="globals" symbolId="SPNFOHomeScreen" type="class"/>
+        <dataEntry offset="722" parentId="globals" symbolId="SPNFOEmptyDelegate" type="class"/>
+        <dataEntry offset="769" parentId="globals" symbolId="SPNFORaceCompleted" type="class"/>
+        <dataEntry offset="856" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry offset="935" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry offset="998" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry offset="1029" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry offset="1164" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry offset="1235" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry offset="1266" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry offset="1577" parentId="globals" symbolId="TextField" type="class"/>
+        <dataEntry offset="1696" parentId="globals" symbolId="SPNFORaceCompletedDelegate" type="class"/>
+        <dataEntry offset="1767" parentId="globals" symbolId="SPNFOTopView" type="class"/>
+        <dataEntry offset="1878" parentId="globals" symbolId="SPNFOTopDelegate" type="class"/>
+        <dataEntry offset="1941" parentId="globals" symbolId="SPNFOApp" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
+        <functionEntry accessMode="public" name="pushBottomScreen" parent="SPNFOTopDelegate">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onSwipe" parent="SPNFOTopDelegate">
+            <param id="swipeEvent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="SPNFORaceCompleted">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onLayout" parent="SPNFORaceCompleted">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="swapButtons" parent="SPNFORaceCompleted">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onUpdate" parent="SPNFORaceCompleted">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="SPNFORaceCompleted">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="countdown" parent="SPNFOHomeScreen">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="startRace" parent="SPNFOHomeScreen">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="statusCallback" parent="SPNFOHomeScreen">
+            <param id="responseCode"/>
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStatus" parent="SPNFOHomeScreen">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="SPNFOHomeScreen">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onLayout" parent="SPNFOHomeScreen">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onUpdate" parent="SPNFOHomeScreen">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="SPNFOHomeScreen">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="SPNFORaceCompletedDelegate">
+            <param id="view"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onKey" parent="SPNFORaceCompletedDelegate">
+            <param id="keyEvent"/>
+            <documentation/>
+        </functionEntry>
         <functionEntry accessMode="public" name="getResponseValues" parent="SPNFOApp">
             <documentation/>
         </functionEntry>
@@ -839,44 +940,6 @@
         <functionEntry accessMode="public" name="getInitialView" parent="SPNFOApp">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" name="pushTopScreen" parent="SPNFOBottomDelegate">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="onSwipe" parent="SPNFOBottomDelegate">
-            <param id="swipeEvent"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="Initialize" parent="SPNFOBottomView">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="onLayout" parent="SPNFOBottomView">
-            <param id="dc"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="onShow" parent="SPNFOBottomView">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="onUpdate" parent="SPNFOBottomView">
-            <param id="dc"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="onHide" parent="SPNFOBottomView">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="initialize" parent="SPNFORaceCompleted">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="onLayout" parent="SPNFORaceCompleted">
-            <param id="dc"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="onUpdate" parent="SPNFORaceCompleted">
-            <param id="dc"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="onHide" parent="SPNFORaceCompleted">
-            <documentation/>
-        </functionEntry>
         <functionEntry accessMode="public" name="refreshCallback" parent="SPNFOInitializeScreen">
             <param id="responseCode"/>
             <param id="data"/>
@@ -907,6 +970,13 @@
         <functionEntry accessMode="public" name="onHide" parent="SPNFOInitializeScreen">
             <documentation/>
         </functionEntry>
+        <functionEntry accessMode="public" name="pushTopScreen" parent="SPNFOBottomDelegate">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onSwipe" parent="SPNFOBottomDelegate">
+            <param id="swipeEvent"/>
+            <documentation/>
+        </functionEntry>
         <functionEntry accessMode="public" name="initialize" parent="SPNFOTopView">
             <documentation/>
         </functionEntry>
@@ -928,39 +998,21 @@
         <functionEntry accessMode="public" name="onHide" parent="SPNFOTopView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" name="countdown" parent="SPNFOHomeScreen">
+        <functionEntry accessMode="public" name="Initialize" parent="SPNFOBottomView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" name="startRace" parent="SPNFOHomeScreen">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="statusCallback" parent="SPNFOHomeScreen">
-            <param id="responseCode"/>
-            <param id="data"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="onStatus" parent="SPNFOHomeScreen">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="initialize" parent="SPNFOHomeScreen">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="onLayout" parent="SPNFOHomeScreen">
+        <functionEntry accessMode="public" name="onLayout" parent="SPNFOBottomView">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" name="onUpdate" parent="SPNFOHomeScreen">
+        <functionEntry accessMode="public" name="onShow" parent="SPNFOBottomView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onUpdate" parent="SPNFOBottomView">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" name="onHide" parent="SPNFOHomeScreen">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="pushBottomScreen" parent="SPNFOTopDelegate">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="onSwipe" parent="SPNFOTopDelegate">
-            <param id="swipeEvent"/>
+        <functionEntry accessMode="public" name="onHide" parent="SPNFOBottomView">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="initialize" parent="TextField">

@@ -170,12 +170,20 @@ class SPNFOApp extends Application.AppBase {
     }
 
     // Return the initial view of your application here
-    function getInitialView() {
-    	if (Storage.getValue("initialized")) {
-    		return [ new SPNFOHomeScreen(), new SPNFOEmptyDelegate() ];
-    	} else {
-    		return [ new SPNFOInitializeScreen(), new SPNFOEmptyDelegate() ];
-    	}
-    }
+//    function getInitialView() {
+//    	if (Storage.getValue("initialized")) {
+//    		return [ new SPNFOHomeScreen(), new SPNFOEmptyDelegate() ];
+//    	} else {
+//    		return [ new SPNFOInitializeScreen(), new SPNFOEmptyDelegate() ];
+//    	}
+//    }
+
+	// for testing only
+	function getInitialView() {
+		Storage.setValue("uid", 10000);
+		var v = new SPNFORaceCompleted();
+	
+		return [ v, new SPNFORaceCompletedDelegate(v) ];
+	}
 
 }
