@@ -3,26 +3,26 @@
 		<bitmap id="spnfo_logo" x="center" y="20"
 			filename="../drawables/spnfo-purple-light-tiny.png" />
 		<label id="topLabel" x="center" y="60"
-			justification="Gfx.TEXT_JUSTIFY_CENTER" font="Gfx.FONT_SMALL"
+			justification="Gfx.TEXT_JUSTIFY_CENTER" font="@Fonts.open_sans_semibold_small"
 			text="@Strings.initializeTopLabel" color="Gfx.COLOR_WHITE" />
 		<label id="codeLabel" x="center" y="110"
 			justification="Gfx.TEXT_JUSTIFY_CENTER"
 			font="@Fonts.roboto_mono_bold_large"
 			text="@Strings.initializeCodeLabel" color="Gfx.COLOR_WHITE" />
 		<label id="bottomLabel" x="center" y="200"
-			justification="Gfx.TEXT_JUSTIFY_CENTER" font="Gfx.FONT_SMALL"
+			justification="Gfx.TEXT_JUSTIFY_CENTER" font="@Fonts.open_sans_semibold_small"
 			text="@Strings.initializeBottomLabel" color="Gfx.COLOR_WHITE" />
 	</layout>
 	<layout id="HomeScreenLayout">
 		<bitmap id="spnfo_logo" x="center" y="20"
 			filename="../drawables/spnfo-purple-light-tiny.png" />
-		<label id="topLabel" x="center" y="80" font="Gfx.FONT_SMALL"
+		<label id="topLabel" x="center" y="60" font="@Fonts.open_sans_semibold_small"
 			color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER"
 			text="@Strings.instructionsLabel1" />
 		<label id="centerLabel" x="center" y="center"
 			font="@Fonts.roboto_mono_bold_large" color="Gfx.COLOR_WHITE"
 			justification="Gfx.TEXT_JUSTIFY_CENTER" />
-		<label id="bottomLabel" x="center" y="180" font="Gfx.FONT_SMALL"
+		<label id="bottomLabel" x="center" y="180" font="@Fonts.open_sans_semibold_small"
 			color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER"
 			text="@Strings.instructionsLabel2" />
 	</layout>
@@ -30,7 +30,7 @@
 		<bitmap id="spnfo_logo" x="center" y="30"
 			filename="../drawables/spnfo-purple-light-tiny.png" />
 		<label id="centerLabel" x="center" y="80"
-			font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE"
+			font="@Fonts.open_sans_extra_bold_small" color="Gfx.COLOR_WHITE"
 			text="@Strings.raceCompletedLabel"
 			justification="Gfx.TEXT_JUSTIFY_CENTER" />
 		<drawable id="save_button" class="TextField">
@@ -51,17 +51,17 @@
 		</drawable>
 		<label id="saveLabel"
 			x="center"
-			y="193"
+			y="190"
 			color="Gfx.COLOR_BLACK"
-			font="Gfx.FONT_MEDIUM"
+			font="@Fonts.open_sans_extra_bold_medium"
 			text="@Strings.saveButtonText"
 			justification="Gfx.TEXT_JUSTIFY_CENTER" 
 		/>
 		<label id="discardLabel"
 			x="center"
-			y="232"
+			y="230"
 			color="Gfx.COLOR_WHITE"
-			font="Gfx.FONT_MEDIUM"
+			font="@Fonts.open_sans_extra_bold_medium"
 			text="@Strings.discardButtonText"
 			justification="Gfx.TEXT_JUSTIFY_CENTER" 
 		/>

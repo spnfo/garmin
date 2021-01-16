@@ -13,5 +13,13 @@ class SPNFOTopDelegate extends Ui.InputDelegate {
     	
     	return true;
     }
+    
+    function onKey(keyEvent) {
+    	if (keyEvent.getKey() == Ui.KEY_DOWN) {
+    		pushBottomScreen();
+    	}
+    	
+    	return true;
+    }
 
 }

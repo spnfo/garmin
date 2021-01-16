@@ -14,5 +14,13 @@ class SPNFOBottomDelegate extends Ui.InputDelegate {
     	
     	return true;
     }
+    
+    function onKey(keyEvent) {
+    	if (keyEvent.getKey() == Ui.KEY_UP) {
+    		pushTopScreen();
+    	}
+    	
+    	return true;
+    }
 
 }

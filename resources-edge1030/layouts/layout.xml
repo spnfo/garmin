@@ -29,10 +29,42 @@
 	<layout id="RaceCompletedLayout">
 		<bitmap id="spnfo_logo" x="center" y="30"
 			filename="../drawables/spnfo-purple-light-tiny.png" />
-		<label id="centerLabel" x="center" y="center"
-			font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE"
+		<label id="centerLabel" x="center" y="120"
+			font="@Fonts.open_sans_extra_bold_small" color="Gfx.COLOR_WHITE"
 			text="@Strings.raceCompletedLabel"
 			justification="Gfx.TEXT_JUSTIFY_CENTER" />
+		<drawable id="save_button" class="TextField">
+			<param name="heightPerc">0.15</param>
+			<param name="widthPerc">1.0</param>
+			<param name="startHeightPerc">[0.7]</param>
+			<param name="startWidthPerc">[]</param>
+			<param name="backgroundColor">0xECC0FD</param>
+			<param name="omitText">[]</param>
+		</drawable>
+		<drawable id="discard_button" class="TextField">
+			<param name="heightPerc">0.15</param>
+			<param name="widthPerc">1.0</param>
+			<param name="startHeightPerc">[0.85]</param>
+			<param name="startWidthPerc">[]</param>
+			<param name="backgroundColor">0x000000</param>
+			<param name="omitText">[]</param>
+		</drawable>
+		<label id="saveLabel"
+			x="center"
+			y="311"
+			color="Gfx.COLOR_BLACK"
+			font="@Fonts.open_sans_extra_bold_medium"
+			text="@Strings.saveButtonText"
+			justification="Gfx.TEXT_JUSTIFY_CENTER" 
+		/>
+		<label id="discardLabel"
+			x="center"
+			y="375"
+			color="Gfx.COLOR_WHITE"
+			font="@Fonts.open_sans_extra_bold_medium"
+			text="@Strings.discardButtonText"
+			justification="Gfx.TEXT_JUSTIFY_CENTER" 
+		/>
 	</layout>
 	<layout id="TopLayout">
 		<drawable id="connected_box" class="TextField">

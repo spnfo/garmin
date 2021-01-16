@@ -1,9 +1,11 @@
 using Toybox.WatchUi as Ui;
+using Toybox.Application;
+using Toybox.Attention;
 using Toybox.Graphics;
 
 class SPNFORaceCompleted extends Ui.View {
 	
-	var saveSelected = false;
+	var saveSelected = true;
 	
 	function initialize() {
 		View.initialize();
@@ -38,7 +40,23 @@ class SPNFORaceCompleted extends Ui.View {
 	function onEnter() {
 		
 		if (saveSelected) {
-			// save activity
+			Application.getApp().saveSession();
+		} else {
+			Application.getApp().discardSession();
+		}
+		
+		Ui.switchToView(new SPNFOHomeScreen(), new SPNFOEmptyDelegate(), Ui.SWIPE_RIGHT);
+	}
+	
+	function selectSave() {
+		if (saveSelected == false) {
+			swapButtons();
+		}
+	}
+	
+	function selectDiscard() {
+		if (saveSelected == true) {
+			swapButtons();
 		}
 	}
 	

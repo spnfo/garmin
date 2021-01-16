@@ -36,6 +36,12 @@ class SPNFOHomeScreen extends Ui.View {
 		
 		if (countdownNum < 0) {
 			Application.getApp().startPostTimer();
+			
+			if (Attention has :ToneProfile) {
+				var toneProfile = [ new Attention.ToneProfile(250, 880) ];
+				Attention.playTone({:toneProfile => toneProfile});
+			}
+			
 			Ui.switchToView(new SPNFOTopView(), new SPNFOTopDelegate(), Ui.SLIDE_RIGHT);
 		} else {
 			if (Attention has :ToneProfile) {
@@ -55,6 +61,7 @@ class SPNFOHomeScreen extends Ui.View {
 		if (responseCode == 200) {
 			var raceMetadata = {
 				"rid" => data.get("rid"),
+				"name" => data.get("name"),
 				"numRacers" => data.get("numRacers"),
 				"avgChkptDist" => data.get("avgChkptDist"),
 				"laps" => data.get("laps"),

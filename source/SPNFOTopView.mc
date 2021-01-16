@@ -53,6 +53,7 @@ class SPNFOTopView extends Ui.View {
         dispObj.put("hrBox", View.findDrawableById("hr_box"));
         dispObj.put("cadenceBox", View.findDrawableById("cadence_box"));
         dispObj.put("positionBox", View.findDrawableById("position_box"));
+        dispObj.put("lapBox", View.findDrawableById("lap_box"));
         dispObj.put("elevationBox", View.findDrawableById("elevation_box"));
         
         defaultStrings.put("powerText", Ui.loadResource(Rez.Strings.initialPowerText));
@@ -87,6 +88,10 @@ class SPNFOTopView extends Ui.View {
         
         if (appValues.hasKey("place")) {
             dispObj.get("positionBox").setText(appValues.get("place").format("%02d") + "/" + raceMetadata.get("numRacers").format("%02d"));
+        }
+        
+        if (appValues.hasKey("checkpoint")) {
+        	dispObj.get("lapBox").setText((1 + (appValues.get("checkpoint") / raceMetadata.get("numChkpts"))).format("%02d") + "/" + raceMetadata.get("laps").format("%02d"));
         }
         
         dispObj.get("timeBox").setText(secondsToTimeString(Application.getApp().numSeconds));

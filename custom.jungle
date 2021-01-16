@@ -1,4 +1,9 @@
 project.manifest = manifest.xml
 
 edge1030bontrager.resourcePath = resources-edge1030
+edge1030plus.resourcePath = resources-edge1030
 edge520plus.resourcePath = resources-edge520plus
+edge530.resourcePath = resources-edge530
+edgeexplore.resourcePath = resources-edgeexplore
+edge830.resourcePath = resources-edge830
+edge820.resourcePath = resources-edge830

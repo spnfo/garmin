@@ -1,0 +1,25 @@
+<resources>
+	<fonts>
+	
+		<!-- Fonts for status -->
+		<font id="rubik_regular_tiniest" filename="fonts/rubik-regular-tiniest.fnt" />
+	
+		<!-- Fonts for content -->
+		<font id="roboto_mono_bold_large" filename="fonts/roboto-mono-bold-large.fnt" />
+		<font id="roboto_mono_bold_medium" filename="fonts/roboto-mono-bold-medium.fnt" />
+		<font id="roboto_mono_bold_small" filename="fonts/roboto-mono-bold-small.fnt" />
+		<font id="roboto_mono_bold_tiny" filename="fonts/roboto-mono-bold-tiny.fnt" />
+	
+		<font id="rubik_semibold_large" filename="fonts/rubik-semi-bold-large.fnt" />
+		<font id="rubik_medium_large" filename="fonts/rubik-medium-large.fnt" />
+		<font id="rubik_medium_medium" filename="fonts/rubik-medium-medium.fnt" />
+		<font id="rubik_medium_small" filename="fonts/rubik-medium-small.fnt" />
+		
+		<!-- Fonts for unit labels -->
+		<font id="rubik_medium_unit_large" filename="fonts/rubik-medium-unit-large.fnt" />
+		<font id="rubik_regular_unit_large" filename="fonts/rubik-regular-unit-large.fnt" />
+		<font id="rubik_regular_unit_medium" filename="fonts/rubik-regular-unit-medium.fnt" />
+		<font id="rubik_regular_unit_small" filename="fonts/rubik-regular-unit-small.fnt" />
+		
+	</fonts>
+</resources>

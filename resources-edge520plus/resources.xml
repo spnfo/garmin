@@ -21,5 +21,12 @@
 		<font id="rubik_regular_unit_medium" filename="fonts/rubik-regular-unit-medium.fnt" />
 		<font id="rubik_regular_unit_small" filename="fonts/rubik-regular-unit-small.fnt" />
 		
+		<!-- Fonts for regular use -->
+		<font id="open_sans_regular_small" filename="fonts/open-sans-regular-small.fnt" />
+		<font id="open_sans_semibold_small" filename="fonts/open-sans-semibold-small.fnt" />
+		<font id="open_sans_bold_small" filename="fonts/open-sans-bold-small.fnt" />
+		<font id="open_sans_extra_bold_small" filename="fonts/open-sans-extra-bold-small.fnt" />
+		<font id="open_sans_extra_bold_medium" filename="fonts/open-sans-extra-bold-medium.fnt" />
+		
 	</fonts>
 </resources>
